@@ -1,0 +1,363 @@
+{
+ "surah": 70,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 70,
+   "ayah": 1,
+   "arabic": "سَأَلَ سَآئِلٌۢ بِعَذَابٍۢ وَاقِعٍۢ",
+   "translations": {
+    "en": "A supplicant asked for a punishment bound to happen"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 2,
+   "arabic": "لِّلْكَٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌۭ",
+   "translations": {
+    "en": "To the disbelievers; of it there is no preventer."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 3,
+   "arabic": "مِّنَ ٱللَّهِ ذِى ٱلْمَعَارِجِ",
+   "translations": {
+    "en": "[It is] from Allah, owner of the ways of ascent."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 4,
+   "arabic": "تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍۢ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍۢ",
+   "translations": {
+    "en": "The angels and the Spirit will ascend to Him during a Day the extent of which is fifty thousand years."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 5,
+   "arabic": "فَٱصْبِرْ صَبْرًۭا جَمِيلًا",
+   "translations": {
+    "en": "So be patient with gracious patience."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 6,
+   "arabic": "إِنَّهُمْ يَرَوْنَهُۥ بَعِيدًۭا",
+   "translations": {
+    "en": "Indeed, they see it [as] distant,"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 7,
+   "arabic": "وَنَرَىٰهُ قَرِيبًۭا",
+   "translations": {
+    "en": "But We see it [as] near."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 8,
+   "arabic": "يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ",
+   "translations": {
+    "en": "On the Day the sky will be like murky oil,"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 9,
+   "arabic": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ",
+   "translations": {
+    "en": "And the mountains will be like wool,"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 10,
+   "arabic": "وَلَا يَسْـَٔلُ حَمِيمٌ حَمِيمًۭا",
+   "translations": {
+    "en": "And no friend will ask [anything of] a friend,"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 11,
+   "arabic": "يُبَصَّرُونَهُمْ ۚ يَوَدُّ ٱلْمُجْرِمُ لَوْ يَفْتَدِى مِنْ عَذَابِ يَوْمِئِذٍۭ بِبَنِيهِ",
+   "translations": {
+    "en": "They will be shown each other. The criminal will wish that he could be ransomed from the punishment of that Day by his children"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 12,
+   "arabic": "وَصَٰحِبَتِهِۦ وَأَخِيهِ",
+   "translations": {
+    "en": "And his wife and his brother"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 13,
+   "arabic": "وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ",
+   "translations": {
+    "en": "And his nearest kindred who shelter him"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 14,
+   "arabic": "وَمَن فِى ٱلْأَرْضِ جَمِيعًۭا ثُمَّ يُنجِيهِ",
+   "translations": {
+    "en": "And whoever is on earth entirely [so] then it could save him."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 15,
+   "arabic": "كَلَّآ ۖ إِنَّهَا لَظَىٰ",
+   "translations": {
+    "en": "No! Indeed, it is the Flame [of Hell],"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 16,
+   "arabic": "نَزَّاعَةًۭ لِّلشَّوَىٰ",
+   "translations": {
+    "en": "A remover of exteriors."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 17,
+   "arabic": "تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ",
+   "translations": {
+    "en": "It invites he who turned his back [on truth] and went away [from obedience]"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 18,
+   "arabic": "وَجَمَعَ فَأَوْعَىٰٓ",
+   "translations": {
+    "en": "And collected [wealth] and hoarded."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 19,
+   "arabic": "۞ إِنَّ ٱلْإِنسَٰنَ خُلِقَ هَلُوعًا",
+   "translations": {
+    "en": "Indeed, mankind was created anxious:"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 20,
+   "arabic": "إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًۭا",
+   "translations": {
+    "en": "When evil touches him, impatient,"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 21,
+   "arabic": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
+   "translations": {
+    "en": "And when good touches him, withholding [of it],"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 22,
+   "arabic": "إِلَّا ٱلْمُصَلِّينَ",
+   "translations": {
+    "en": "Except the observers of prayer -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 23,
+   "arabic": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
+   "translations": {
+    "en": "Those who are constant in their prayer"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 24,
+   "arabic": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "translations": {
+    "en": "And those within whose wealth is a known right"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 25,
+   "arabic": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "translations": {
+    "en": "For the petitioner and the deprived -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 26,
+   "arabic": "وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ",
+   "translations": {
+    "en": "And those who believe in the Day of Recompense"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 27,
+   "arabic": "وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ",
+   "translations": {
+    "en": "And those who are fearful of the punishment of their Lord -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 28,
+   "arabic": "إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍۢ",
+   "translations": {
+    "en": "Indeed, the punishment of their Lord is not that from which one is safe -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 29,
+   "arabic": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ",
+   "translations": {
+    "en": "And those who guard their private parts"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 30,
+   "arabic": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
+   "translations": {
+    "en": "Except from their wives or those their right hands possess, for indeed, they are not to be blamed -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 31,
+   "arabic": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْعَادُونَ",
+   "translations": {
+    "en": "But whoever seeks beyond that, then they are the transgressors -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 32,
+   "arabic": "وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
+   "translations": {
+    "en": "And those who are to their trusts and promises attentive"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 33,
+   "arabic": "وَٱلَّذِينَ هُم بِشَهَٰدَٰتِهِمْ قَآئِمُونَ",
+   "translations": {
+    "en": "And those who are in their testimonies upright"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 34,
+   "arabic": "وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ",
+   "translations": {
+    "en": "And those who [carefully] maintain their prayer:"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 35,
+   "arabic": "أُو۟لَٰٓئِكَ فِى جَنَّٰتٍۢ مُّكْرَمُونَ",
+   "translations": {
+    "en": "They will be in gardens, honored."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 36,
+   "arabic": "فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ مُهْطِعِينَ",
+   "translations": {
+    "en": "So what is [the matter] with those who disbelieve, hastening [from] before you, [O Muhammad],"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 37,
+   "arabic": "عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ",
+   "translations": {
+    "en": "[To sit] on [your] right and [your] left in separate groups?"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 38,
+   "arabic": "أَيَطْمَعُ كُلُّ ٱمْرِئٍۢ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍۢ",
+   "translations": {
+    "en": "Does every person among them aspire to enter a garden of pleasure?"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 39,
+   "arabic": "كَلَّآ ۖ إِنَّا خَلَقْنَٰهُم مِّمَّا يَعْلَمُونَ",
+   "translations": {
+    "en": "No! Indeed, We have created them from that which they know."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 40,
+   "arabic": "فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَٰرِقِ وَٱلْمَغَٰرِبِ إِنَّا لَقَٰدِرُونَ",
+   "translations": {
+    "en": "So I swear by the Lord of [all] risings and settings that indeed We are able"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 41,
+   "arabic": "عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًۭا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+   "translations": {
+    "en": "To replace them with better than them; and We are not to be outdone."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 42,
+   "arabic": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+   "translations": {
+    "en": "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -"
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 43,
+   "arabic": "يَوْمَ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ سِرَاعًۭا كَأَنَّهُمْ إِلَىٰ نُصُبٍۢ يُوفِضُونَ",
+   "translations": {
+    "en": "The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening."
+   }
+  },
+  {
+   "surah": 70,
+   "ayah": 44,
+   "arabic": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌۭ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
+   "translations": {
+    "en": "Their eyes humbled, humiliation will cover them. That is the Day which they had been promised."
+   }
+  }
+ ]
+}

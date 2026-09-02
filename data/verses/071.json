@@ -1,0 +1,235 @@
+{
+ "surah": 71,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 71,
+   "ayah": 1,
+   "arabic": "إِنَّآ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌۭ",
+   "translations": {
+    "en": "Indeed, We sent Noah to his people, [saying], \"Warn your people before there comes to them a painful punishment.\""
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 2,
+   "arabic": "قَالَ يَٰقَوْمِ إِنِّى لَكُمْ نَذِيرٌۭ مُّبِينٌ",
+   "translations": {
+    "en": "He said, \"O my people, indeed I am to you a clear warner,"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 3,
+   "arabic": "أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِيعُونِ",
+   "translations": {
+    "en": "[Saying], 'Worship Allah, fear Him and obey me."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 4,
+   "arabic": "يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ",
+   "translations": {
+    "en": "Allah will forgive you of your sins and delay you for a specified term. Indeed, the time [set by] Allah, when it comes, will not be delayed, if you only knew.' \""
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 5,
+   "arabic": "قَالَ رَبِّ إِنِّى دَعَوْتُ قَوْمِى لَيْلًۭا وَنَهَارًۭا",
+   "translations": {
+    "en": "He said, \"My Lord, indeed I invited my people [to truth] night and day."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 6,
+   "arabic": "فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًۭا",
+   "translations": {
+    "en": "But my invitation increased them not except in flight."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 7,
+   "arabic": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًۭا",
+   "translations": {
+    "en": "And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments, persisted, and were arrogant with [great] arrogance."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 8,
+   "arabic": "ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًۭا",
+   "translations": {
+    "en": "Then I invited them publicly."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 9,
+   "arabic": "ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًۭا",
+   "translations": {
+    "en": "Then I announced to them and [also] confided to them secretly"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 10,
+   "arabic": "فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًۭا",
+   "translations": {
+    "en": "And said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 11,
+   "arabic": "يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا",
+   "translations": {
+    "en": "He will send [rain from] the sky upon you in [continuing] showers"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 12,
+   "arabic": "وَيُمْدِدْكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّٰتٍۢ وَيَجْعَل لَّكُمْ أَنْهَٰرًۭا",
+   "translations": {
+    "en": "And give you increase in wealth and children and provide for you gardens and provide for you rivers."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 13,
+   "arabic": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًۭا",
+   "translations": {
+    "en": "What is [the matter] with you that you do not attribute to Allah [due] grandeur"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 14,
+   "arabic": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
+   "translations": {
+    "en": "While He has created you in stages?"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 15,
+   "arabic": "أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَٰوَٰتٍۢ طِبَاقًۭا",
+   "translations": {
+    "en": "Do you not consider how Allah has created seven heavens in layers"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 16,
+   "arabic": "وَجَعَلَ ٱلْقَمَرَ فِيهِنَّ نُورًۭا وَجَعَلَ ٱلشَّمْسَ سِرَاجًۭا",
+   "translations": {
+    "en": "And made the moon therein a [reflected] light and made the sun a burning lamp?"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 17,
+   "arabic": "وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلْأَرْضِ نَبَاتًۭا",
+   "translations": {
+    "en": "And Allah has caused you to grow from the earth a [progressive] growth."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 18,
+   "arabic": "ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًۭا",
+   "translations": {
+    "en": "Then He will return you into it and extract you [another] extraction."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 19,
+   "arabic": "وَٱللَّهُ جَعَلَ لَكُمُ ٱلْأَرْضَ بِسَاطًۭا",
+   "translations": {
+    "en": "And Allah has made for you the earth an expanse"
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 20,
+   "arabic": "لِّتَسْلُكُوا۟ مِنْهَا سُبُلًۭا فِجَاجًۭا",
+   "translations": {
+    "en": "That you may follow therein roads of passage.' \""
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 21,
+   "arabic": "قَالَ نُوحٌۭ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًۭا",
+   "translations": {
+    "en": "Noah said, \"My Lord, indeed they have disobeyed me and followed him whose wealth and children will not increase him except in loss."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 22,
+   "arabic": "وَمَكَرُوا۟ مَكْرًۭا كُبَّارًۭا",
+   "translations": {
+    "en": "And they conspired an immense conspiracy."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 23,
+   "arabic": "وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّۭا وَلَا سُوَاعًۭا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًۭا",
+   "translations": {
+    "en": "And said, 'Never leave your gods and never leave Wadd or Suwa' or Yaghuth and Ya'uq and Nasr."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 24,
+   "arabic": "وَقَدْ أَضَلُّوا۟ كَثِيرًۭا ۖ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا ضَلَٰلًۭا",
+   "translations": {
+    "en": "And already they have misled many. And, [my Lord], do not increase the wrongdoers except in error.\""
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 25,
+   "arabic": "مِّمَّا خَطِيٓـَٰٔتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًۭا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًۭا",
+   "translations": {
+    "en": "Because of their sins they were drowned and put into the Fire, and they found not for themselves besides Allah [any] helpers."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 26,
+   "arabic": "وَقَالَ نُوحٌۭ رَّبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَٰفِرِينَ دَيَّارًا",
+   "translations": {
+    "en": "And Noah said, \"My Lord, do not leave upon the earth from among the disbelievers an inhabitant."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 27,
+   "arabic": "إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا فَاجِرًۭا كَفَّارًۭا",
+   "translations": {
+    "en": "Indeed, if You leave them, they will mislead Your servants and not beget except [every] wicked one and [confirmed] disbeliever."
+   }
+  },
+  {
+   "surah": 71,
+   "ayah": 28,
+   "arabic": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا تَبَارًۢا",
+   "translations": {
+    "en": "My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction.\""
+   }
+  }
+ ]
+}

@@ -1,0 +1,491 @@
+{
+ "surah": 51,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 51,
+   "ayah": 1,
+   "arabic": "وَٱلذَّٰرِيَٰتِ ذَرْوًۭا",
+   "translations": {
+    "en": "By those [winds] scattering [dust] dispersing"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 2,
+   "arabic": "فَٱلْحَٰمِلَٰتِ وِقْرًۭا",
+   "translations": {
+    "en": "And those [clouds] carrying a load [of water]"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 3,
+   "arabic": "فَٱلْجَٰرِيَٰتِ يُسْرًۭا",
+   "translations": {
+    "en": "And those [ships] sailing with ease"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 4,
+   "arabic": "فَٱلْمُقَسِّمَٰتِ أَمْرًا",
+   "translations": {
+    "en": "And those [angels] apportioning [each] matter,"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 5,
+   "arabic": "إِنَّمَا تُوعَدُونَ لَصَادِقٌۭ",
+   "translations": {
+    "en": "Indeed, what you are promised is true."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 6,
+   "arabic": "وَإِنَّ ٱلدِّينَ لَوَٰقِعٌۭ",
+   "translations": {
+    "en": "And indeed, the recompense is to occur."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 7,
+   "arabic": "وَٱلسَّمَآءِ ذَاتِ ٱلْحُبُكِ",
+   "translations": {
+    "en": "By the heaven containing pathways,"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 8,
+   "arabic": "إِنَّكُمْ لَفِى قَوْلٍۢ مُّخْتَلِفٍۢ",
+   "translations": {
+    "en": "Indeed, you are in differing speech."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 9,
+   "arabic": "يُؤْفَكُ عَنْهُ مَنْ أُفِكَ",
+   "translations": {
+    "en": "Deluded away from the Qur'an is he who is deluded."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 10,
+   "arabic": "قُتِلَ ٱلْخَرَّٰصُونَ",
+   "translations": {
+    "en": "Destroyed are the falsifiers"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 11,
+   "arabic": "ٱلَّذِينَ هُمْ فِى غَمْرَةٍۢ سَاهُونَ",
+   "translations": {
+    "en": "Who are within a flood [of confusion] and heedless."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 12,
+   "arabic": "يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ",
+   "translations": {
+    "en": "They ask, \"When is the Day of Recompense?\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 13,
+   "arabic": "يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ",
+   "translations": {
+    "en": "[It is] the Day they will be tormented over the Fire"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 14,
+   "arabic": "ذُوقُوا۟ فِتْنَتَكُمْ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تَسْتَعْجِلُونَ",
+   "translations": {
+    "en": "[And will be told], \"Taste your torment. This is that for which you were impatient.\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 15,
+   "arabic": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّٰتٍۢ وَعُيُونٍ",
+   "translations": {
+    "en": "Indeed, the righteous will be among gardens and springs,"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 16,
+   "arabic": "ءَاخِذِينَ مَآ ءَاتَىٰهُمْ رَبُّهُمْ ۚ إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُحْسِنِينَ",
+   "translations": {
+    "en": "Accepting what their Lord has given them. Indeed, they were before that doers of good."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 17,
+   "arabic": "كَانُوا۟ قَلِيلًۭا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ",
+   "translations": {
+    "en": "They used to sleep but little of the night,"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 18,
+   "arabic": "وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ",
+   "translations": {
+    "en": "And in the hours before dawn they would ask forgiveness,"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 19,
+   "arabic": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "translations": {
+    "en": "And from their properties was [given] the right of the [needy] petitioner and the deprived."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 20,
+   "arabic": "وَفِى ٱلْأَرْضِ ءَايَٰتٌۭ لِّلْمُوقِنِينَ",
+   "translations": {
+    "en": "And on the earth are signs for the certain [in faith]"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 21,
+   "arabic": "وَفِىٓ أَنفُسِكُمْ ۚ أَفَلَا تُبْصِرُونَ",
+   "translations": {
+    "en": "And in yourselves. Then will you not see?"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 22,
+   "arabic": "وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ",
+   "translations": {
+    "en": "And in the heaven is your provision and whatever you are promised."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 23,
+   "arabic": "فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّۭ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ",
+   "translations": {
+    "en": "Then by the Lord of the heaven and earth, indeed, it is truth - just as [sure as] it is that you are speaking."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 24,
+   "arabic": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+   "translations": {
+    "en": "Has there reached you the story of the honored guests of Abraham? -"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 25,
+   "arabic": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَٰمًۭا ۖ قَالَ سَلَٰمٌۭ قَوْمٌۭ مُّنكَرُونَ",
+   "translations": {
+    "en": "When they entered upon him and said, \"[We greet you with] peace.\" He answered, \"[And upon you] peace, [you are] a people unknown."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 26,
+   "arabic": "فَرَاغَ إِلَىٰٓ أَهْلِهِۦ فَجَآءَ بِعِجْلٍۢ سَمِينٍۢ",
+   "translations": {
+    "en": "Then he went to his family and came with a fat [roasted] calf"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 27,
+   "arabic": "فَقَرَّبَهُۥٓ إِلَيْهِمْ قَالَ أَلَا تَأْكُلُونَ",
+   "translations": {
+    "en": "And placed it near them; he said, \"Will you not eat?\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 28,
+   "arabic": "فَأَوْجَسَ مِنْهُمْ خِيفَةًۭ ۖ قَالُوا۟ لَا تَخَفْ ۖ وَبَشَّرُوهُ بِغُلَٰمٍ عَلِيمٍۢ",
+   "translations": {
+    "en": "And he felt from them apprehension. They said, \"Fear not,\" and gave him good tidings of a learned boy."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 29,
+   "arabic": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍۢ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌۭ",
+   "translations": {
+    "en": "And his wife approached with a cry [of alarm] and struck her face and said, \"[I am] a barren old woman!\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 30,
+   "arabic": "قَالُوا۟ كَذَٰلِكِ قَالَ رَبُّكِ ۖ إِنَّهُۥ هُوَ ٱلْحَكِيمُ ٱلْعَلِيمُ",
+   "translations": {
+    "en": "They said, \"Thus has said your Lord; indeed, He is the Wise, the Knowing.\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 31,
+   "arabic": "۞ قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
+   "translations": {
+    "en": "[Abraham] said, \"Then what is your business [here], O messengers?\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 32,
+   "arabic": "قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍۢ مُّجْرِمِينَ",
+   "translations": {
+    "en": "They said, \"Indeed, we have been sent to a people of criminals"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 33,
+   "arabic": "لِنُرْسِلَ عَلَيْهِمْ حِجَارَةًۭ مِّن طِينٍۢ",
+   "translations": {
+    "en": "To send down upon them stones of clay,"
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 34,
+   "arabic": "مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ",
+   "translations": {
+    "en": "Marked in the presence of your Lord for the transgressors.\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 35,
+   "arabic": "فَأَخْرَجْنَا مَن كَانَ فِيهَا مِنَ ٱلْمُؤْمِنِينَ",
+   "translations": {
+    "en": "So We brought out whoever was in the cities of the believers."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 36,
+   "arabic": "فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍۢ مِّنَ ٱلْمُسْلِمِينَ",
+   "translations": {
+    "en": "And We found not within them other than a [single] house of Muslims."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 37,
+   "arabic": "وَتَرَكْنَا فِيهَآ ءَايَةًۭ لِّلَّذِينَ يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ",
+   "translations": {
+    "en": "And We left therein a sign for those who fear the painful punishment."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 38,
+   "arabic": "وَفِى مُوسَىٰٓ إِذْ أَرْسَلْنَٰهُ إِلَىٰ فِرْعَوْنَ بِسُلْطَٰنٍۢ مُّبِينٍۢ",
+   "translations": {
+    "en": "And in Moses [was a sign], when We sent him to Pharaoh with clear authority."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 39,
+   "arabic": "فَتَوَلَّىٰ بِرُكْنِهِۦ وَقَالَ سَٰحِرٌ أَوْ مَجْنُونٌۭ",
+   "translations": {
+    "en": "But he turned away with his supporters and said,\" A magician or a madman.\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 40,
+   "arabic": "فَأَخَذْنَٰهُ وَجُنُودَهُۥ فَنَبَذْنَٰهُمْ فِى ٱلْيَمِّ وَهُوَ مُلِيمٌۭ",
+   "translations": {
+    "en": "So We took him and his soldiers and cast them into the sea, and he was blameworthy."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 41,
+   "arabic": "وَفِى عَادٍ إِذْ أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ",
+   "translations": {
+    "en": "And in 'Aad [was a sign], when We sent against them the barren wind."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 42,
+   "arabic": "مَا تَذَرُ مِن شَىْءٍ أَتَتْ عَلَيْهِ إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ",
+   "translations": {
+    "en": "It left nothing of what it came upon but that it made it like disintegrated ruins."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 43,
+   "arabic": "وَفِى ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا۟ حَتَّىٰ حِينٍۢ",
+   "translations": {
+    "en": "And in Thamud, when it was said to them, \"Enjoy yourselves for a time.\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 44,
+   "arabic": "فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ وَهُمْ يَنظُرُونَ",
+   "translations": {
+    "en": "But they were insolent toward the command of their Lord, so the thunderbolt seized them while they were looking on."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 45,
+   "arabic": "فَمَا ٱسْتَطَٰعُوا۟ مِن قِيَامٍۢ وَمَا كَانُوا۟ مُنتَصِرِينَ",
+   "translations": {
+    "en": "And they were unable to arise, nor could they defend themselves."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 46,
+   "arabic": "وَقَوْمَ نُوحٍۢ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ قَوْمًۭا فَٰسِقِينَ",
+   "translations": {
+    "en": "And [We destroyed] the people of Noah before; indeed, they were a people defiantly disobedient."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 47,
+   "arabic": "وَٱلسَّمَآءَ بَنَيْنَٰهَا بِأَيْي۟دٍۢ وَإِنَّا لَمُوسِعُونَ",
+   "translations": {
+    "en": "And the heaven We constructed with strength, and indeed, We are [its] expander."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 48,
+   "arabic": "وَٱلْأَرْضَ فَرَشْنَٰهَا فَنِعْمَ ٱلْمَٰهِدُونَ",
+   "translations": {
+    "en": "And the earth We have spread out, and excellent is the preparer."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 49,
+   "arabic": "وَمِن كُلِّ شَىْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
+   "translations": {
+    "en": "And of all things We created two mates; perhaps you will remember."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 50,
+   "arabic": "فَفِرُّوٓا۟ إِلَى ٱللَّهِ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌۭ مُّبِينٌۭ",
+   "translations": {
+    "en": "So flee to Allah. Indeed, I am to you from Him a clear warner."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 51,
+   "arabic": "وَلَا تَجْعَلُوا۟ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌۭ مُّبِينٌۭ",
+   "translations": {
+    "en": "And do not make [as equal] with Allah another deity. Indeed, I am to you from Him a clear warner."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 52,
+   "arabic": "كَذَٰلِكَ مَآ أَتَى ٱلَّذِينَ مِن قَبْلِهِم مِّن رَّسُولٍ إِلَّا قَالُوا۟ سَاحِرٌ أَوْ مَجْنُونٌ",
+   "translations": {
+    "en": "Similarly, there came not to those before them any messenger except that they said, \"A magician or a madman.\""
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 53,
+   "arabic": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌۭ طَاغُونَ",
+   "translations": {
+    "en": "Did they suggest it to them? Rather, they [themselves] are a transgressing people."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 54,
+   "arabic": "فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ بِمَلُومٍۢ",
+   "translations": {
+    "en": "So leave them, [O Muhammad], for you are not to be blamed."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 55,
+   "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+   "translations": {
+    "en": "And remind, for indeed, the reminder benefits the believers."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 56,
+   "arabic": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+   "translations": {
+    "en": "And I did not create the jinn and mankind except to worship Me."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 57,
+   "arabic": "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍۢ وَمَآ أُرِيدُ أَن يُطْعِمُونِ",
+   "translations": {
+    "en": "I do not want from them any provision, nor do I want them to feed Me."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 58,
+   "arabic": "إِنَّ ٱللَّهَ هُوَ ٱلرَّزَّاقُ ذُو ٱلْقُوَّةِ ٱلْمَتِينُ",
+   "translations": {
+    "en": "Indeed, it is Allah who is the [continual] Provider, the firm possessor of strength."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 59,
+   "arabic": "فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًۭا مِّثْلَ ذَنُوبِ أَصْحَٰبِهِمْ فَلَا يَسْتَعْجِلُونِ",
+   "translations": {
+    "en": "And indeed, for those who have wronged is a portion [of punishment] like the portion of their predecessors, so let them not impatiently urge Me."
+   }
+  },
+  {
+   "surah": 51,
+   "ayah": 60,
+   "arabic": "فَوَيْلٌۭ لِّلَّذِينَ كَفَرُوا۟ مِن يَوْمِهِمُ ٱلَّذِى يُوعَدُونَ",
+   "translations": {
+    "en": "And woe to those who have disbelieved from their Day which they are promised."
+   }
+  }
+ ]
+}

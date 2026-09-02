@@ -1,0 +1,779 @@
+{
+ "surah": 56,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 56,
+   "ayah": 1,
+   "arabic": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+   "translations": {
+    "en": "When the Occurrence occurs,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 2,
+   "arabic": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+   "translations": {
+    "en": "There is, at its occurrence, no denial."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 3,
+   "arabic": "خَافِضَةٌۭ رَّافِعَةٌ",
+   "translations": {
+    "en": "It will bring down [some] and raise up [others]."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 4,
+   "arabic": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
+   "translations": {
+    "en": "When the earth is shaken with convulsion"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 5,
+   "arabic": "وَبُسَّتِ ٱلْجِبَالُ بَسًّۭا",
+   "translations": {
+    "en": "And the mountains are broken down, crumbling"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 6,
+   "arabic": "فَكَانَتْ هَبَآءًۭ مُّنۢبَثًّۭا",
+   "translations": {
+    "en": "And become dust dispersing."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 7,
+   "arabic": "وَكُنتُمْ أَزْوَٰجًۭا ثَلَٰثَةًۭ",
+   "translations": {
+    "en": "And you become [of] three kinds:"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 8,
+   "arabic": "فَأَصْحَٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
+   "translations": {
+    "en": "Then the companions of the right - what are the companions of the right?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 9,
+   "arabic": "وَأَصْحَٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
+   "translations": {
+    "en": "And the companions of the left - what are the companions of the left?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 10,
+   "arabic": "وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ",
+   "translations": {
+    "en": "And the forerunners, the forerunners -"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 11,
+   "arabic": "أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ",
+   "translations": {
+    "en": "Those are the ones brought near [to Allah]"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 12,
+   "arabic": "فِى جَنَّٰتِ ٱلنَّعِيمِ",
+   "translations": {
+    "en": "In the Gardens of Pleasure,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 13,
+   "arabic": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "A [large] company of the former peoples"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 14,
+   "arabic": "وَقَلِيلٌۭ مِّنَ ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "And a few of the later peoples,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 15,
+   "arabic": "عَلَىٰ سُرُرٍۢ مَّوْضُونَةٍۢ",
+   "translations": {
+    "en": "On thrones woven [with ornament],"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 16,
+   "arabic": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَٰبِلِينَ",
+   "translations": {
+    "en": "Reclining on them, facing each other."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 17,
+   "arabic": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ",
+   "translations": {
+    "en": "There will circulate among them young boys made eternal"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 18,
+   "arabic": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+   "translations": {
+    "en": "With vessels, pitchers and a cup [of wine] from a flowing spring -"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 19,
+   "arabic": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+   "translations": {
+    "en": "No headache will they have therefrom, nor will they be intoxicated -"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 20,
+   "arabic": "وَفَٰكِهَةٍۢ مِّمَّا يَتَخَيَّرُونَ",
+   "translations": {
+    "en": "And fruit of what they select"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 21,
+   "arabic": "وَلَحْمِ طَيْرٍۢ مِّمَّا يَشْتَهُونَ",
+   "translations": {
+    "en": "And the meat of fowl, from whatever they desire."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 22,
+   "arabic": "وَحُورٌ عِينٌۭ",
+   "translations": {
+    "en": "And [for them are] fair women with large, [beautiful] eyes,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 23,
+   "arabic": "كَأَمْثَٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+   "translations": {
+    "en": "The likenesses of pearls well-protected,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 24,
+   "arabic": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+   "translations": {
+    "en": "As reward for what they used to do."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 25,
+   "arabic": "لَا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا تَأْثِيمًا",
+   "translations": {
+    "en": "They will not hear therein ill speech or commission of sin -"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 26,
+   "arabic": "إِلَّا قِيلًۭا سَلَٰمًۭا سَلَٰمًۭا",
+   "translations": {
+    "en": "Only a saying: \"Peace, peace.\""
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 27,
+   "arabic": "وَأَصْحَٰبُ ٱلْيَمِينِ مَآ أَصْحَٰبُ ٱلْيَمِينِ",
+   "translations": {
+    "en": "The companions of the right - what are the companions of the right?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 28,
+   "arabic": "فِى سِدْرٍۢ مَّخْضُودٍۢ",
+   "translations": {
+    "en": "[They will be] among lote trees with thorns removed"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 29,
+   "arabic": "وَطَلْحٍۢ مَّنضُودٍۢ",
+   "translations": {
+    "en": "And [banana] trees layered [with fruit]"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 30,
+   "arabic": "وَظِلٍّۢ مَّمْدُودٍۢ",
+   "translations": {
+    "en": "And shade extended"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 31,
+   "arabic": "وَمَآءٍۢ مَّسْكُوبٍۢ",
+   "translations": {
+    "en": "And water poured out"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 32,
+   "arabic": "وَفَٰكِهَةٍۢ كَثِيرَةٍۢ",
+   "translations": {
+    "en": "And fruit, abundant [and varied],"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 33,
+   "arabic": "لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
+   "translations": {
+    "en": "Neither limited [to season] nor forbidden,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 34,
+   "arabic": "وَفُرُشٍۢ مَّرْفُوعَةٍ",
+   "translations": {
+    "en": "And [upon] beds raised high."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 35,
+   "arabic": "إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءًۭ",
+   "translations": {
+    "en": "Indeed, We have produced the women of Paradise in a [new] creation"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 36,
+   "arabic": "فَجَعَلْنَٰهُنَّ أَبْكَارًا",
+   "translations": {
+    "en": "And made them virgins,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 37,
+   "arabic": "عُرُبًا أَتْرَابًۭا",
+   "translations": {
+    "en": "Devoted [to their husbands] and of equal age,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 38,
+   "arabic": "لِّأَصْحَٰبِ ٱلْيَمِينِ",
+   "translations": {
+    "en": "For the companions of the right [who are]"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 39,
+   "arabic": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "A company of the former peoples"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 40,
+   "arabic": "وَثُلَّةٌۭ مِّنَ ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "And a company of the later peoples."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 41,
+   "arabic": "وَأَصْحَٰبُ ٱلشِّمَالِ مَآ أَصْحَٰبُ ٱلشِّمَالِ",
+   "translations": {
+    "en": "And the companions of the left - what are the companions of the left?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 42,
+   "arabic": "فِى سَمُومٍۢ وَحَمِيمٍۢ",
+   "translations": {
+    "en": "[They will be] in scorching fire and scalding water"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 43,
+   "arabic": "وَظِلٍّۢ مِّن يَحْمُومٍۢ",
+   "translations": {
+    "en": "And a shade of black smoke,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 44,
+   "arabic": "لَّا بَارِدٍۢ وَلَا كَرِيمٍ",
+   "translations": {
+    "en": "Neither cool nor beneficial."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 45,
+   "arabic": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+   "translations": {
+    "en": "Indeed they were, before that, indulging in affluence,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 46,
+   "arabic": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "And they used to persist in the great violation,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 47,
+   "arabic": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+   "translations": {
+    "en": "And they used to say, \"When we die and become dust and bones, are we indeed to be resurrected?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 48,
+   "arabic": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+   "translations": {
+    "en": "And our forefathers [as well]?\""
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 49,
+   "arabic": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "Say, [O Muhammad], \"Indeed, the former and the later peoples"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 50,
+   "arabic": "لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ يَوْمٍۢ مَّعْلُومٍۢ",
+   "translations": {
+    "en": "Are to be gathered together for the appointment of a known Day.\""
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 51,
+   "arabic": "ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ",
+   "translations": {
+    "en": "Then indeed you, O those astray [who are] deniers,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 52,
+   "arabic": "لَءَاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ",
+   "translations": {
+    "en": "Will be eating from trees of zaqqum"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 53,
+   "arabic": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+   "translations": {
+    "en": "And filling with it your bellies"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 54,
+   "arabic": "فَشَٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
+   "translations": {
+    "en": "And drinking on top of it from scalding water"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 55,
+   "arabic": "فَشَٰرِبُونَ شُرْبَ ٱلْهِيمِ",
+   "translations": {
+    "en": "And will drink as the drinking of thirsty camels."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 56,
+   "arabic": "هَٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
+   "translations": {
+    "en": "That is their accommodation on the Day of Recompense."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 57,
+   "arabic": "نَحْنُ خَلَقْنَٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+   "translations": {
+    "en": "We have created you, so why do you not believe?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 58,
+   "arabic": "أَفَرَءَيْتُم مَّا تُمْنُونَ",
+   "translations": {
+    "en": "Have you seen that which you emit?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 59,
+   "arabic": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَٰلِقُونَ",
+   "translations": {
+    "en": "Is it you who creates it, or are We the Creator?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 60,
+   "arabic": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+   "translations": {
+    "en": "We have decreed death among you, and We are not to be outdone"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 61,
+   "arabic": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+   "translations": {
+    "en": "In that We will change your likenesses and produce you in that [form] which you do not know."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 62,
+   "arabic": "وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+   "translations": {
+    "en": "And you have already known the first creation, so will you not remember?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 63,
+   "arabic": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
+   "translations": {
+    "en": "And have you seen that [seed] which you sow?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 64,
+   "arabic": "ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
+   "translations": {
+    "en": "Is it you who makes it grow, or are We the grower?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 65,
+   "arabic": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًۭا فَظَلْتُمْ تَفَكَّهُونَ",
+   "translations": {
+    "en": "If We willed, We could make it [dry] debris, and you would remain in wonder,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 66,
+   "arabic": "إِنَّا لَمُغْرَمُونَ",
+   "translations": {
+    "en": "[Saying], \"Indeed, we are [now] in debt;"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 67,
+   "arabic": "بَلْ نَحْنُ مَحْرُومُونَ",
+   "translations": {
+    "en": "Rather, we have been deprived.\""
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 68,
+   "arabic": "أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ",
+   "translations": {
+    "en": "And have you seen the water that you drink?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 69,
+   "arabic": "ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ ٱلْمُنزِلُونَ",
+   "translations": {
+    "en": "Is it you who brought it down from the clouds, or is it We who bring it down?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 70,
+   "arabic": "لَوْ نَشَآءُ جَعَلْنَٰهُ أُجَاجًۭا فَلَوْلَا تَشْكُرُونَ",
+   "translations": {
+    "en": "If We willed, We could make it bitter, so why are you not grateful?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 71,
+   "arabic": "أَفَرَءَيْتُمُ ٱلنَّارَ ٱلَّتِى تُورُونَ",
+   "translations": {
+    "en": "And have you seen the fire that you ignite?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 72,
+   "arabic": "ءَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
+   "translations": {
+    "en": "Is it you who produced its tree, or are We the producer?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 73,
+   "arabic": "نَحْنُ جَعَلْنَٰهَا تَذْكِرَةًۭ وَمَتَٰعًۭا لِّلْمُقْوِينَ",
+   "translations": {
+    "en": "We have made it a reminder and provision for the travelers,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 74,
+   "arabic": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "So exalt the name of your Lord, the Most Great."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 75,
+   "arabic": "۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+   "translations": {
+    "en": "Then I swear by the setting of the stars,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 76,
+   "arabic": "وَإِنَّهُۥ لَقَسَمٌۭ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+   "translations": {
+    "en": "And indeed, it is an oath - if you could know - [most] great."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 77,
+   "arabic": "إِنَّهُۥ لَقُرْءَانٌۭ كَرِيمٌۭ",
+   "translations": {
+    "en": "Indeed, it is a noble Qur'an"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 78,
+   "arabic": "فِى كِتَٰبٍۢ مَّكْنُونٍۢ",
+   "translations": {
+    "en": "In a Register well-protected;"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 79,
+   "arabic": "لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ",
+   "translations": {
+    "en": "None touch it except the purified."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 80,
+   "arabic": "تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "[It is] a revelation from the Lord of the worlds."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 81,
+   "arabic": "أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+   "translations": {
+    "en": "Then is it to this statement that you are indifferent"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 82,
+   "arabic": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+   "translations": {
+    "en": "And make [the thanks for] your provision that you deny [the Provider]?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 83,
+   "arabic": "فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
+   "translations": {
+    "en": "Then why, when the soul at death reaches the throat"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 84,
+   "arabic": "وَأَنتُمْ حِينَئِذٍۢ تَنظُرُونَ",
+   "translations": {
+    "en": "And you are at that time looking on -"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 85,
+   "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ",
+   "translations": {
+    "en": "And Our angels are nearer to him than you, but you do not see -"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 86,
+   "arabic": "فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+   "translations": {
+    "en": "Then why do you not, if you are not to be recompensed,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 87,
+   "arabic": "تَرْجِعُونَهَآ إِن كُنتُمْ صَٰدِقِينَ",
+   "translations": {
+    "en": "Bring it back, if you should be truthful?"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 88,
+   "arabic": "فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
+   "translations": {
+    "en": "And if the deceased was of those brought near to Allah,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 89,
+   "arabic": "فَرَوْحٌۭ وَرَيْحَانٌۭ وَجَنَّتُ نَعِيمٍۢ",
+   "translations": {
+    "en": "Then [for him is] rest and bounty and a garden of pleasure."
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 90,
+   "arabic": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
+   "translations": {
+    "en": "And if he was of the companions of the right,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 91,
+   "arabic": "فَسَلَٰمٌۭ لَّكَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
+   "translations": {
+    "en": "Then [the angels will say], \"Peace for you; [you are] from the companions of the right.\""
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 92,
+   "arabic": "وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ",
+   "translations": {
+    "en": "But if he was of the deniers [who were] astray,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 93,
+   "arabic": "فَنُزُلٌۭ مِّنْ حَمِيمٍۢ",
+   "translations": {
+    "en": "Then [for him is] accommodation of scalding water"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 94,
+   "arabic": "وَتَصْلِيَةُ جَحِيمٍ",
+   "translations": {
+    "en": "And burning in Hellfire"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 95,
+   "arabic": "إِنَّ هَٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+   "translations": {
+    "en": "Indeed, this is the true certainty,"
+   }
+  },
+  {
+   "surah": 56,
+   "ayah": 96,
+   "arabic": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "So exalt the name of your Lord, the Most Great."
+   }
+  }
+ ]
+}

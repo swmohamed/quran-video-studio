@@ -1,0 +1,83 @@
+{
+ "surah": 104,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 104,
+   "ayah": 1,
+   "arabic": "وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+   "translations": {
+    "en": "Woe to every scorner and mocker"
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 2,
+   "arabic": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
+   "translations": {
+    "en": "Who collects wealth and [continuously] counts it."
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 3,
+   "arabic": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+   "translations": {
+    "en": "He thinks that his wealth will make him immortal."
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 4,
+   "arabic": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+   "translations": {
+    "en": "No! He will surely be thrown into the Crusher."
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 5,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+   "translations": {
+    "en": "And what can make you know what is the Crusher?"
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 6,
+   "arabic": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+   "translations": {
+    "en": "It is the fire of Allah, [eternally] fueled,"
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 7,
+   "arabic": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+   "translations": {
+    "en": "Which mounts directed at the hearts."
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 8,
+   "arabic": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
+   "translations": {
+    "en": "Indeed, Hellfire will be closed down upon them"
+   }
+  },
+  {
+   "surah": 104,
+   "ayah": 9,
+   "arabic": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+   "translations": {
+    "en": "In extended columns."
+   }
+  }
+ ]
+}

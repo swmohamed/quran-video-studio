@@ -1,0 +1,59 @@
+{
+ "surah": 114,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 114,
+   "ayah": 1,
+   "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+   "translations": {
+    "en": "Say, \"I seek refuge in the Lord of mankind,"
+   }
+  },
+  {
+   "surah": 114,
+   "ayah": 2,
+   "arabic": "مَلِكِ ٱلنَّاسِ",
+   "translations": {
+    "en": "The Sovereign of mankind."
+   }
+  },
+  {
+   "surah": 114,
+   "ayah": 3,
+   "arabic": "إِلَٰهِ ٱلنَّاسِ",
+   "translations": {
+    "en": "The God of mankind,"
+   }
+  },
+  {
+   "surah": 114,
+   "ayah": 4,
+   "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+   "translations": {
+    "en": "From the evil of the retreating whisperer -"
+   }
+  },
+  {
+   "surah": 114,
+   "ayah": 5,
+   "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+   "translations": {
+    "en": "Who whispers [evil] into the breasts of mankind -"
+   }
+  },
+  {
+   "surah": 114,
+   "ayah": 6,
+   "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+   "translations": {
+    "en": "From among the jinn and mankind.\""
+   }
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "surah": 95,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 95,
+   "ayah": 1,
+   "arabic": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+   "translations": {
+    "en": "By the fig and the olive"
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 2,
+   "arabic": "وَطُورِ سِينِينَ",
+   "translations": {
+    "en": "And [by] Mount Sinai"
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 3,
+   "arabic": "وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+   "translations": {
+    "en": "And [by] this secure city [Makkah],"
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 4,
+   "arabic": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+   "translations": {
+    "en": "We have certainly created man in the best of stature;"
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 5,
+   "arabic": "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
+   "translations": {
+    "en": "Then We return him to the lowest of the low,"
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 6,
+   "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+   "translations": {
+    "en": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted."
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 7,
+   "arabic": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+   "translations": {
+    "en": "So what yet causes you to deny the Recompense?"
+   }
+  },
+  {
+   "surah": 95,
+   "ayah": 8,
+   "arabic": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
+   "translations": {
+    "en": "Is not Allah the most just of judges?"
+   }
+  }
+ ]
+}

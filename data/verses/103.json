@@ -1,0 +1,35 @@
+{
+ "surah": 103,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 103,
+   "ayah": 1,
+   "arabic": "وَٱلْعَصْرِ",
+   "translations": {
+    "en": "By time,"
+   }
+  },
+  {
+   "surah": 103,
+   "ayah": 2,
+   "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+   "translations": {
+    "en": "Indeed, mankind is in loss,"
+   }
+  },
+  {
+   "surah": 103,
+   "ayah": 3,
+   "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+   "translations": {
+    "en": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience."
+   }
+  }
+ ]
+}

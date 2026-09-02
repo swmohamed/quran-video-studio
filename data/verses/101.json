@@ -1,0 +1,99 @@
+{
+ "surah": 101,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 101,
+   "ayah": 1,
+   "arabic": "ٱلْقَارِعَةُ",
+   "translations": {
+    "en": "The Striking Calamity -"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 2,
+   "arabic": "مَا ٱلْقَارِعَةُ",
+   "translations": {
+    "en": "What is the Striking Calamity?"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 3,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+   "translations": {
+    "en": "And what can make you know what is the Striking Calamity?"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 4,
+   "arabic": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+   "translations": {
+    "en": "It is the Day when people will be like moths, dispersed,"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 5,
+   "arabic": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+   "translations": {
+    "en": "And the mountains will be like wool, fluffed up."
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 6,
+   "arabic": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+   "translations": {
+    "en": "Then as for one whose scales are heavy [with good deeds],"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 7,
+   "arabic": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+   "translations": {
+    "en": "He will be in a pleasant life."
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 8,
+   "arabic": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+   "translations": {
+    "en": "But as for one whose scales are light,"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 9,
+   "arabic": "فَأُمُّهُۥ هَاوِيَةٌۭ",
+   "translations": {
+    "en": "His refuge will be an abyss."
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 10,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+   "translations": {
+    "en": "And what can make you know what that is?"
+   }
+  },
+  {
+   "surah": 101,
+   "ayah": 11,
+   "arabic": "نَارٌ حَامِيَةٌۢ",
+   "translations": {
+    "en": "It is a Fire, intensely hot."
+   }
+  }
+ ]
+}

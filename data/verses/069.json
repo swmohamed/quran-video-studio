@@ -1,0 +1,427 @@
+{
+ "surah": 69,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 69,
+   "ayah": 1,
+   "arabic": "ٱلْحَآقَّةُ",
+   "translations": {
+    "en": "The Inevitable Reality -"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 2,
+   "arabic": "مَا ٱلْحَآقَّةُ",
+   "translations": {
+    "en": "What is the Inevitable Reality?"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 3,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+   "translations": {
+    "en": "And what can make you know what is the Inevitable Reality?"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 4,
+   "arabic": "كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
+   "translations": {
+    "en": "Thamud and 'Aad denied the Striking Calamity."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 5,
+   "arabic": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+   "translations": {
+    "en": "So as for Thamud, they were destroyed by the overpowering [blast]."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 6,
+   "arabic": "وَأَمَّا عَادٌۭ فَأُهْلِكُوا۟ بِرِيحٍۢ صَرْصَرٍ عَاتِيَةٍۢ",
+   "translations": {
+    "en": "And as for 'Aad, they were destroyed by a screaming, violent wind"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 7,
+   "arabic": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍۢ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومًۭا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍۢ",
+   "translations": {
+    "en": "Which Allah imposed upon them for seven nights and eight days in succession, so you would see the people therein fallen as if they were hollow trunks of palm trees."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 8,
+   "arabic": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍۢ",
+   "translations": {
+    "en": "Then do you see of them any remains?"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 9,
+   "arabic": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَٰتُ بِٱلْخَاطِئَةِ",
+   "translations": {
+    "en": "And there came Pharaoh and those before him and the overturned cities with sin."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 10,
+   "arabic": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةًۭ رَّابِيَةً",
+   "translations": {
+    "en": "And they disobeyed the messenger of their Lord, so He seized them with a seizure exceeding [in severity]."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 11,
+   "arabic": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ",
+   "translations": {
+    "en": "Indeed, when the water overflowed, We carried your ancestors in the sailing ship"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 12,
+   "arabic": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةًۭ وَتَعِيَهَآ أُذُنٌۭ وَٰعِيَةٌۭ",
+   "translations": {
+    "en": "That We might make it for you a reminder and [that] a conscious ear would be conscious of it."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 13,
+   "arabic": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌۭ وَٰحِدَةٌۭ",
+   "translations": {
+    "en": "Then when the Horn is blown with one blast"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 14,
+   "arabic": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةًۭ وَٰحِدَةًۭ",
+   "translations": {
+    "en": "And the earth and the mountains are lifted and leveled with one blow -"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 15,
+   "arabic": "فَيَوْمَئِذٍۢ وَقَعَتِ ٱلْوَاقِعَةُ",
+   "translations": {
+    "en": "Then on that Day, the Resurrection will occur,"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 16,
+   "arabic": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍۢ وَاهِيَةٌۭ",
+   "translations": {
+    "en": "And the heaven will split [open], for that Day it is infirm."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 17,
+   "arabic": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍۢ ثَمَٰنِيَةٌۭ",
+   "translations": {
+    "en": "And the angels are at its edges. And there will bear the Throne of your Lord above them, that Day, eight [of them]."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 18,
+   "arabic": "يَوْمَئِذٍۢ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌۭ",
+   "translations": {
+    "en": "That Day, you will be exhibited [for judgement]; not hidden among you is anything concealed."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 19,
+   "arabic": "فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَٰبِيَهْ",
+   "translations": {
+    "en": "So as for he who is given his record in his right hand, he will say, \"Here, read my record!"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 20,
+   "arabic": "إِنِّى ظَنَنتُ أَنِّى مُلَٰقٍ حِسَابِيَهْ",
+   "translations": {
+    "en": "Indeed, I was certain that I would be meeting my account.\""
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 21,
+   "arabic": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+   "translations": {
+    "en": "So he will be in a pleasant life -"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 22,
+   "arabic": "فِى جَنَّةٍ عَالِيَةٍۢ",
+   "translations": {
+    "en": "In an elevated garden,"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 23,
+   "arabic": "قُطُوفُهَا دَانِيَةٌۭ",
+   "translations": {
+    "en": "Its [fruit] to be picked hanging near."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 24,
+   "arabic": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+   "translations": {
+    "en": "[They will be told], \"Eat and drink in satisfaction for what you put forth in the days past.\""
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 25,
+   "arabic": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَٰلَيْتَنِى لَمْ أُوتَ كِتَٰبِيَهْ",
+   "translations": {
+    "en": "But as for he who is given his record in his left hand, he will say, \"Oh, I wish I had not been given my record"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 26,
+   "arabic": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+   "translations": {
+    "en": "And had not known what is my account."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 27,
+   "arabic": "يَٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+   "translations": {
+    "en": "I wish my death had been the decisive one."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 28,
+   "arabic": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+   "translations": {
+    "en": "My wealth has not availed me."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 29,
+   "arabic": "هَلَكَ عَنِّى سُلْطَٰنِيَهْ",
+   "translations": {
+    "en": "Gone from me is my authority.\""
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 30,
+   "arabic": "خُذُوهُ فَغُلُّوهُ",
+   "translations": {
+    "en": "[Allah will say], \"Seize him and shackle him."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 31,
+   "arabic": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+   "translations": {
+    "en": "Then into Hellfire drive him."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 32,
+   "arabic": "ثُمَّ فِى سِلْسِلَةٍۢ ذَرْعُهَا سَبْعُونَ ذِرَاعًۭا فَٱسْلُكُوهُ",
+   "translations": {
+    "en": "Then into a chain whose length is seventy cubits insert him.\""
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 33,
+   "arabic": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "Indeed, he did not used to believe in Allah, the Most Great,"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 34,
+   "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "translations": {
+    "en": "Nor did he encourage the feeding of the poor."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 35,
+   "arabic": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَٰهُنَا حَمِيمٌۭ",
+   "translations": {
+    "en": "So there is not for him here this Day any devoted friend"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 36,
+   "arabic": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ",
+   "translations": {
+    "en": "Nor any food except from the discharge of wounds;"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 37,
+   "arabic": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+   "translations": {
+    "en": "None will eat it except the sinners."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 38,
+   "arabic": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+   "translations": {
+    "en": "So I swear by what you see"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 39,
+   "arabic": "وَمَا لَا تُبْصِرُونَ",
+   "translations": {
+    "en": "And what you do not see"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 40,
+   "arabic": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+   "translations": {
+    "en": "[That] indeed, the Qur'an is the word of a noble Messenger."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 41,
+   "arabic": "وَمَا هُوَ بِقَوْلِ شَاعِرٍۢ ۚ قَلِيلًۭا مَّا تُؤْمِنُونَ",
+   "translations": {
+    "en": "And it is not the word of a poet; little do you believe."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 42,
+   "arabic": "وَلَا بِقَوْلِ كَاهِنٍۢ ۚ قَلِيلًۭا مَّا تَذَكَّرُونَ",
+   "translations": {
+    "en": "Nor the word of a soothsayer; little do you remember."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 43,
+   "arabic": "تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "[It is] a revelation from the Lord of the worlds."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 44,
+   "arabic": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
+   "translations": {
+    "en": "And if Muhammad had made up about Us some [false] sayings,"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 45,
+   "arabic": "لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
+   "translations": {
+    "en": "We would have seized him by the right hand;"
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 46,
+   "arabic": "ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
+   "translations": {
+    "en": "Then We would have cut from him the aorta."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 47,
+   "arabic": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَٰجِزِينَ",
+   "translations": {
+    "en": "And there is no one of you who could prevent [Us] from him."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 48,
+   "arabic": "وَإِنَّهُۥ لَتَذْكِرَةٌۭ لِّلْمُتَّقِينَ",
+   "translations": {
+    "en": "And indeed, the Qur'an is a reminder for the righteous."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 49,
+   "arabic": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
+   "translations": {
+    "en": "And indeed, We know that among you are deniers."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 50,
+   "arabic": "وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَٰفِرِينَ",
+   "translations": {
+    "en": "And indeed, it will be [a cause of] regret upon the disbelievers."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 51,
+   "arabic": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+   "translations": {
+    "en": "And indeed, it is the truth of certainty."
+   }
+  },
+  {
+   "surah": 69,
+   "ayah": 52,
+   "arabic": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "So exalt the name of your Lord, the Most Great."
+   }
+  }
+ ]
+}

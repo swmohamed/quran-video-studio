@@ -1,0 +1,51 @@
+{
+ "surah": 113,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 113,
+   "ayah": 1,
+   "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+   "translations": {
+    "en": "Say, \"I seek refuge in the Lord of daybreak"
+   }
+  },
+  {
+   "surah": 113,
+   "ayah": 2,
+   "arabic": "مِن شَرِّ مَا خَلَقَ",
+   "translations": {
+    "en": "From the evil of that which He created"
+   }
+  },
+  {
+   "surah": 113,
+   "ayah": 3,
+   "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+   "translations": {
+    "en": "And from the evil of darkness when it settles"
+   }
+  },
+  {
+   "surah": 113,
+   "ayah": 4,
+   "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+   "translations": {
+    "en": "And from the evil of the blowers in knots"
+   }
+  },
+  {
+   "surah": 113,
+   "ayah": 5,
+   "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+   "translations": {
+    "en": "And from the evil of an envier when he envies.\""
+   }
+  }
+ ]
+}

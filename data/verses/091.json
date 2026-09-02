@@ -1,0 +1,131 @@
+{
+ "surah": 91,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 91,
+   "ayah": 1,
+   "arabic": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+   "translations": {
+    "en": "By the sun and its brightness"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 2,
+   "arabic": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+   "translations": {
+    "en": "And [by] the moon when it follows it"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 3,
+   "arabic": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+   "translations": {
+    "en": "And [by] the day when it displays it"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 4,
+   "arabic": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+   "translations": {
+    "en": "And [by] the night when it covers it"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 5,
+   "arabic": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+   "translations": {
+    "en": "And [by] the sky and He who constructed it"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 6,
+   "arabic": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+   "translations": {
+    "en": "And [by] the earth and He who spread it"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 7,
+   "arabic": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
+   "translations": {
+    "en": "And [by] the soul and He who proportioned it"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 8,
+   "arabic": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+   "translations": {
+    "en": "And inspired it [with discernment of] its wickedness and its righteousness,"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 9,
+   "arabic": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+   "translations": {
+    "en": "He has succeeded who purifies it,"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 10,
+   "arabic": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+   "translations": {
+    "en": "And he has failed who instills it [with corruption]."
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 11,
+   "arabic": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+   "translations": {
+    "en": "Thamud denied [their prophet] by reason of their transgression,"
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 12,
+   "arabic": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+   "translations": {
+    "en": "When the most wretched of them was sent forth."
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 13,
+   "arabic": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا",
+   "translations": {
+    "en": "And the messenger of Allah [Salih] said to them, \"[Do not harm] the she-camel of Allah or [prevent her from] her drink.\""
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 14,
+   "arabic": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+   "translations": {
+    "en": "But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them]."
+   }
+  },
+  {
+   "surah": 91,
+   "ayah": 15,
+   "arabic": "وَلَا يَخَافُ عُقْبَٰهَا",
+   "translations": {
+    "en": "And He does not fear the consequence thereof."
+   }
+  }
+ ]
+}

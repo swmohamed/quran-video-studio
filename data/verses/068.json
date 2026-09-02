@@ -1,0 +1,427 @@
+{
+ "surah": 68,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 68,
+   "ayah": 1,
+   "arabic": "نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
+   "translations": {
+    "en": "Nun. By the pen and what they inscribe,"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 2,
+   "arabic": "مَآ أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍۢ",
+   "translations": {
+    "en": "You are not, [O Muhammad], by the favor of your Lord, a madman."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 3,
+   "arabic": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍۢ",
+   "translations": {
+    "en": "And indeed, for you is a reward uninterrupted."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 4,
+   "arabic": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍۢ",
+   "translations": {
+    "en": "And indeed, you are of a great moral character."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 5,
+   "arabic": "فَسَتُبْصِرُ وَيُبْصِرُونَ",
+   "translations": {
+    "en": "So you will see and they will see"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 6,
+   "arabic": "بِأَييِّكُمُ ٱلْمَفْتُونُ",
+   "translations": {
+    "en": "Which of you is the afflicted [by a devil]."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 7,
+   "arabic": "إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+   "translations": {
+    "en": "Indeed, your Lord is most knowing of who has gone astray from His way, and He is most knowing of the [rightly] guided."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 8,
+   "arabic": "فَلَا تُطِعِ ٱلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Then do not obey the deniers."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 9,
+   "arabic": "وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ",
+   "translations": {
+    "en": "They wish that you would soften [in your position], so they would soften [toward you]."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 10,
+   "arabic": "وَلَا تُطِعْ كُلَّ حَلَّافٍۢ مَّهِينٍ",
+   "translations": {
+    "en": "And do not obey every worthless habitual swearer"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 11,
+   "arabic": "هَمَّازٍۢ مَّشَّآءٍۭ بِنَمِيمٍۢ",
+   "translations": {
+    "en": "[And] scorner, going about with malicious gossip -"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 12,
+   "arabic": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+   "translations": {
+    "en": "A preventer of good, transgressing and sinful,"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 13,
+   "arabic": "عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
+   "translations": {
+    "en": "Cruel, moreover, and an illegitimate pretender."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 14,
+   "arabic": "أَن كَانَ ذَا مَالٍۢ وَبَنِينَ",
+   "translations": {
+    "en": "Because he is a possessor of wealth and children,"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 15,
+   "arabic": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "When Our verses are recited to him, he says, \"Legends of the former peoples.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 16,
+   "arabic": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+   "translations": {
+    "en": "We will brand him upon the snout."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 17,
+   "arabic": "إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+   "translations": {
+    "en": "Indeed, We have tried them as We tried the companions of the garden, when they swore to cut its fruit in the [early] morning"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 18,
+   "arabic": "وَلَا يَسْتَثْنُونَ",
+   "translations": {
+    "en": "Without making exception."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 19,
+   "arabic": "فَطَافَ عَلَيْهَا طَآئِفٌۭ مِّن رَّبِّكَ وَهُمْ نَآئِمُونَ",
+   "translations": {
+    "en": "So there came upon the garden an affliction from your Lord while they were asleep."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 20,
+   "arabic": "فَأَصْبَحَتْ كَٱلصَّرِيمِ",
+   "translations": {
+    "en": "And it became as though reaped."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 21,
+   "arabic": "فَتَنَادَوْا۟ مُصْبِحِينَ",
+   "translations": {
+    "en": "And they called one another at morning,"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 22,
+   "arabic": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+   "translations": {
+    "en": "[Saying], \"Go early to your crop if you would cut the fruit.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 23,
+   "arabic": "فَٱنطَلَقُوا۟ وَهُمْ يَتَخَٰفَتُونَ",
+   "translations": {
+    "en": "So they set out, while lowering their voices,"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 24,
+   "arabic": "أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌۭ",
+   "translations": {
+    "en": "[Saying], \"There will surely not enter it today upon you [any] poor person.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 25,
+   "arabic": "وَغَدَوْا۟ عَلَىٰ حَرْدٍۢ قَٰدِرِينَ",
+   "translations": {
+    "en": "And they went early in determination, [assuming themselves] able."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 26,
+   "arabic": "فَلَمَّا رَأَوْهَا قَالُوٓا۟ إِنَّا لَضَآلُّونَ",
+   "translations": {
+    "en": "But when they saw it, they said, \"Indeed, we are lost;"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 27,
+   "arabic": "بَلْ نَحْنُ مَحْرُومُونَ",
+   "translations": {
+    "en": "Rather, we have been deprived.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 28,
+   "arabic": "قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
+   "translations": {
+    "en": "The most moderate of them said, \"Did I not say to you, 'Why do you not exalt [Allah]?' \""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 29,
+   "arabic": "قَالُوا۟ سُبْحَٰنَ رَبِّنَآ إِنَّا كُنَّا ظَٰلِمِينَ",
+   "translations": {
+    "en": "They said, \"Exalted is our Lord! Indeed, we were wrongdoers.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 30,
+   "arabic": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَلَٰوَمُونَ",
+   "translations": {
+    "en": "Then they approached one another, blaming each other."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 31,
+   "arabic": "قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا طَٰغِينَ",
+   "translations": {
+    "en": "They said, \"O woe to us; indeed we were transgressors."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 32,
+   "arabic": "عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْرًۭا مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا رَٰغِبُونَ",
+   "translations": {
+    "en": "Perhaps our Lord will substitute for us [one] better than it. Indeed, we are toward our Lord desirous.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 33,
+   "arabic": "كَذَٰلِكَ ٱلْعَذَابُ ۖ وَلَعَذَابُ ٱلْءَاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+   "translations": {
+    "en": "Such is the punishment [of this world]. And the punishment of the Hereafter is greater, if they only knew."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 34,
+   "arabic": "إِنَّ لِلْمُتَّقِينَ عِندَ رَبِّهِمْ جَنَّٰتِ ٱلنَّعِيمِ",
+   "translations": {
+    "en": "Indeed, for the righteous with their Lord are the Gardens of Pleasure."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 35,
+   "arabic": "أَفَنَجْعَلُ ٱلْمُسْلِمِينَ كَٱلْمُجْرِمِينَ",
+   "translations": {
+    "en": "Then will We treat the Muslims like the criminals?"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 36,
+   "arabic": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+   "translations": {
+    "en": "What is [the matter] with you? How do you judge?"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 37,
+   "arabic": "أَمْ لَكُمْ كِتَٰبٌۭ فِيهِ تَدْرُسُونَ",
+   "translations": {
+    "en": "Or do you have a scripture in which you learn"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 38,
+   "arabic": "إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ",
+   "translations": {
+    "en": "That indeed for you is whatever you choose?"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 39,
+   "arabic": "أَمْ لَكُمْ أَيْمَٰنٌ عَلَيْنَا بَٰلِغَةٌ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۙ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ",
+   "translations": {
+    "en": "Or do you have oaths [binding] upon Us, extending until the Day of Resurrection, that indeed for you is whatever you judge?"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 40,
+   "arabic": "سَلْهُمْ أَيُّهُم بِذَٰلِكَ زَعِيمٌ",
+   "translations": {
+    "en": "Ask them which of them, for that [claim], is responsible."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 41,
+   "arabic": "أَمْ لَهُمْ شُرَكَآءُ فَلْيَأْتُوا۟ بِشُرَكَآئِهِمْ إِن كَانُوا۟ صَٰدِقِينَ",
+   "translations": {
+    "en": "Or do they have partners? Then let them bring their partners, if they should be truthful."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 42,
+   "arabic": "يَوْمَ يُكْشَفُ عَن سَاقٍۢ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+   "translations": {
+    "en": "The Day the shin will be uncovered and they are invited to prostration but the disbelievers will not be able,"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 43,
+   "arabic": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌۭ ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَٰلِمُونَ",
+   "translations": {
+    "en": "Their eyes humbled, humiliation will cover them. And they used to be invited to prostration while they were sound."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 44,
+   "arabic": "فَذَرْنِى وَمَن يُكَذِّبُ بِهَٰذَا ٱلْحَدِيثِ ۖ سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
+   "translations": {
+    "en": "So leave Me, [O Muhammad], with [the matter of] whoever denies the Qur'an. We will progressively lead them [to punishment] from where they do not know."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 45,
+   "arabic": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+   "translations": {
+    "en": "And I will give them time. Indeed, My plan is firm."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 46,
+   "arabic": "أَمْ تَسْـَٔلُهُمْ أَجْرًۭا فَهُم مِّن مَّغْرَمٍۢ مُّثْقَلُونَ",
+   "translations": {
+    "en": "Or do you ask of them a payment, so they are by debt burdened down?"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 47,
+   "arabic": "أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ",
+   "translations": {
+    "en": "Or have they [knowledge of] the unseen, so they write [it] down?"
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 48,
+   "arabic": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌۭ",
+   "translations": {
+    "en": "Then be patient for the decision of your Lord, [O Muhammad], and be not like the companion of the fish when he called out while he was distressed."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 49,
+   "arabic": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌۭ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌۭ",
+   "translations": {
+    "en": "If not that a favor from his Lord overtook him, he would have been thrown onto the naked shore while he was censured."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 50,
+   "arabic": "فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ",
+   "translations": {
+    "en": "And his Lord chose him and made him of the righteous."
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 51,
+   "arabic": "وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا۟ لَيُزْلِقُونَكَ بِأَبْصَٰرِهِمْ لَمَّا سَمِعُوا۟ ٱلذِّكْرَ وَيَقُولُونَ إِنَّهُۥ لَمَجْنُونٌۭ",
+   "translations": {
+    "en": "And indeed, those who disbelieve would almost make you slip with their eyes when they hear the message, and they say, \"Indeed, he is mad.\""
+   }
+  },
+  {
+   "surah": 68,
+   "ayah": 52,
+   "arabic": "وَمَا هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+   "translations": {
+    "en": "But it is not except a reminder to the worlds."
+   }
+  }
+ ]
+}

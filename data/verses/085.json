@@ -1,0 +1,187 @@
+{
+ "surah": 85,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 85,
+   "ayah": 1,
+   "arabic": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+   "translations": {
+    "en": "By the sky containing great stars"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 2,
+   "arabic": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
+   "translations": {
+    "en": "And [by] the promised Day"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 3,
+   "arabic": "وَشَاهِدٍۢ وَمَشْهُودٍۢ",
+   "translations": {
+    "en": "And [by] the witness and what is witnessed,"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 4,
+   "arabic": "قُتِلَ أَصْحَٰبُ ٱلْأُخْدُودِ",
+   "translations": {
+    "en": "Cursed were the companions of the trench"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 5,
+   "arabic": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+   "translations": {
+    "en": "[Containing] the fire full of fuel,"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 6,
+   "arabic": "إِذْ هُمْ عَلَيْهَا قُعُودٌۭ",
+   "translations": {
+    "en": "When they were sitting near it"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 7,
+   "arabic": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ",
+   "translations": {
+    "en": "And they, to what they were doing against the believers, were witnesses."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 8,
+   "arabic": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+   "translations": {
+    "en": "And they resented them not except because they believed in Allah, the Exalted in Might, the Praiseworthy,"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 9,
+   "arabic": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌ",
+   "translations": {
+    "en": "To whom belongs the dominion of the heavens and the earth. And Allah, over all things, is Witness."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 10,
+   "arabic": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+   "translations": {
+    "en": "Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 11,
+   "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+   "translations": {
+    "en": "Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 12,
+   "arabic": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+   "translations": {
+    "en": "Indeed, the vengeance of your Lord is severe."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 13,
+   "arabic": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+   "translations": {
+    "en": "Indeed, it is He who originates [creation] and repeats."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 14,
+   "arabic": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+   "translations": {
+    "en": "And He is the Forgiving, the Affectionate,"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 15,
+   "arabic": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+   "translations": {
+    "en": "Honorable Owner of the Throne,"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 16,
+   "arabic": "فَعَّالٌۭ لِّمَا يُرِيدُ",
+   "translations": {
+    "en": "Effecter of what He intends."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 17,
+   "arabic": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+   "translations": {
+    "en": "Has there reached you the story of the soldiers -"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 18,
+   "arabic": "فِرْعَوْنَ وَثَمُودَ",
+   "translations": {
+    "en": "[Those of] Pharaoh and Thamud?"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 19,
+   "arabic": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍۢ",
+   "translations": {
+    "en": "But they who disbelieve are in [persistent] denial,"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 20,
+   "arabic": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+   "translations": {
+    "en": "While Allah encompasses them from behind."
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 21,
+   "arabic": "بَلْ هُوَ قُرْءَانٌۭ مَّجِيدٌۭ",
+   "translations": {
+    "en": "But this is an honored Qur'an"
+   }
+  },
+  {
+   "surah": 85,
+   "ayah": 22,
+   "arabic": "فِى لَوْحٍۢ مَّحْفُوظٍۭ",
+   "translations": {
+    "en": "[Inscribed] in a Preserved Slate."
+   }
+  }
+ ]
+}

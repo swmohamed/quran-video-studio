@@ -1,0 +1,75 @@
+{
+ "surah": 94,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 94,
+   "ayah": 1,
+   "arabic": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+   "translations": {
+    "en": "Did We not expand for you, [O Muhammad], your breast?"
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 2,
+   "arabic": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+   "translations": {
+    "en": "And We removed from you your burden"
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 3,
+   "arabic": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+   "translations": {
+    "en": "Which had weighed upon your back"
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 4,
+   "arabic": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+   "translations": {
+    "en": "And raised high for you your repute."
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 5,
+   "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+   "translations": {
+    "en": "For indeed, with hardship [will be] ease."
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 6,
+   "arabic": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+   "translations": {
+    "en": "Indeed, with hardship [will be] ease."
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 7,
+   "arabic": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+   "translations": {
+    "en": "So when you have finished [your duties], then stand up [for worship]."
+   }
+  },
+  {
+   "surah": 94,
+   "ayah": 8,
+   "arabic": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+   "translations": {
+    "en": "And to your Lord direct [your] longing."
+   }
+  }
+ ]
+}

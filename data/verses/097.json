@@ -1,0 +1,51 @@
+{
+ "surah": 97,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 97,
+   "ayah": 1,
+   "arabic": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+   "translations": {
+    "en": "Indeed, We sent the Qur'an down during the Night of Decree."
+   }
+  },
+  {
+   "surah": 97,
+   "ayah": 2,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+   "translations": {
+    "en": "And what can make you know what is the Night of Decree?"
+   }
+  },
+  {
+   "surah": 97,
+   "ayah": 3,
+   "arabic": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+   "translations": {
+    "en": "The Night of Decree is better than a thousand months."
+   }
+  },
+  {
+   "surah": 97,
+   "ayah": 4,
+   "arabic": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+   "translations": {
+    "en": "The angels and the Spirit descend therein by permission of their Lord for every matter."
+   }
+  },
+  {
+   "surah": 97,
+   "ayah": 5,
+   "arabic": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+   "translations": {
+    "en": "Peace it is until the emergence of dawn."
+   }
+  }
+ ]
+}

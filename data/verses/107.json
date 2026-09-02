@@ -1,0 +1,67 @@
+{
+ "surah": 107,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 107,
+   "ayah": 1,
+   "arabic": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+   "translations": {
+    "en": "Have you seen the one who denies the Recompense?"
+   }
+  },
+  {
+   "surah": 107,
+   "ayah": 2,
+   "arabic": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+   "translations": {
+    "en": "For that is the one who drives away the orphan"
+   }
+  },
+  {
+   "surah": 107,
+   "ayah": 3,
+   "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "translations": {
+    "en": "And does not encourage the feeding of the poor."
+   }
+  },
+  {
+   "surah": 107,
+   "ayah": 4,
+   "arabic": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
+   "translations": {
+    "en": "So woe to those who pray"
+   }
+  },
+  {
+   "surah": 107,
+   "ayah": 5,
+   "arabic": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+   "translations": {
+    "en": "[But] who are heedless of their prayer -"
+   }
+  },
+  {
+   "surah": 107,
+   "ayah": 6,
+   "arabic": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+   "translations": {
+    "en": "Those who make show [of their deeds]"
+   }
+  },
+  {
+   "surah": 107,
+   "ayah": 7,
+   "arabic": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+   "translations": {
+    "en": "And withhold [simple] assistance."
+   }
+  }
+ ]
+}

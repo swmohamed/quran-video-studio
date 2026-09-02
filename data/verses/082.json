@@ -1,0 +1,163 @@
+{
+ "surah": 82,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 82,
+   "ayah": 1,
+   "arabic": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+   "translations": {
+    "en": "When the sky breaks apart"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 2,
+   "arabic": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+   "translations": {
+    "en": "And when the stars fall, scattering,"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 3,
+   "arabic": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
+   "translations": {
+    "en": "And when the seas are erupted"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 4,
+   "arabic": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
+   "translations": {
+    "en": "And when the [contents of] graves are scattered,"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 5,
+   "arabic": "عَلِمَتْ نَفْسٌۭ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+   "translations": {
+    "en": "A soul will [then] know what it has put forth and kept back."
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 6,
+   "arabic": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+   "translations": {
+    "en": "O mankind, what has deceived you concerning your Lord, the Generous,"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 7,
+   "arabic": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+   "translations": {
+    "en": "Who created you, proportioned you, and balanced you?"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 8,
+   "arabic": "فِىٓ أَىِّ صُورَةٍۢ مَّا شَآءَ رَكَّبَكَ",
+   "translations": {
+    "en": "In whatever form He willed has He assembled you."
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 9,
+   "arabic": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
+   "translations": {
+    "en": "No! But you deny the Recompense."
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 10,
+   "arabic": "وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ",
+   "translations": {
+    "en": "And indeed, [appointed] over you are keepers,"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 11,
+   "arabic": "كِرَامًۭا كَٰتِبِينَ",
+   "translations": {
+    "en": "Noble and recording;"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 12,
+   "arabic": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+   "translations": {
+    "en": "They know whatever you do."
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 13,
+   "arabic": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ",
+   "translations": {
+    "en": "Indeed, the righteous will be in pleasure,"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 14,
+   "arabic": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ",
+   "translations": {
+    "en": "And indeed, the wicked will be in Hellfire."
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 15,
+   "arabic": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
+   "translations": {
+    "en": "They will [enter to] burn therein on the Day of Recompense,"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 16,
+   "arabic": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
+   "translations": {
+    "en": "And never therefrom will they be absent."
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 17,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+   "translations": {
+    "en": "And what can make you know what is the Day of Recompense?"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 18,
+   "arabic": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+   "translations": {
+    "en": "Then, what can make you know what is the Day of Recompense?"
+   }
+  },
+  {
+   "surah": 82,
+   "ayah": 19,
+   "arabic": "يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ",
+   "translations": {
+    "en": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allah."
+   }
+  }
+ ]
+}

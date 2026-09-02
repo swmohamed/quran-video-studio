@@ -1,0 +1,75 @@
+{
+ "surah": 102,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 102,
+   "ayah": 1,
+   "arabic": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+   "translations": {
+    "en": "Competition in [worldly] increase diverts you"
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 2,
+   "arabic": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+   "translations": {
+    "en": "Until you visit the graveyards."
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 3,
+   "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ",
+   "translations": {
+    "en": "No! You are going to know."
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 4,
+   "arabic": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+   "translations": {
+    "en": "Then no! You are going to know."
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 5,
+   "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+   "translations": {
+    "en": "No! If you only knew with knowledge of certainty..."
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 6,
+   "arabic": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+   "translations": {
+    "en": "You will surely see the Hellfire."
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 7,
+   "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+   "translations": {
+    "en": "Then you will surely see it with the eye of certainty."
+   }
+  },
+  {
+   "surah": 102,
+   "ayah": 8,
+   "arabic": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+   "translations": {
+    "en": "Then you will surely be asked that Day about pleasure."
+   }
+  }
+ ]
+}

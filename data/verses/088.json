@@ -1,0 +1,219 @@
+{
+ "surah": 88,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 88,
+   "ayah": 1,
+   "arabic": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+   "translations": {
+    "en": "Has there reached you the report of the Overwhelming [event]?"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 2,
+   "arabic": "وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ",
+   "translations": {
+    "en": "[Some] faces, that Day, will be humbled,"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 3,
+   "arabic": "عَامِلَةٌۭ نَّاصِبَةٌۭ",
+   "translations": {
+    "en": "Working [hard] and exhausted."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 4,
+   "arabic": "تَصْلَىٰ نَارًا حَامِيَةًۭ",
+   "translations": {
+    "en": "They will [enter to] burn in an intensely hot Fire."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 5,
+   "arabic": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ",
+   "translations": {
+    "en": "They will be given drink from a boiling spring."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 6,
+   "arabic": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍۢ",
+   "translations": {
+    "en": "For them there will be no food except from a poisonous, thorny plant"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 7,
+   "arabic": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍۢ",
+   "translations": {
+    "en": "Which neither nourishes nor avails against hunger."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 8,
+   "arabic": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ",
+   "translations": {
+    "en": "[Other] faces, that Day, will show pleasure."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 9,
+   "arabic": "لِّسَعْيِهَا رَاضِيَةٌۭ",
+   "translations": {
+    "en": "With their effort [they are] satisfied"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 10,
+   "arabic": "فِى جَنَّةٍ عَالِيَةٍۢ",
+   "translations": {
+    "en": "In an elevated garden,"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 11,
+   "arabic": "لَّا تَسْمَعُ فِيهَا لَٰغِيَةًۭ",
+   "translations": {
+    "en": "Wherein they will hear no unsuitable speech."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 12,
+   "arabic": "فِيهَا عَيْنٌۭ جَارِيَةٌۭ",
+   "translations": {
+    "en": "Within it is a flowing spring."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 13,
+   "arabic": "فِيهَا سُرُرٌۭ مَّرْفُوعَةٌۭ",
+   "translations": {
+    "en": "Within it are couches raised high"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 14,
+   "arabic": "وَأَكْوَابٌۭ مَّوْضُوعَةٌۭ",
+   "translations": {
+    "en": "And cups put in place"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 15,
+   "arabic": "وَنَمَارِقُ مَصْفُوفَةٌۭ",
+   "translations": {
+    "en": "And cushions lined up"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 16,
+   "arabic": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+   "translations": {
+    "en": "And carpets spread around."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 17,
+   "arabic": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+   "translations": {
+    "en": "Then do they not look at the camels - how they are created?"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 18,
+   "arabic": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+   "translations": {
+    "en": "And at the sky - how it is raised?"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 19,
+   "arabic": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+   "translations": {
+    "en": "And at the mountains - how they are erected?"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 20,
+   "arabic": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+   "translations": {
+    "en": "And at the earth - how it is spread out?"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 21,
+   "arabic": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ",
+   "translations": {
+    "en": "So remind, [O Muhammad]; you are only a reminder."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 22,
+   "arabic": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+   "translations": {
+    "en": "You are not over them a controller."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 23,
+   "arabic": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+   "translations": {
+    "en": "However, he who turns away and disbelieves -"
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 24,
+   "arabic": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+   "translations": {
+    "en": "Then Allah will punish him with the greatest punishment."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 25,
+   "arabic": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+   "translations": {
+    "en": "Indeed, to Us is their return."
+   }
+  },
+  {
+   "surah": 88,
+   "ayah": 26,
+   "arabic": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+   "translations": {
+    "en": "Then indeed, upon Us is their account."
+   }
+  }
+ ]
+}

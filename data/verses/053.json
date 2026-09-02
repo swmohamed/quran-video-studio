@@ -1,0 +1,507 @@
+{
+ "surah": 53,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 53,
+   "ayah": 1,
+   "arabic": "وَٱلنَّجْمِ إِذَا هَوَىٰ",
+   "translations": {
+    "en": "By the star when it descends,"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 2,
+   "arabic": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+   "translations": {
+    "en": "Your companion [Muhammad] has not strayed, nor has he erred,"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 3,
+   "arabic": "وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ",
+   "translations": {
+    "en": "Nor does he speak from [his own] inclination."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 4,
+   "arabic": "إِنْ هُوَ إِلَّا وَحْىٌۭ يُوحَىٰ",
+   "translations": {
+    "en": "It is not but a revelation revealed,"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 5,
+   "arabic": "عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ",
+   "translations": {
+    "en": "Taught to him by one intense in strength -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 6,
+   "arabic": "ذُو مِرَّةٍۢ فَٱسْتَوَىٰ",
+   "translations": {
+    "en": "One of soundness. And he rose to [his] true form"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 7,
+   "arabic": "وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
+   "translations": {
+    "en": "While he was in the higher [part of the] horizon."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 8,
+   "arabic": "ثُمَّ دَنَا فَتَدَلَّىٰ",
+   "translations": {
+    "en": "Then he approached and descended"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 9,
+   "arabic": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
+   "translations": {
+    "en": "And was at a distance of two bow lengths or nearer."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 10,
+   "arabic": "فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ",
+   "translations": {
+    "en": "And he revealed to His Servant what he revealed."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 11,
+   "arabic": "مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ",
+   "translations": {
+    "en": "The heart did not lie [about] what it saw."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 12,
+   "arabic": "أَفَتُمَٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
+   "translations": {
+    "en": "So will you dispute with him over what he saw?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 13,
+   "arabic": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
+   "translations": {
+    "en": "And he certainly saw him in another descent"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 14,
+   "arabic": "عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ",
+   "translations": {
+    "en": "At the Lote Tree of the Utmost Boundary -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 15,
+   "arabic": "عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ",
+   "translations": {
+    "en": "Near it is the Garden of Refuge -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 16,
+   "arabic": "إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ",
+   "translations": {
+    "en": "When there covered the Lote Tree that which covered [it]."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 17,
+   "arabic": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ",
+   "translations": {
+    "en": "The sight [of the Prophet] did not swerve, nor did it transgress [its limit]."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 18,
+   "arabic": "لَقَدْ رَأَىٰ مِنْ ءَايَٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ",
+   "translations": {
+    "en": "He certainly saw of the greatest signs of his Lord."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 19,
+   "arabic": "أَفَرَءَيْتُمُ ٱللَّٰتَ وَٱلْعُزَّىٰ",
+   "translations": {
+    "en": "So have you considered al-Lat and al-'Uzza?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 20,
+   "arabic": "وَمَنَوٰةَ ٱلثَّالِثَةَ ٱلْأُخْرَىٰٓ",
+   "translations": {
+    "en": "And Manat, the third - the other one?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 21,
+   "arabic": "أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ",
+   "translations": {
+    "en": "Is the male for you and for Him the female?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 22,
+   "arabic": "تِلْكَ إِذًۭا قِسْمَةٌۭ ضِيزَىٰٓ",
+   "translations": {
+    "en": "That, then, is an unjust division."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 23,
+   "arabic": "إِنْ هِىَ إِلَّآ أَسْمَآءٌۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ",
+   "translations": {
+    "en": "They are not but [mere] names you have named them - you and your forefathers - for which Allah has sent down no authority. They follow not except assumption and what [their] souls desire, and there has already come to them from their Lord guidance."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 24,
+   "arabic": "أَمْ لِلْإِنسَٰنِ مَا تَمَنَّىٰ",
+   "translations": {
+    "en": "Or is there for man whatever he wishes?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 25,
+   "arabic": "فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ",
+   "translations": {
+    "en": "Rather, to Allah belongs the Hereafter and the first [life]."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 26,
+   "arabic": "۞ وَكَم مِّن مَّلَكٍۢ فِى ٱلسَّمَٰوَٰتِ لَا تُغْنِى شَفَٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰٓ",
+   "translations": {
+    "en": "And how many angels there are in the heavens whose intercession will not avail at all except [only] after Allah has permitted [it] to whom He wills and approves."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 27,
+   "arabic": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ لَيُسَمُّونَ ٱلْمَلَٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ",
+   "translations": {
+    "en": "Indeed, those who do not believe in the Hereafter name the angels female names,"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 28,
+   "arabic": "وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًۭٔا",
+   "translations": {
+    "en": "And they have thereof no knowledge. They follow not except assumption, and indeed, assumption avails not against the truth at all."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 29,
+   "arabic": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+   "translations": {
+    "en": "So turn away from whoever turns his back on Our message and desires not except the worldly life."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 30,
+   "arabic": "ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ",
+   "translations": {
+    "en": "That is their sum of knowledge. Indeed, your Lord is most knowing of who strays from His way, and He is most knowing of who is guided."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 31,
+   "arabic": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى",
+   "translations": {
+    "en": "And to Allah belongs whatever is in the heavens and whatever is in the earth - that He may recompense those who do evil with [the penalty of] what they have done and recompense those who do good with the best [reward] -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 32,
+   "arabic": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌۭ فِى بُطُونِ أُمَّهَٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+   "translations": {
+    "en": "Those who avoid the major sins and immoralities, only [committing] slight ones. Indeed, your Lord is vast in forgiveness. He was most knowing of you when He produced you from the earth and when you were fetuses in the wombs of your mothers. So do not claim yourselves to be pure; He is most knowing of who fears Him."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 33,
+   "arabic": "أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ",
+   "translations": {
+    "en": "Have you seen the one who turned away"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 34,
+   "arabic": "وَأَعْطَىٰ قَلِيلًۭا وَأَكْدَىٰٓ",
+   "translations": {
+    "en": "And gave a little and [then] refrained?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 35,
+   "arabic": "أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ",
+   "translations": {
+    "en": "Does he have knowledge of the unseen, so he sees?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 36,
+   "arabic": "أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ",
+   "translations": {
+    "en": "Or has he not been informed of what was in the scriptures of Moses"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 37,
+   "arabic": "وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ",
+   "translations": {
+    "en": "And [of] Abraham, who fulfilled [his obligations] -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 38,
+   "arabic": "أَلَّا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ",
+   "translations": {
+    "en": "That no bearer of burdens will bear the burden of another"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 39,
+   "arabic": "وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا سَعَىٰ",
+   "translations": {
+    "en": "And that there is not for man except that [good] for which he strives"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 40,
+   "arabic": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+   "translations": {
+    "en": "And that his effort is going to be seen -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 41,
+   "arabic": "ثُمَّ يُجْزَىٰهُ ٱلْجَزَآءَ ٱلْأَوْفَىٰ",
+   "translations": {
+    "en": "Then he will be recompensed for it with the fullest recompense"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 42,
+   "arabic": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
+   "translations": {
+    "en": "And that to your Lord is the finality"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 43,
+   "arabic": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+   "translations": {
+    "en": "And that it is He who makes [one] laugh and weep"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 44,
+   "arabic": "وَأَنَّهُۥ هُوَ أَمَاتَ وَأَحْيَا",
+   "translations": {
+    "en": "And that it is He who causes death and gives life"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 45,
+   "arabic": "وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
+   "translations": {
+    "en": "And that He creates the two mates - the male and female -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 46,
+   "arabic": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
+   "translations": {
+    "en": "From a sperm-drop when it is emitted"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 47,
+   "arabic": "وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلْأُخْرَىٰ",
+   "translations": {
+    "en": "And that [incumbent] upon Him is the next creation"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 48,
+   "arabic": "وَأَنَّهُۥ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
+   "translations": {
+    "en": "And that it is He who enriches and suffices"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 49,
+   "arabic": "وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ",
+   "translations": {
+    "en": "And that it is He who is the Lord of Sirius"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 50,
+   "arabic": "وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ",
+   "translations": {
+    "en": "And that He destroyed the first [people of] 'Aad"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 51,
+   "arabic": "وَثَمُودَا۟ فَمَآ أَبْقَىٰ",
+   "translations": {
+    "en": "And Thamud - and He did not spare [them] -"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 52,
+   "arabic": "وَقَوْمَ نُوحٍۢ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ",
+   "translations": {
+    "en": "And the people of Noah before. Indeed, it was they who were [even] more unjust and oppressing."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 53,
+   "arabic": "وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ",
+   "translations": {
+    "en": "And the overturned towns He hurled down"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 54,
+   "arabic": "فَغَشَّىٰهَا مَا غَشَّىٰ",
+   "translations": {
+    "en": "And covered them by that which He covered."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 55,
+   "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكَ تَتَمَارَىٰ",
+   "translations": {
+    "en": "Then which of the favors of your Lord do you doubt?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 56,
+   "arabic": "هَٰذَا نَذِيرٌۭ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ",
+   "translations": {
+    "en": "This [Prophet] is a warner like the former warners."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 57,
+   "arabic": "أَزِفَتِ ٱلْءَازِفَةُ",
+   "translations": {
+    "en": "The Approaching Day has approached."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 58,
+   "arabic": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ",
+   "translations": {
+    "en": "Of it, [from those] besides Allah, there is no remover."
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 59,
+   "arabic": "أَفَمِنْ هَٰذَا ٱلْحَدِيثِ تَعْجَبُونَ",
+   "translations": {
+    "en": "Then at this statement do you wonder?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 60,
+   "arabic": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+   "translations": {
+    "en": "And you laugh and do not weep"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 61,
+   "arabic": "وَأَنتُمْ سَٰمِدُونَ",
+   "translations": {
+    "en": "While you are proudly sporting?"
+   }
+  },
+  {
+   "surah": 53,
+   "ayah": 62,
+   "arabic": "فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩",
+   "translations": {
+    "en": "So prostrate to Allah and worship [Him]."
+   }
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "surah": 109,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 109,
+   "ayah": 1,
+   "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+   "translations": {
+    "en": "Say, \"O disbelievers,"
+   }
+  },
+  {
+   "surah": 109,
+   "ayah": 2,
+   "arabic": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+   "translations": {
+    "en": "I do not worship what you worship."
+   }
+  },
+  {
+   "surah": 109,
+   "ayah": 3,
+   "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+   "translations": {
+    "en": "Nor are you worshippers of what I worship."
+   }
+  },
+  {
+   "surah": 109,
+   "ayah": 4,
+   "arabic": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
+   "translations": {
+    "en": "Nor will I be a worshipper of what you worship."
+   }
+  },
+  {
+   "surah": 109,
+   "ayah": 5,
+   "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+   "translations": {
+    "en": "Nor will you be worshippers of what I worship."
+   }
+  },
+  {
+   "surah": 109,
+   "ayah": 6,
+   "arabic": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+   "translations": {
+    "en": "For you is your religion, and for me is my religion.\""
+   }
+  }
+ ]
+}

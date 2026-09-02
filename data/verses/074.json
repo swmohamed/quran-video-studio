@@ -1,0 +1,459 @@
+{
+ "surah": 74,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 74,
+   "ayah": 1,
+   "arabic": "يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
+   "translations": {
+    "en": "O you who covers himself [with a garment],"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 2,
+   "arabic": "قُمْ فَأَنذِرْ",
+   "translations": {
+    "en": "Arise and warn"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 3,
+   "arabic": "وَرَبَّكَ فَكَبِّرْ",
+   "translations": {
+    "en": "And your Lord glorify"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 4,
+   "arabic": "وَثِيَابَكَ فَطَهِّرْ",
+   "translations": {
+    "en": "And your clothing purify"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 5,
+   "arabic": "وَٱلرُّجْزَ فَٱهْجُرْ",
+   "translations": {
+    "en": "And uncleanliness avoid"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 6,
+   "arabic": "وَلَا تَمْنُن تَسْتَكْثِرُ",
+   "translations": {
+    "en": "And do not confer favor to acquire more"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 7,
+   "arabic": "وَلِرَبِّكَ فَٱصْبِرْ",
+   "translations": {
+    "en": "But for your Lord be patient."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 8,
+   "arabic": "فَإِذَا نُقِرَ فِى ٱلنَّاقُورِ",
+   "translations": {
+    "en": "And when the trumpet is blown,"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 9,
+   "arabic": "فَذَٰلِكَ يَوْمَئِذٍۢ يَوْمٌ عَسِيرٌ",
+   "translations": {
+    "en": "That Day will be a difficult day"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 10,
+   "arabic": "عَلَى ٱلْكَٰفِرِينَ غَيْرُ يَسِيرٍۢ",
+   "translations": {
+    "en": "For the disbelievers - not easy."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 11,
+   "arabic": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًۭا",
+   "translations": {
+    "en": "Leave Me with the one I created alone"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 12,
+   "arabic": "وَجَعَلْتُ لَهُۥ مَالًۭا مَّمْدُودًۭا",
+   "translations": {
+    "en": "And to whom I granted extensive wealth"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 13,
+   "arabic": "وَبَنِينَ شُهُودًۭا",
+   "translations": {
+    "en": "And children present [with him]"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 14,
+   "arabic": "وَمَهَّدتُّ لَهُۥ تَمْهِيدًۭا",
+   "translations": {
+    "en": "And spread [everything] before him, easing [his life]."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 15,
+   "arabic": "ثُمَّ يَطْمَعُ أَنْ أَزِيدَ",
+   "translations": {
+    "en": "Then he desires that I should add more."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 16,
+   "arabic": "كَلَّآ ۖ إِنَّهُۥ كَانَ لِءَايَٰتِنَا عَنِيدًۭا",
+   "translations": {
+    "en": "No! Indeed, he has been toward Our verses obstinate."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 17,
+   "arabic": "سَأُرْهِقُهُۥ صَعُودًا",
+   "translations": {
+    "en": "I will cover him with arduous torment."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 18,
+   "arabic": "إِنَّهُۥ فَكَّرَ وَقَدَّرَ",
+   "translations": {
+    "en": "Indeed, he thought and deliberated."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 19,
+   "arabic": "فَقُتِلَ كَيْفَ قَدَّرَ",
+   "translations": {
+    "en": "So may he be destroyed [for] how he deliberated."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 20,
+   "arabic": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ",
+   "translations": {
+    "en": "Then may he be destroyed [for] how he deliberated."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 21,
+   "arabic": "ثُمَّ نَظَرَ",
+   "translations": {
+    "en": "Then he considered [again];"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 22,
+   "arabic": "ثُمَّ عَبَسَ وَبَسَرَ",
+   "translations": {
+    "en": "Then he frowned and scowled;"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 23,
+   "arabic": "ثُمَّ أَدْبَرَ وَٱسْتَكْبَرَ",
+   "translations": {
+    "en": "Then he turned back and was arrogant"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 24,
+   "arabic": "فَقَالَ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ يُؤْثَرُ",
+   "translations": {
+    "en": "And said, \"This is not but magic imitated [from others]."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 25,
+   "arabic": "إِنْ هَٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ",
+   "translations": {
+    "en": "This is not but the word of a human being.\""
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 26,
+   "arabic": "سَأُصْلِيهِ سَقَرَ",
+   "translations": {
+    "en": "I will drive him into Saqar."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 27,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا سَقَرُ",
+   "translations": {
+    "en": "And what can make you know what is Saqar?"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 28,
+   "arabic": "لَا تُبْقِى وَلَا تَذَرُ",
+   "translations": {
+    "en": "It lets nothing remain and leaves nothing [unburned],"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 29,
+   "arabic": "لَوَّاحَةٌۭ لِّلْبَشَرِ",
+   "translations": {
+    "en": "Blackening the skins."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 30,
+   "arabic": "عَلَيْهَا تِسْعَةَ عَشَرَ",
+   "translations": {
+    "en": "Over it are nineteen [angels]."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 31,
+   "arabic": "وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةًۭ ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَٰنًۭا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
+   "translations": {
+    "en": "And We have not made the keepers of the Fire except angels. And We have not made their number except as a trial for those who disbelieve - that those who were given the Scripture will be convinced and those who have believed will increase in faith and those who were given the Scripture and the believers will not doubt and that those in whose hearts is hypocrisy and the disbelievers will say, \"What does Allah intend by this as an example?\" Thus does Allah leave astray whom He wills and guides whom He wills. And none knows the soldiers of your Lord except Him. And mention of the Fire is not but a reminder to humanity."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 32,
+   "arabic": "كَلَّا وَٱلْقَمَرِ",
+   "translations": {
+    "en": "No! By the moon"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 33,
+   "arabic": "وَٱلَّيْلِ إِذْ أَدْبَرَ",
+   "translations": {
+    "en": "And [by] the night when it departs"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 34,
+   "arabic": "وَٱلصُّبْحِ إِذَآ أَسْفَرَ",
+   "translations": {
+    "en": "And [by] the morning when it brightens,"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 35,
+   "arabic": "إِنَّهَا لَإِحْدَى ٱلْكُبَرِ",
+   "translations": {
+    "en": "Indeed, the Fire is of the greatest [afflictions]"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 36,
+   "arabic": "نَذِيرًۭا لِّلْبَشَرِ",
+   "translations": {
+    "en": "As a warning to humanity -"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 37,
+   "arabic": "لِمَن شَآءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ",
+   "translations": {
+    "en": "To whoever wills among you to proceed or stay behind."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 38,
+   "arabic": "كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ رَهِينَةٌ",
+   "translations": {
+    "en": "Every soul, for what it has earned, will be retained"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 39,
+   "arabic": "إِلَّآ أَصْحَٰبَ ٱلْيَمِينِ",
+   "translations": {
+    "en": "Except the companions of the right,"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 40,
+   "arabic": "فِى جَنَّٰتٍۢ يَتَسَآءَلُونَ",
+   "translations": {
+    "en": "[Who will be] in gardens, questioning each other"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 41,
+   "arabic": "عَنِ ٱلْمُجْرِمِينَ",
+   "translations": {
+    "en": "About the criminals,"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 42,
+   "arabic": "مَا سَلَكَكُمْ فِى سَقَرَ",
+   "translations": {
+    "en": "[And asking them], \"What put you into Saqar?\""
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 43,
+   "arabic": "قَالُوا۟ لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
+   "translations": {
+    "en": "They will say, \"We were not of those who prayed,"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 44,
+   "arabic": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
+   "translations": {
+    "en": "Nor did we used to feed the poor."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 45,
+   "arabic": "وَكُنَّا نَخُوضُ مَعَ ٱلْخَآئِضِينَ",
+   "translations": {
+    "en": "And we used to enter into vain discourse with those who engaged [in it],"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 46,
+   "arabic": "وَكُنَّا نُكَذِّبُ بِيَوْمِ ٱلدِّينِ",
+   "translations": {
+    "en": "And we used to deny the Day of Recompense"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 47,
+   "arabic": "حَتَّىٰٓ أَتَىٰنَا ٱلْيَقِينُ",
+   "translations": {
+    "en": "Until there came to us the certainty.\""
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 48,
+   "arabic": "فَمَا تَنفَعُهُمْ شَفَٰعَةُ ٱلشَّٰفِعِينَ",
+   "translations": {
+    "en": "So there will not benefit them the intercession of [any] intercessors."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 49,
+   "arabic": "فَمَا لَهُمْ عَنِ ٱلتَّذْكِرَةِ مُعْرِضِينَ",
+   "translations": {
+    "en": "Then what is [the matter] with them that they are, from the reminder, turning away"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 50,
+   "arabic": "كَأَنَّهُمْ حُمُرٌۭ مُّسْتَنفِرَةٌۭ",
+   "translations": {
+    "en": "As if they were alarmed donkeys"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 51,
+   "arabic": "فَرَّتْ مِن قَسْوَرَةٍۭ",
+   "translations": {
+    "en": "Fleeing from a lion?"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 52,
+   "arabic": "بَلْ يُرِيدُ كُلُّ ٱمْرِئٍۢ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًۭا مُّنَشَّرَةًۭ",
+   "translations": {
+    "en": "Rather, every person among them desires that he would be given scriptures spread about."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 53,
+   "arabic": "كَلَّا ۖ بَل لَّا يَخَافُونَ ٱلْءَاخِرَةَ",
+   "translations": {
+    "en": "No! But they do not fear the Hereafter."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 54,
+   "arabic": "كَلَّآ إِنَّهُۥ تَذْكِرَةٌۭ",
+   "translations": {
+    "en": "No! Indeed, the Qur'an is a reminder"
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 55,
+   "arabic": "فَمَن شَآءَ ذَكَرَهُۥ",
+   "translations": {
+    "en": "Then whoever wills will remember it."
+   }
+  },
+  {
+   "surah": 74,
+   "ayah": 56,
+   "arabic": "وَمَا يَذْكُرُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ هُوَ أَهْلُ ٱلتَّقْوَىٰ وَأَهْلُ ٱلْمَغْفِرَةِ",
+   "translations": {
+    "en": "And they will not remember except that Allah wills. He is worthy of fear and adequate for [granting] forgiveness."
+   }
+  }
+ ]
+}

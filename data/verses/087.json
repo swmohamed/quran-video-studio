@@ -1,0 +1,163 @@
+{
+ "surah": 87,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 87,
+   "ayah": 1,
+   "arabic": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+   "translations": {
+    "en": "Exalt the name of your Lord, the Most High,"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 2,
+   "arabic": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+   "translations": {
+    "en": "Who created and proportioned"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 3,
+   "arabic": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+   "translations": {
+    "en": "And who destined and [then] guided"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 4,
+   "arabic": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+   "translations": {
+    "en": "And who brings out the pasture"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 5,
+   "arabic": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+   "translations": {
+    "en": "And [then] makes it black stubble."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 6,
+   "arabic": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+   "translations": {
+    "en": "We will make you recite, [O Muhammad], and you will not forget,"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 7,
+   "arabic": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+   "translations": {
+    "en": "Except what Allah should will. Indeed, He knows what is declared and what is hidden."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 8,
+   "arabic": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+   "translations": {
+    "en": "And We will ease you toward ease."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 9,
+   "arabic": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+   "translations": {
+    "en": "So remind, if the reminder should benefit;"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 10,
+   "arabic": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+   "translations": {
+    "en": "He who fears [Allah] will be reminded."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 11,
+   "arabic": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+   "translations": {
+    "en": "But the wretched one will avoid it -"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 12,
+   "arabic": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+   "translations": {
+    "en": "[He] who will [enter and] burn in the greatest Fire,"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 13,
+   "arabic": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+   "translations": {
+    "en": "Neither dying therein nor living."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 14,
+   "arabic": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+   "translations": {
+    "en": "He has certainly succeeded who purifies himself"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 15,
+   "arabic": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+   "translations": {
+    "en": "And mentions the name of his Lord and prays."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 16,
+   "arabic": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+   "translations": {
+    "en": "But you prefer the worldly life,"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 17,
+   "arabic": "وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ",
+   "translations": {
+    "en": "While the Hereafter is better and more enduring."
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 18,
+   "arabic": "إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+   "translations": {
+    "en": "Indeed, this is in the former scriptures,"
+   }
+  },
+  {
+   "surah": 87,
+   "ayah": 19,
+   "arabic": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+   "translations": {
+    "en": "The scriptures of Abraham and Moses."
+   }
+  }
+ ]
+}

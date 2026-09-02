@@ -1,0 +1,75 @@
+{
+ "surah": 99,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 99,
+   "ayah": 1,
+   "arabic": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+   "translations": {
+    "en": "When the earth is shaken with its [final] earthquake"
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 2,
+   "arabic": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+   "translations": {
+    "en": "And the earth discharges its burdens"
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 3,
+   "arabic": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+   "translations": {
+    "en": "And man says, \"What is [wrong] with it?\" -"
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 4,
+   "arabic": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+   "translations": {
+    "en": "That Day, it will report its news"
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 5,
+   "arabic": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+   "translations": {
+    "en": "Because your Lord has commanded it."
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 6,
+   "arabic": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+   "translations": {
+    "en": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds."
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 7,
+   "arabic": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+   "translations": {
+    "en": "So whoever does an atom's weight of good will see it,"
+   }
+  },
+  {
+   "surah": 99,
+   "ayah": 8,
+   "arabic": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+   "translations": {
+    "en": "And whoever does an atom's weight of evil will see it."
+   }
+  }
+ ]
+}

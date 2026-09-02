@@ -1,0 +1,99 @@
+{
+ "surah": 93,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 93,
+   "ayah": 1,
+   "arabic": "وَٱلضُّحَىٰ",
+   "translations": {
+    "en": "By the morning brightness"
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 2,
+   "arabic": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+   "translations": {
+    "en": "And [by] the night when it covers with darkness,"
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 3,
+   "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+   "translations": {
+    "en": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]."
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 4,
+   "arabic": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
+   "translations": {
+    "en": "And the Hereafter is better for you than the first [life]."
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 5,
+   "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+   "translations": {
+    "en": "And your Lord is going to give you, and you will be satisfied."
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 6,
+   "arabic": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+   "translations": {
+    "en": "Did He not find you an orphan and give [you] refuge?"
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 7,
+   "arabic": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+   "translations": {
+    "en": "And He found you lost and guided [you],"
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 8,
+   "arabic": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+   "translations": {
+    "en": "And He found you poor and made [you] self-sufficient."
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 9,
+   "arabic": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+   "translations": {
+    "en": "So as for the orphan, do not oppress [him]."
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 10,
+   "arabic": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+   "translations": {
+    "en": "And as for the petitioner, do not repel [him]."
+   }
+  },
+  {
+   "surah": 93,
+   "ayah": 11,
+   "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+   "translations": {
+    "en": "But as for the favor of your Lord, report [it]."
+   }
+  }
+ ]
+}

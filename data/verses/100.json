@@ -1,0 +1,99 @@
+{
+ "surah": 100,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 100,
+   "ayah": 1,
+   "arabic": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+   "translations": {
+    "en": "By the racers, panting,"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 2,
+   "arabic": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+   "translations": {
+    "en": "And the producers of sparks [when] striking"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 3,
+   "arabic": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+   "translations": {
+    "en": "And the chargers at dawn,"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 4,
+   "arabic": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+   "translations": {
+    "en": "Stirring up thereby [clouds of] dust,"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 5,
+   "arabic": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+   "translations": {
+    "en": "Arriving thereby in the center collectively,"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 6,
+   "arabic": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+   "translations": {
+    "en": "Indeed mankind, to his Lord, is ungrateful."
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 7,
+   "arabic": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+   "translations": {
+    "en": "And indeed, he is to that a witness."
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 8,
+   "arabic": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+   "translations": {
+    "en": "And indeed he is, in love of wealth, intense."
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 9,
+   "arabic": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+   "translations": {
+    "en": "But does he not know that when the contents of the graves are scattered"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 10,
+   "arabic": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+   "translations": {
+    "en": "And that within the breasts is obtained,"
+   }
+  },
+  {
+   "surah": 100,
+   "ayah": 11,
+   "arabic": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+   "translations": {
+    "en": "Indeed, their Lord with them, that Day, is [fully] Acquainted."
+   }
+  }
+ ]
+}

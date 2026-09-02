@@ -1,0 +1,411 @@
+{
+ "surah": 77,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 77,
+   "ayah": 1,
+   "arabic": "وَٱلْمُرْسَلَٰتِ عُرْفًۭا",
+   "translations": {
+    "en": "By those [winds] sent forth in gusts"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 2,
+   "arabic": "فَٱلْعَٰصِفَٰتِ عَصْفًۭا",
+   "translations": {
+    "en": "And the winds that blow violently"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 3,
+   "arabic": "وَٱلنَّٰشِرَٰتِ نَشْرًۭا",
+   "translations": {
+    "en": "And [by] the winds that spread [clouds]"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 4,
+   "arabic": "فَٱلْفَٰرِقَٰتِ فَرْقًۭا",
+   "translations": {
+    "en": "And those [angels] who bring criterion"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 5,
+   "arabic": "فَٱلْمُلْقِيَٰتِ ذِكْرًا",
+   "translations": {
+    "en": "And those [angels] who deliver a message"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 6,
+   "arabic": "عُذْرًا أَوْ نُذْرًا",
+   "translations": {
+    "en": "As justification or warning,"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 7,
+   "arabic": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌۭ",
+   "translations": {
+    "en": "Indeed, what you are promised is to occur."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 8,
+   "arabic": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+   "translations": {
+    "en": "So when the stars are obliterated"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 9,
+   "arabic": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+   "translations": {
+    "en": "And when the heaven is opened"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 10,
+   "arabic": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+   "translations": {
+    "en": "And when the mountains are blown away"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 11,
+   "arabic": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+   "translations": {
+    "en": "And when the messengers' time has come..."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 12,
+   "arabic": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+   "translations": {
+    "en": "For what Day was it postponed?"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 13,
+   "arabic": "لِيَوْمِ ٱلْفَصْلِ",
+   "translations": {
+    "en": "For the Day of Judgement."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 14,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+   "translations": {
+    "en": "And what can make you know what is the Day of Judgement?"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 15,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 16,
+   "arabic": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "Did We not destroy the former peoples?"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 17,
+   "arabic": "ثُمَّ نُتْبِعُهُمُ ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "Then We will follow them with the later ones."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 18,
+   "arabic": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+   "translations": {
+    "en": "Thus do We deal with the criminals."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 19,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 20,
+   "arabic": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍۢ مَّهِينٍۢ",
+   "translations": {
+    "en": "Did We not create you from a liquid disdained?"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 21,
+   "arabic": "فَجَعَلْنَٰهُ فِى قَرَارٍۢ مَّكِينٍ",
+   "translations": {
+    "en": "And We placed it in a firm lodging"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 22,
+   "arabic": "إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ",
+   "translations": {
+    "en": "For a known extent."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 23,
+   "arabic": "فَقَدَرْنَا فَنِعْمَ ٱلْقَٰدِرُونَ",
+   "translations": {
+    "en": "And We determined [it], and excellent [are We] to determine."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 24,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 25,
+   "arabic": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+   "translations": {
+    "en": "Have We not made the earth a container"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 26,
+   "arabic": "أَحْيَآءًۭ وَأَمْوَٰتًۭا",
+   "translations": {
+    "en": "Of the living and the dead?"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 27,
+   "arabic": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَٰمِخَٰتٍۢ وَأَسْقَيْنَٰكُم مَّآءًۭ فُرَاتًۭا",
+   "translations": {
+    "en": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 28,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 29,
+   "arabic": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
+   "translations": {
+    "en": "[They will be told], \"Proceed to that which you used to deny."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 30,
+   "arabic": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّۢ ذِى ثَلَٰثِ شُعَبٍۢ",
+   "translations": {
+    "en": "Proceed to a shadow [of smoke] having three columns"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 31,
+   "arabic": "لَّا ظَلِيلٍۢ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+   "translations": {
+    "en": "[But having] no cool shade and availing not against the flame.\""
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 32,
+   "arabic": "إِنَّهَا تَرْمِى بِشَرَرٍۢ كَٱلْقَصْرِ",
+   "translations": {
+    "en": "Indeed, it throws sparks [as huge] as a fortress,"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 33,
+   "arabic": "كَأَنَّهُۥ جِمَٰلَتٌۭ صُفْرٌۭ",
+   "translations": {
+    "en": "As if they were yellowish [black] camels."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 34,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 35,
+   "arabic": "هَٰذَا يَوْمُ لَا يَنطِقُونَ",
+   "translations": {
+    "en": "This is a Day they will not speak,"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 36,
+   "arabic": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+   "translations": {
+    "en": "Nor will it be permitted for them to make an excuse."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 37,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 38,
+   "arabic": "هَٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَٰكُمْ وَٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "This is the Day of Judgement; We will have assembled you and the former peoples."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 39,
+   "arabic": "فَإِن كَانَ لَكُمْ كَيْدٌۭ فَكِيدُونِ",
+   "translations": {
+    "en": "So if you have a plan, then plan against Me."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 40,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 41,
+   "arabic": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَٰلٍۢ وَعُيُونٍۢ",
+   "translations": {
+    "en": "Indeed, the righteous will be among shades and springs"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 42,
+   "arabic": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
+   "translations": {
+    "en": "And fruits from whatever they desire,"
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 43,
+   "arabic": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+   "translations": {
+    "en": "[Being told], \"Eat and drink in satisfaction for what you used to do.\""
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 44,
+   "arabic": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+   "translations": {
+    "en": "Indeed, We thus reward the doers of good."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 45,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 46,
+   "arabic": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+   "translations": {
+    "en": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 47,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 48,
+   "arabic": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+   "translations": {
+    "en": "And when it is said to them, \"Bow [in prayer],\" they do not bow."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 49,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers."
+   }
+  },
+  {
+   "surah": 77,
+   "ayah": 50,
+   "arabic": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+   "translations": {
+    "en": "Then in what statement after the Qur'an will they believe?"
+   }
+  }
+ ]
+}

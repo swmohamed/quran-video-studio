@@ -1,0 +1,1467 @@
+{
+ "surah": 37,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 37,
+   "ayah": 1,
+   "arabic": "وَٱلصَّٰٓفَّٰتِ صَفًّۭا",
+   "translations": {
+    "en": "By those [angels] lined up in rows"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 2,
+   "arabic": "فَٱلزَّٰجِرَٰتِ زَجْرًۭا",
+   "translations": {
+    "en": "And those who drive [the clouds]"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 3,
+   "arabic": "فَٱلتَّٰلِيَٰتِ ذِكْرًا",
+   "translations": {
+    "en": "And those who recite the message,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 4,
+   "arabic": "إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ",
+   "translations": {
+    "en": "Indeed, your God is One,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 5,
+   "arabic": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ",
+   "translations": {
+    "en": "Lord of the heavens and the earth and that between them and Lord of the sunrises."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 6,
+   "arabic": "إِنَّا زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِزِينَةٍ ٱلْكَوَاكِبِ",
+   "translations": {
+    "en": "Indeed, We have adorned the nearest heaven with an adornment of stars"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 7,
+   "arabic": "وَحِفْظًۭا مِّن كُلِّ شَيْطَٰنٍۢ مَّارِدٍۢ",
+   "translations": {
+    "en": "And as protection against every rebellious devil"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 8,
+   "arabic": "لَّا يَسَّمَّعُونَ إِلَى ٱلْمَلَإِ ٱلْأَعْلَىٰ وَيُقْذَفُونَ مِن كُلِّ جَانِبٍۢ",
+   "translations": {
+    "en": "[So] they may not listen to the exalted assembly [of angels] and are pelted from every side,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 9,
+   "arabic": "دُحُورًۭا ۖ وَلَهُمْ عَذَابٌۭ وَاصِبٌ",
+   "translations": {
+    "en": "Repelled; and for them is a constant punishment,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 10,
+   "arabic": "إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌۭ ثَاقِبٌۭ",
+   "translations": {
+    "en": "Except one who snatches [some words] by theft, but they are pursued by a burning flame, piercing [in brightness]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 11,
+   "arabic": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَٰهُم مِّن طِينٍۢ لَّازِبٍۭ",
+   "translations": {
+    "en": "Then inquire of them, [O Muhammad], \"Are they a stronger [or more difficult] creation or those [others] We have created?\" Indeed, We created men from sticky clay."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 12,
+   "arabic": "بَلْ عَجِبْتَ وَيَسْخَرُونَ",
+   "translations": {
+    "en": "But you wonder, while they mock,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 13,
+   "arabic": "وَإِذَا ذُكِّرُوا۟ لَا يَذْكُرُونَ",
+   "translations": {
+    "en": "And when they are reminded, they remember not."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 14,
+   "arabic": "وَإِذَا رَأَوْا۟ ءَايَةًۭ يَسْتَسْخِرُونَ",
+   "translations": {
+    "en": "And when they see a sign, they ridicule"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 15,
+   "arabic": "وَقَالُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌ",
+   "translations": {
+    "en": "And say, \"This is not but obvious magic."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 16,
+   "arabic": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+   "translations": {
+    "en": "When we have died and become dust and bones, are we indeed to be resurrected?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 17,
+   "arabic": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+   "translations": {
+    "en": "And our forefathers [as well]?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 18,
+   "arabic": "قُلْ نَعَمْ وَأَنتُمْ دَٰخِرُونَ",
+   "translations": {
+    "en": "Say, \"Yes, and you will be [rendered] contemptible.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 19,
+   "arabic": "فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ فَإِذَا هُمْ يَنظُرُونَ",
+   "translations": {
+    "en": "It will be only one shout, and at once they will be observing."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 20,
+   "arabic": "وَقَالُوا۟ يَٰوَيْلَنَا هَٰذَا يَوْمُ ٱلدِّينِ",
+   "translations": {
+    "en": "They will say, \"O woe to us! This is the Day of Recompense.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 21,
+   "arabic": "هَٰذَا يَوْمُ ٱلْفَصْلِ ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+   "translations": {
+    "en": "[They will be told], \"This is the Day of Judgement which you used to deny.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 22,
+   "arabic": "۞ ٱحْشُرُوا۟ ٱلَّذِينَ ظَلَمُوا۟ وَأَزْوَٰجَهُمْ وَمَا كَانُوا۟ يَعْبُدُونَ",
+   "translations": {
+    "en": "[The angels will be ordered], \"Gather those who committed wrong, their kinds, and what they used to worship"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 23,
+   "arabic": "مِن دُونِ ٱللَّهِ فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ",
+   "translations": {
+    "en": "Other than Allah, and guide them to the path of Hellfire"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 24,
+   "arabic": "وَقِفُوهُمْ ۖ إِنَّهُم مَّسْـُٔولُونَ",
+   "translations": {
+    "en": "And stop them; indeed, they are to be questioned.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 25,
+   "arabic": "مَا لَكُمْ لَا تَنَاصَرُونَ",
+   "translations": {
+    "en": "[They will be asked], \"What is [wrong] with you? Why do you not help each other?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 26,
+   "arabic": "بَلْ هُمُ ٱلْيَوْمَ مُسْتَسْلِمُونَ",
+   "translations": {
+    "en": "But they, that Day, are in surrender."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 27,
+   "arabic": "وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ",
+   "translations": {
+    "en": "And they will approach one another blaming each other."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 28,
+   "arabic": "قَالُوٓا۟ إِنَّكُمْ كُنتُمْ تَأْتُونَنَا عَنِ ٱلْيَمِينِ",
+   "translations": {
+    "en": "They will say, \"Indeed, you used to come at us from the right.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 29,
+   "arabic": "قَالُوا۟ بَل لَّمْ تَكُونُوا۟ مُؤْمِنِينَ",
+   "translations": {
+    "en": "The oppressors will say, \"Rather, you [yourselves] were not believers,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 30,
+   "arabic": "وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ",
+   "translations": {
+    "en": "And we had over you no authority, but you were a transgressing people."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 31,
+   "arabic": "فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ ۖ إِنَّا لَذَآئِقُونَ",
+   "translations": {
+    "en": "So the word of our Lord has come into effect upon us; indeed, we will taste [punishment]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 32,
+   "arabic": "فَأَغْوَيْنَٰكُمْ إِنَّا كُنَّا غَٰوِينَ",
+   "translations": {
+    "en": "And we led you to deviation; indeed, we were deviators.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 33,
+   "arabic": "فَإِنَّهُمْ يَوْمَئِذٍۢ فِى ٱلْعَذَابِ مُشْتَرِكُونَ",
+   "translations": {
+    "en": "So indeed they, that Day, will be sharing in the punishment."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 34,
+   "arabic": "إِنَّا كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+   "translations": {
+    "en": "Indeed, that is how We deal with the criminals."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 35,
+   "arabic": "إِنَّهُمْ كَانُوٓا۟ إِذَا قِيلَ لَهُمْ لَآ إِلَٰهَ إِلَّا ٱللَّهُ يَسْتَكْبِرُونَ",
+   "translations": {
+    "en": "Indeed they, when it was said to them, \"There is no deity but Allah,\" were arrogant"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 36,
+   "arabic": "وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ ءَالِهَتِنَا لِشَاعِرٍۢ مَّجْنُونٍۭ",
+   "translations": {
+    "en": "And were saying, \"Are we to leave our gods for a mad poet?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 37,
+   "arabic": "بَلْ جَآءَ بِٱلْحَقِّ وَصَدَّقَ ٱلْمُرْسَلِينَ",
+   "translations": {
+    "en": "Rather, the Prophet has come with the truth and confirmed the [previous] messengers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 38,
+   "arabic": "إِنَّكُمْ لَذَآئِقُوا۟ ٱلْعَذَابِ ٱلْأَلِيمِ",
+   "translations": {
+    "en": "Indeed, you [disbelievers] will be tasters of the painful punishment,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 39,
+   "arabic": "وَمَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+   "translations": {
+    "en": "And you will not be recompensed except for what you used to do -"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 40,
+   "arabic": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+   "translations": {
+    "en": "But not the chosen servants of Allah."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 41,
+   "arabic": "أُو۟لَٰٓئِكَ لَهُمْ رِزْقٌۭ مَّعْلُومٌۭ",
+   "translations": {
+    "en": "Those will have a provision determined -"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 42,
+   "arabic": "فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ",
+   "translations": {
+    "en": "Fruits; and they will be honored"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 43,
+   "arabic": "فِى جَنَّٰتِ ٱلنَّعِيمِ",
+   "translations": {
+    "en": "In gardens of pleasure"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 44,
+   "arabic": "عَلَىٰ سُرُرٍۢ مُّتَقَٰبِلِينَ",
+   "translations": {
+    "en": "On thrones facing one another."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 45,
+   "arabic": "يُطَافُ عَلَيْهِم بِكَأْسٍۢ مِّن مَّعِينٍۭ",
+   "translations": {
+    "en": "There will be circulated among them a cup [of wine] from a flowing spring,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 46,
+   "arabic": "بَيْضَآءَ لَذَّةٍۢ لِّلشَّٰرِبِينَ",
+   "translations": {
+    "en": "White and delicious to the drinkers;"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 47,
+   "arabic": "لَا فِيهَا غَوْلٌۭ وَلَا هُمْ عَنْهَا يُنزَفُونَ",
+   "translations": {
+    "en": "No bad effect is there in it, nor from it will they be intoxicated."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 48,
+   "arabic": "وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ عِينٌۭ",
+   "translations": {
+    "en": "And with them will be women limiting [their] glances, with large, [beautiful] eyes,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 49,
+   "arabic": "كَأَنَّهُنَّ بَيْضٌۭ مَّكْنُونٌۭ",
+   "translations": {
+    "en": "As if they were [delicate] eggs, well-protected."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 50,
+   "arabic": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ",
+   "translations": {
+    "en": "And they will approach one another, inquiring of each other."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 51,
+   "arabic": "قَالَ قَآئِلٌۭ مِّنْهُمْ إِنِّى كَانَ لِى قَرِينٌۭ",
+   "translations": {
+    "en": "A speaker among them will say, \"Indeed, I had a companion [on earth]"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 52,
+   "arabic": "يَقُولُ أَءِنَّكَ لَمِنَ ٱلْمُصَدِّقِينَ",
+   "translations": {
+    "en": "Who would say, 'Are you indeed of those who believe"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 53,
+   "arabic": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَدِينُونَ",
+   "translations": {
+    "en": "That when we have died and become dust and bones, we will indeed be recompensed?'\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 54,
+   "arabic": "قَالَ هَلْ أَنتُم مُّطَّلِعُونَ",
+   "translations": {
+    "en": "He will say, \"Would you [care to] look?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 55,
+   "arabic": "فَٱطَّلَعَ فَرَءَاهُ فِى سَوَآءِ ٱلْجَحِيمِ",
+   "translations": {
+    "en": "And he will look and see him in the midst of the Hellfire."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 56,
+   "arabic": "قَالَ تَٱللَّهِ إِن كِدتَّ لَتُرْدِينِ",
+   "translations": {
+    "en": "He will say, \"By Allah, you almost ruined me."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 57,
+   "arabic": "وَلَوْلَا نِعْمَةُ رَبِّى لَكُنتُ مِنَ ٱلْمُحْضَرِينَ",
+   "translations": {
+    "en": "If not for the favor of my Lord, I would have been of those brought in [to Hell]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 58,
+   "arabic": "أَفَمَا نَحْنُ بِمَيِّتِينَ",
+   "translations": {
+    "en": "Then, are we not to die"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 59,
+   "arabic": "إِلَّا مَوْتَتَنَا ٱلْأُولَىٰ وَمَا نَحْنُ بِمُعَذَّبِينَ",
+   "translations": {
+    "en": "Except for our first death, and we will not be punished?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 60,
+   "arabic": "إِنَّ هَٰذَا لَهُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+   "translations": {
+    "en": "Indeed, this is the great attainment."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 61,
+   "arabic": "لِمِثْلِ هَٰذَا فَلْيَعْمَلِ ٱلْعَٰمِلُونَ",
+   "translations": {
+    "en": "For the like of this let the workers [on earth] work."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 62,
+   "arabic": "أَذَٰلِكَ خَيْرٌۭ نُّزُلًا أَمْ شَجَرَةُ ٱلزَّقُّومِ",
+   "translations": {
+    "en": "Is Paradise a better accommodation or the tree of zaqqum?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 63,
+   "arabic": "إِنَّا جَعَلْنَٰهَا فِتْنَةًۭ لِّلظَّٰلِمِينَ",
+   "translations": {
+    "en": "Indeed, We have made it a torment for the wrongdoers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 64,
+   "arabic": "إِنَّهَا شَجَرَةٌۭ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ",
+   "translations": {
+    "en": "Indeed, it is a tree issuing from the bottom of the Hellfire,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 65,
+   "arabic": "طَلْعُهَا كَأَنَّهُۥ رُءُوسُ ٱلشَّيَٰطِينِ",
+   "translations": {
+    "en": "Its emerging fruit as if it was heads of the devils."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 66,
+   "arabic": "فَإِنَّهُمْ لَءَاكِلُونَ مِنْهَا فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+   "translations": {
+    "en": "And indeed, they will eat from it and fill with it their bellies."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 67,
+   "arabic": "ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًۭا مِّنْ حَمِيمٍۢ",
+   "translations": {
+    "en": "Then indeed, they will have after it a mixture of scalding water."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 68,
+   "arabic": "ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى ٱلْجَحِيمِ",
+   "translations": {
+    "en": "Then indeed, their return will be to the Hellfire."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 69,
+   "arabic": "إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ",
+   "translations": {
+    "en": "Indeed they found their fathers astray."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 70,
+   "arabic": "فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ",
+   "translations": {
+    "en": "So they hastened [to follow] in their footsteps."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 71,
+   "arabic": "وَلَقَدْ ضَلَّ قَبْلَهُمْ أَكْثَرُ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "And there had already strayed before them most of the former peoples,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 72,
+   "arabic": "وَلَقَدْ أَرْسَلْنَا فِيهِم مُّنذِرِينَ",
+   "translations": {
+    "en": "And We had already sent among them warners."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 73,
+   "arabic": "فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُنذَرِينَ",
+   "translations": {
+    "en": "Then look how was the end of those who were warned -"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 74,
+   "arabic": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+   "translations": {
+    "en": "But not the chosen servants of Allah."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 75,
+   "arabic": "وَلَقَدْ نَادَىٰنَا نُوحٌۭ فَلَنِعْمَ ٱلْمُجِيبُونَ",
+   "translations": {
+    "en": "And Noah had certainly called Us, and [We are] the best of responders."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 76,
+   "arabic": "وَنَجَّيْنَٰهُ وَأَهْلَهُۥ مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "And We saved him and his family from the great affliction."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 77,
+   "arabic": "وَجَعَلْنَا ذُرِّيَّتَهُۥ هُمُ ٱلْبَاقِينَ",
+   "translations": {
+    "en": "And We made his descendants those remaining [on the earth]"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 78,
+   "arabic": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "And left for him [favorable mention] among later generations:"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 79,
+   "arabic": "سَلَٰمٌ عَلَىٰ نُوحٍۢ فِى ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "\"Peace upon Noah among the worlds.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 80,
+   "arabic": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+   "translations": {
+    "en": "Indeed, We thus reward the doers of good."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 81,
+   "arabic": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+   "translations": {
+    "en": "Indeed, he was of Our believing servants."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 82,
+   "arabic": "ثُمَّ أَغْرَقْنَا ٱلْءَاخَرِينَ",
+   "translations": {
+    "en": "Then We drowned the disbelievers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 83,
+   "arabic": "۞ وَإِنَّ مِن شِيعَتِهِۦ لَإِبْرَٰهِيمَ",
+   "translations": {
+    "en": "And indeed, among his kind was Abraham,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 84,
+   "arabic": "إِذْ جَآءَ رَبَّهُۥ بِقَلْبٍۢ سَلِيمٍ",
+   "translations": {
+    "en": "When he came to his Lord with a sound heart"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 85,
+   "arabic": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَاذَا تَعْبُدُونَ",
+   "translations": {
+    "en": "[And] when he said to his father and his people, \"What do you worship?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 86,
+   "arabic": "أَئِفْكًا ءَالِهَةًۭ دُونَ ٱللَّهِ تُرِيدُونَ",
+   "translations": {
+    "en": "Is it falsehood [as] gods other than Allah you desire?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 87,
+   "arabic": "فَمَا ظَنُّكُم بِرَبِّ ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "Then what is your thought about the Lord of the worlds?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 88,
+   "arabic": "فَنَظَرَ نَظْرَةًۭ فِى ٱلنُّجُومِ",
+   "translations": {
+    "en": "And he cast a look at the stars"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 89,
+   "arabic": "فَقَالَ إِنِّى سَقِيمٌۭ",
+   "translations": {
+    "en": "And said, \"Indeed, I am [about to be] ill.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 90,
+   "arabic": "فَتَوَلَّوْا۟ عَنْهُ مُدْبِرِينَ",
+   "translations": {
+    "en": "So they turned away from him, departing."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 91,
+   "arabic": "فَرَاغَ إِلَىٰٓ ءَالِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
+   "translations": {
+    "en": "Then he turned to their gods and said, \"Do you not eat?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 92,
+   "arabic": "مَا لَكُمْ لَا تَنطِقُونَ",
+   "translations": {
+    "en": "What is [wrong] with you that you do not speak?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 93,
+   "arabic": "فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
+   "translations": {
+    "en": "And he turned upon them a blow with [his] right hand."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 94,
+   "arabic": "فَأَقْبَلُوٓا۟ إِلَيْهِ يَزِفُّونَ",
+   "translations": {
+    "en": "Then the people came toward him, hastening."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 95,
+   "arabic": "قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ",
+   "translations": {
+    "en": "He said, \"Do you worship that which you [yourselves] carve,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 96,
+   "arabic": "وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ",
+   "translations": {
+    "en": "While Allah created you and that which you do?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 97,
+   "arabic": "قَالُوا۟ ٱبْنُوا۟ لَهُۥ بُنْيَٰنًۭا فَأَلْقُوهُ فِى ٱلْجَحِيمِ",
+   "translations": {
+    "en": "They said, \"Construct for him a furnace and throw him into the burning fire.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 98,
+   "arabic": "فَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ",
+   "translations": {
+    "en": "And they intended for him a plan, but We made them the most debased."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 99,
+   "arabic": "وَقَالَ إِنِّى ذَاهِبٌ إِلَىٰ رَبِّى سَيَهْدِينِ",
+   "translations": {
+    "en": "And [then] he said, \"Indeed, I will go to [where I am ordered by] my Lord; He will guide me."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 100,
+   "arabic": "رَبِّ هَبْ لِى مِنَ ٱلصَّٰلِحِينَ",
+   "translations": {
+    "en": "My Lord, grant me [a child] from among the righteous.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 101,
+   "arabic": "فَبَشَّرْنَٰهُ بِغُلَٰمٍ حَلِيمٍۢ",
+   "translations": {
+    "en": "So We gave him good tidings of a forbearing boy."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 102,
+   "arabic": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+   "translations": {
+    "en": "And when he reached with him [the age of] exertion, he said, \"O my son, indeed I have seen in a dream that I [must] sacrifice you, so see what you think.\" He said, \"O my father, do as you are commanded. You will find me, if Allah wills, of the steadfast.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 103,
+   "arabic": "فَلَمَّآ أَسْلَمَا وَتَلَّهُۥ لِلْجَبِينِ",
+   "translations": {
+    "en": "And when they had both submitted and he put him down upon his forehead,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 104,
+   "arabic": "وَنَٰدَيْنَٰهُ أَن يَٰٓإِبْرَٰهِيمُ",
+   "translations": {
+    "en": "We called to him, \"O Abraham,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 105,
+   "arabic": "قَدْ صَدَّقْتَ ٱلرُّءْيَآ ۚ إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+   "translations": {
+    "en": "You have fulfilled the vision.\" Indeed, We thus reward the doers of good."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 106,
+   "arabic": "إِنَّ هَٰذَا لَهُوَ ٱلْبَلَٰٓؤُا۟ ٱلْمُبِينُ",
+   "translations": {
+    "en": "Indeed, this was the clear trial."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 107,
+   "arabic": "وَفَدَيْنَٰهُ بِذِبْحٍ عَظِيمٍۢ",
+   "translations": {
+    "en": "And We ransomed him with a great sacrifice,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 108,
+   "arabic": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "And We left for him [favorable mention] among later generations:"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 109,
+   "arabic": "سَلَٰمٌ عَلَىٰٓ إِبْرَٰهِيمَ",
+   "translations": {
+    "en": "\"Peace upon Abraham.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 110,
+   "arabic": "كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+   "translations": {
+    "en": "Indeed, We thus reward the doers of good."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 111,
+   "arabic": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+   "translations": {
+    "en": "Indeed, he was of Our believing servants."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 112,
+   "arabic": "وَبَشَّرْنَٰهُ بِإِسْحَٰقَ نَبِيًّۭا مِّنَ ٱلصَّٰلِحِينَ",
+   "translations": {
+    "en": "And We gave him good tidings of Isaac, a prophet from among the righteous."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 113,
+   "arabic": "وَبَٰرَكْنَا عَلَيْهِ وَعَلَىٰٓ إِسْحَٰقَ ۚ وَمِن ذُرِّيَّتِهِمَا مُحْسِنٌۭ وَظَالِمٌۭ لِّنَفْسِهِۦ مُبِينٌۭ",
+   "translations": {
+    "en": "And We blessed him and Isaac. But among their descendants is the doer of good and the clearly unjust to himself."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 114,
+   "arabic": "وَلَقَدْ مَنَنَّا عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+   "translations": {
+    "en": "And We did certainly confer favor upon Moses and Aaron."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 115,
+   "arabic": "وَنَجَّيْنَٰهُمَا وَقَوْمَهُمَا مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+   "translations": {
+    "en": "And We saved them and their people from the great affliction,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 116,
+   "arabic": "وَنَصَرْنَٰهُمْ فَكَانُوا۟ هُمُ ٱلْغَٰلِبِينَ",
+   "translations": {
+    "en": "And We supported them so it was they who overcame."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 117,
+   "arabic": "وَءَاتَيْنَٰهُمَا ٱلْكِتَٰبَ ٱلْمُسْتَبِينَ",
+   "translations": {
+    "en": "And We gave them the explicit Scripture,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 118,
+   "arabic": "وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+   "translations": {
+    "en": "And We guided them on the straight path."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 119,
+   "arabic": "وَتَرَكْنَا عَلَيْهِمَا فِى ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "And We left for them [favorable mention] among later generations:"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 120,
+   "arabic": "سَلَٰمٌ عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+   "translations": {
+    "en": "\"Peace upon Moses and Aaron.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 121,
+   "arabic": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+   "translations": {
+    "en": "Indeed, We thus reward the doers of good."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 122,
+   "arabic": "إِنَّهُمَا مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+   "translations": {
+    "en": "Indeed, they were of Our believing servants."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 123,
+   "arabic": "وَإِنَّ إِلْيَاسَ لَمِنَ ٱلْمُرْسَلِينَ",
+   "translations": {
+    "en": "And indeed, Elias was from among the messengers,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 124,
+   "arabic": "إِذْ قَالَ لِقَوْمِهِۦٓ أَلَا تَتَّقُونَ",
+   "translations": {
+    "en": "When he said to his people, \"Will you not fear Allah?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 125,
+   "arabic": "أَتَدْعُونَ بَعْلًۭا وَتَذَرُونَ أَحْسَنَ ٱلْخَٰلِقِينَ",
+   "translations": {
+    "en": "Do you call upon Ba'l and leave the best of creators -"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 126,
+   "arabic": "ٱللَّهَ رَبَّكُمْ وَرَبَّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "Allah, your Lord and the Lord of your first forefathers?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 127,
+   "arabic": "فَكَذَّبُوهُ فَإِنَّهُمْ لَمُحْضَرُونَ",
+   "translations": {
+    "en": "And they denied him, so indeed, they will be brought [for punishment],"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 128,
+   "arabic": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+   "translations": {
+    "en": "Except the chosen servants of Allah."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 129,
+   "arabic": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْءَاخِرِينَ",
+   "translations": {
+    "en": "And We left for him [favorable mention] among later generations:"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 130,
+   "arabic": "سَلَٰمٌ عَلَىٰٓ إِلْ يَاسِينَ",
+   "translations": {
+    "en": "\"Peace upon Elias.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 131,
+   "arabic": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+   "translations": {
+    "en": "Indeed, We thus reward the doers of good."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 132,
+   "arabic": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
+   "translations": {
+    "en": "Indeed, he was of Our believing servants."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 133,
+   "arabic": "وَإِنَّ لُوطًۭا لَّمِنَ ٱلْمُرْسَلِينَ",
+   "translations": {
+    "en": "And indeed, Lot was among the messengers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 134,
+   "arabic": "إِذْ نَجَّيْنَٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ",
+   "translations": {
+    "en": "[So mention] when We saved him and his family, all,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 135,
+   "arabic": "إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ",
+   "translations": {
+    "en": "Except his wife among those who remained [with the evildoers]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 136,
+   "arabic": "ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ",
+   "translations": {
+    "en": "Then We destroyed the others."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 137,
+   "arabic": "وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ",
+   "translations": {
+    "en": "And indeed, you pass by them in the morning"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 138,
+   "arabic": "وَبِٱلَّيْلِ ۗ أَفَلَا تَعْقِلُونَ",
+   "translations": {
+    "en": "And at night. Then will you not use reason?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 139,
+   "arabic": "وَإِنَّ يُونُسَ لَمِنَ ٱلْمُرْسَلِينَ",
+   "translations": {
+    "en": "And indeed, Jonah was among the messengers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 140,
+   "arabic": "إِذْ أَبَقَ إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+   "translations": {
+    "en": "[Mention] when he ran away to the laden ship."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 141,
+   "arabic": "فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
+   "translations": {
+    "en": "And he drew lots and was among the losers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 142,
+   "arabic": "فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ مُلِيمٌۭ",
+   "translations": {
+    "en": "Then the fish swallowed him, while he was blameworthy."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 143,
+   "arabic": "فَلَوْلَآ أَنَّهُۥ كَانَ مِنَ ٱلْمُسَبِّحِينَ",
+   "translations": {
+    "en": "And had he not been of those who exalt Allah,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 144,
+   "arabic": "لَلَبِثَ فِى بَطْنِهِۦٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
+   "translations": {
+    "en": "He would have remained inside its belly until the Day they are resurrected."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 145,
+   "arabic": "۞ فَنَبَذْنَٰهُ بِٱلْعَرَآءِ وَهُوَ سَقِيمٌۭ",
+   "translations": {
+    "en": "But We threw him onto the open shore while he was ill."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 146,
+   "arabic": "وَأَنۢبَتْنَا عَلَيْهِ شَجَرَةًۭ مِّن يَقْطِينٍۢ",
+   "translations": {
+    "en": "And We caused to grow over him a gourd vine."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 147,
+   "arabic": "وَأَرْسَلْنَٰهُ إِلَىٰ مِا۟ئَةِ أَلْفٍ أَوْ يَزِيدُونَ",
+   "translations": {
+    "en": "And We sent him to [his people of] a hundred thousand or more."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 148,
+   "arabic": "فَـَٔامَنُوا۟ فَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍۢ",
+   "translations": {
+    "en": "And they believed, so We gave them enjoyment [of life] for a time."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 149,
+   "arabic": "فَٱسْتَفْتِهِمْ أَلِرَبِّكَ ٱلْبَنَاتُ وَلَهُمُ ٱلْبَنُونَ",
+   "translations": {
+    "en": "So inquire of them, [O Muhammad], \"Does your Lord have daughters while they have sons?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 150,
+   "arabic": "أَمْ خَلَقْنَا ٱلْمَلَٰٓئِكَةَ إِنَٰثًۭا وَهُمْ شَٰهِدُونَ",
+   "translations": {
+    "en": "Or did We create the angels as females while they were witnesses?\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 151,
+   "arabic": "أَلَآ إِنَّهُم مِّنْ إِفْكِهِمْ لَيَقُولُونَ",
+   "translations": {
+    "en": "Unquestionably, it is out of their [invented] falsehood that they say,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 152,
+   "arabic": "وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَٰذِبُونَ",
+   "translations": {
+    "en": "\" Allah has begotten,\" and indeed, they are liars."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 153,
+   "arabic": "أَصْطَفَى ٱلْبَنَاتِ عَلَى ٱلْبَنِينَ",
+   "translations": {
+    "en": "Has He chosen daughters over sons?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 154,
+   "arabic": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+   "translations": {
+    "en": "What is [wrong] with you? How do you make judgement?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 155,
+   "arabic": "أَفَلَا تَذَكَّرُونَ",
+   "translations": {
+    "en": "Then will you not be reminded?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 156,
+   "arabic": "أَمْ لَكُمْ سُلْطَٰنٌۭ مُّبِينٌۭ",
+   "translations": {
+    "en": "Or do you have a clear authority?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 157,
+   "arabic": "فَأْتُوا۟ بِكِتَٰبِكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+   "translations": {
+    "en": "Then produce your scripture, if you should be truthful."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 158,
+   "arabic": "وَجَعَلُوا۟ بَيْنَهُۥ وَبَيْنَ ٱلْجِنَّةِ نَسَبًۭا ۚ وَلَقَدْ عَلِمَتِ ٱلْجِنَّةُ إِنَّهُمْ لَمُحْضَرُونَ",
+   "translations": {
+    "en": "And they have claimed between Him and the jinn a lineage, but the jinn have already known that they [who made such claims] will be brought to [punishment]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 159,
+   "arabic": "سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+   "translations": {
+    "en": "Exalted is Allah above what they describe,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 160,
+   "arabic": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+   "translations": {
+    "en": "Except the chosen servants of Allah [who do not share in that sin]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 161,
+   "arabic": "فَإِنَّكُمْ وَمَا تَعْبُدُونَ",
+   "translations": {
+    "en": "So indeed, you [disbelievers] and whatever you worship,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 162,
+   "arabic": "مَآ أَنتُمْ عَلَيْهِ بِفَٰتِنِينَ",
+   "translations": {
+    "en": "You cannot tempt [anyone] away from Him"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 163,
+   "arabic": "إِلَّا مَنْ هُوَ صَالِ ٱلْجَحِيمِ",
+   "translations": {
+    "en": "Except he who is to [enter and] burn in the Hellfire."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 164,
+   "arabic": "وَمَا مِنَّآ إِلَّا لَهُۥ مَقَامٌۭ مَّعْلُومٌۭ",
+   "translations": {
+    "en": "[The angels say], \"There is not among us any except that he has a known position."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 165,
+   "arabic": "وَإِنَّا لَنَحْنُ ٱلصَّآفُّونَ",
+   "translations": {
+    "en": "And indeed, we are those who line up [for prayer]."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 166,
+   "arabic": "وَإِنَّا لَنَحْنُ ٱلْمُسَبِّحُونَ",
+   "translations": {
+    "en": "And indeed, we are those who exalt Allah.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 167,
+   "arabic": "وَإِن كَانُوا۟ لَيَقُولُونَ",
+   "translations": {
+    "en": "And indeed, the disbelievers used to say,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 168,
+   "arabic": "لَوْ أَنَّ عِندَنَا ذِكْرًۭا مِّنَ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "\"If we had a message from [those of] the former peoples,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 169,
+   "arabic": "لَكُنَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+   "translations": {
+    "en": "We would have been the chosen servants of Allah.\""
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 170,
+   "arabic": "فَكَفَرُوا۟ بِهِۦ ۖ فَسَوْفَ يَعْلَمُونَ",
+   "translations": {
+    "en": "But they disbelieved in it, so they are going to know."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 171,
+   "arabic": "وَلَقَدْ سَبَقَتْ كَلِمَتُنَا لِعِبَادِنَا ٱلْمُرْسَلِينَ",
+   "translations": {
+    "en": "And Our word has already preceded for Our servants, the messengers,"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 172,
+   "arabic": "إِنَّهُمْ لَهُمُ ٱلْمَنصُورُونَ",
+   "translations": {
+    "en": "[That] indeed, they would be those given victory"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 173,
+   "arabic": "وَإِنَّ جُندَنَا لَهُمُ ٱلْغَٰلِبُونَ",
+   "translations": {
+    "en": "And [that] indeed, Our soldiers will be those who overcome."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 174,
+   "arabic": "فَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍۢ",
+   "translations": {
+    "en": "So, [O Muhammad], leave them for a time."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 175,
+   "arabic": "وَأَبْصِرْهُمْ فَسَوْفَ يُبْصِرُونَ",
+   "translations": {
+    "en": "And see [what will befall] them, for they are going to see."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 176,
+   "arabic": "أَفَبِعَذَابِنَا يَسْتَعْجِلُونَ",
+   "translations": {
+    "en": "Then for Our punishment are they impatient?"
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 177,
+   "arabic": "فَإِذَا نَزَلَ بِسَاحَتِهِمْ فَسَآءَ صَبَاحُ ٱلْمُنذَرِينَ",
+   "translations": {
+    "en": "But when it descends in their territory, then evil is the morning of those who were warned."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 178,
+   "arabic": "وَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍۢ",
+   "translations": {
+    "en": "And leave them for a time."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 179,
+   "arabic": "وَأَبْصِرْ فَسَوْفَ يُبْصِرُونَ",
+   "translations": {
+    "en": "And see, for they are going to see."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 180,
+   "arabic": "سُبْحَٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ",
+   "translations": {
+    "en": "Exalted is your Lord, the Lord of might, above what they describe."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 181,
+   "arabic": "وَسَلَٰمٌ عَلَى ٱلْمُرْسَلِينَ",
+   "translations": {
+    "en": "And peace upon the messengers."
+   }
+  },
+  {
+   "surah": 37,
+   "ayah": 182,
+   "arabic": "وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "And praise to Allah, Lord of the worlds."
+   }
+  }
+ ]
+}

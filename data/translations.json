@@ -1,0 +1,21 @@
+{
+ "translations": [
+  {
+   "id": "none",
+   "name": "No Translation",
+   "language": "—",
+   "languageCode": null,
+   "direction": "ltr",
+   "translator": null
+  },
+  {
+   "id": "en-sahih",
+   "name": "English (Saheeh International)",
+   "language": "English",
+   "languageCode": "en",
+   "direction": "ltr",
+   "translator": "Saheeh International",
+   "attribution": "Translation: Saheeh International, served via alquran.cloud"
+  }
+ ]
+}

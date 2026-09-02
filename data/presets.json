@@ -1,0 +1,72 @@
+{
+  "presets": [
+    {
+      "id": "cinematic",
+      "name": "Cinematic",
+      "description": "Dark translucent card, large scripture, subtle fades",
+      "settings": {
+        "background": { "id": "night-sky", "brightness": 80, "contrast": 100, "saturation": 90, "blur": 0, "darkOverlay": 32, "position": "center" },
+        "text": {
+          "card": { "visible": true, "color": "#0a0c12", "opacity": 55, "radius": 24, "borderWidth": 0, "borderColor": "#c9a45c", "widthPct": 86, "padding": 64, "positionPct": 54 },
+          "arabic": { "font": "amiri", "size": 68, "color": "#f5f1e8", "lineHeight": 1.85 },
+          "translation": { "font": "amiri", "size": 40, "color": "#d8d2c4", "lineHeight": 1.5 },
+          "header": { "show": true, "showArabic": true, "showEnglish": true, "showNumber": true },
+          "showAyahNumber": true,
+          "refColor": "#c9a45c"
+        },
+        "fadeMs": 300
+      }
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "description": "No card, scripture directly on a calm surface",
+      "settings": {
+        "background": { "id": "sand", "brightness": 70, "contrast": 100, "saturation": 70, "blur": 2, "darkOverlay": 42, "position": "center" },
+        "text": {
+          "card": { "visible": false, "opacity": 0 },
+          "arabic": { "font": "amiri", "size": 62, "color": "#f2ede1", "lineHeight": 1.9 },
+          "translation": { "font": "inter", "size": 36, "color": "#cfc9bb", "lineHeight": 1.5 },
+          "header": { "show": true, "showArabic": false, "showEnglish": true, "showNumber": true },
+          "showAyahNumber": true,
+          "refColor": "#c9a45c"
+        },
+        "fadeMs": 240
+      }
+    },
+    {
+      "id": "night",
+      "name": "Night",
+      "description": "Deep night sky, quiet and contemplative",
+      "settings": {
+        "background": { "id": "night-sky", "brightness": 72, "contrast": 104, "saturation": 84, "blur": 0, "darkOverlay": 40, "position": "center" },
+        "text": {
+          "card": { "visible": true, "color": "#060810", "opacity": 62, "radius": 20, "borderWidth": 1, "borderColor": "#8a744d", "widthPct": 84, "padding": 60, "positionPct": 52 },
+          "arabic": { "font": "notonaskh", "size": 62, "color": "#f0ecdf", "lineHeight": 1.95 },
+          "translation": { "font": "inter", "size": 36, "color": "#c9c4b6", "lineHeight": 1.5 },
+          "header": { "show": true, "showArabic": true, "showEnglish": true, "showNumber": true },
+          "showAyahNumber": true,
+          "refColor": "#d4b878"
+        },
+        "fadeMs": 320
+      }
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "description": "Emerald tones, soft blur, gentle presence",
+      "settings": {
+        "background": { "id": "emerald", "brightness": 82, "contrast": 98, "saturation": 95, "blur": 6, "darkOverlay": 36, "position": "center" },
+        "text": {
+          "card": { "visible": true, "color": "#0a100c", "opacity": 52, "radius": 28, "borderWidth": 0, "borderColor": "#c9a45c", "widthPct": 88, "padding": 68, "positionPct": 55 },
+          "arabic": { "font": "amiri", "size": 70, "color": "#f4f2e7", "lineHeight": 1.85 },
+          "translation": { "font": "amiri", "size": 40, "color": "#d5d0c2", "lineHeight": 1.5 },
+          "header": { "show": true, "showArabic": true, "showEnglish": true, "showNumber": true },
+          "showAyahNumber": true,
+          "refColor": "#cbb787"
+        },
+        "fadeMs": 280
+      }
+    }
+  ]
+}

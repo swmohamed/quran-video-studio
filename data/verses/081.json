@@ -1,0 +1,243 @@
+{
+ "surah": 81,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 81,
+   "ayah": 1,
+   "arabic": "إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+   "translations": {
+    "en": "When the sun is wrapped up [in darkness]"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 2,
+   "arabic": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+   "translations": {
+    "en": "And when the stars fall, dispersing,"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 3,
+   "arabic": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
+   "translations": {
+    "en": "And when the mountains are removed"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 4,
+   "arabic": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+   "translations": {
+    "en": "And when full-term she-camels are neglected"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 5,
+   "arabic": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
+   "translations": {
+    "en": "And when the wild beasts are gathered"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 6,
+   "arabic": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
+   "translations": {
+    "en": "And when the seas are filled with flame"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 7,
+   "arabic": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ",
+   "translations": {
+    "en": "And when the souls are paired"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 8,
+   "arabic": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+   "translations": {
+    "en": "And when the girl [who was] buried alive is asked"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 9,
+   "arabic": "بِأَىِّ ذَنۢبٍۢ قُتِلَتْ",
+   "translations": {
+    "en": "For what sin she was killed"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 10,
+   "arabic": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
+   "translations": {
+    "en": "And when the pages are made public"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 11,
+   "arabic": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
+   "translations": {
+    "en": "And when the sky is stripped away"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 12,
+   "arabic": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
+   "translations": {
+    "en": "And when Hellfire is set ablaze"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 13,
+   "arabic": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
+   "translations": {
+    "en": "And when Paradise is brought near,"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 14,
+   "arabic": "عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ",
+   "translations": {
+    "en": "A soul will [then] know what it has brought [with it]."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 15,
+   "arabic": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+   "translations": {
+    "en": "So I swear by the retreating stars -"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 16,
+   "arabic": "ٱلْجَوَارِ ٱلْكُنَّسِ",
+   "translations": {
+    "en": "Those that run [their courses] and disappear -"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 17,
+   "arabic": "وَٱلَّيْلِ إِذَا عَسْعَسَ",
+   "translations": {
+    "en": "And by the night as it closes in"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 18,
+   "arabic": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ",
+   "translations": {
+    "en": "And by the dawn when it breathes"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 19,
+   "arabic": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+   "translations": {
+    "en": "[That] indeed, the Qur'an is a word [conveyed by] a noble messenger"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 20,
+   "arabic": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍۢ",
+   "translations": {
+    "en": "[Who is] possessed of power and with the Owner of the Throne, secure [in position],"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 21,
+   "arabic": "مُّطَاعٍۢ ثَمَّ أَمِينٍۢ",
+   "translations": {
+    "en": "Obeyed there [in the heavens] and trustworthy."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 22,
+   "arabic": "وَمَا صَاحِبُكُم بِمَجْنُونٍۢ",
+   "translations": {
+    "en": "And your companion is not [at all] mad."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 23,
+   "arabic": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ",
+   "translations": {
+    "en": "And he has already seen Gabriel in the clear horizon."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 24,
+   "arabic": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ",
+   "translations": {
+    "en": "And Muhammad is not a withholder of [knowledge of] the unseen."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 25,
+   "arabic": "وَمَا هُوَ بِقَوْلِ شَيْطَٰنٍۢ رَّجِيمٍۢ",
+   "translations": {
+    "en": "And the Qur'an is not the word of a devil, expelled [from the heavens]."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 26,
+   "arabic": "فَأَيْنَ تَذْهَبُونَ",
+   "translations": {
+    "en": "So where are you going?"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 27,
+   "arabic": "إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+   "translations": {
+    "en": "It is not except a reminder to the worlds"
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 28,
+   "arabic": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ",
+   "translations": {
+    "en": "For whoever wills among you to take a right course."
+   }
+  },
+  {
+   "surah": 81,
+   "ayah": 29,
+   "arabic": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "And you do not will except that Allah wills - Lord of the worlds."
+   }
+  }
+ ]
+}

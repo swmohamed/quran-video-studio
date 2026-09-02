@@ -1,0 +1,51 @@
+{
+ "surah": 105,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 105,
+   "ayah": 1,
+   "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+   "translations": {
+    "en": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?"
+   }
+  },
+  {
+   "surah": 105,
+   "ayah": 2,
+   "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+   "translations": {
+    "en": "Did He not make their plan into misguidance?"
+   }
+  },
+  {
+   "surah": 105,
+   "ayah": 3,
+   "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+   "translations": {
+    "en": "And He sent against them birds in flocks,"
+   }
+  },
+  {
+   "surah": 105,
+   "ayah": 4,
+   "arabic": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+   "translations": {
+    "en": "Striking them with stones of hard clay,"
+   }
+  },
+  {
+   "surah": 105,
+   "ayah": 5,
+   "arabic": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+   "translations": {
+    "en": "And He made them like eaten straw."
+   }
+  }
+ ]
+}

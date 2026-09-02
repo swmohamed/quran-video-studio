@@ -1,0 +1,51 @@
+{
+ "surah": 111,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 111,
+   "ayah": 1,
+   "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+   "translations": {
+    "en": "May the hands of Abu Lahab be ruined, and ruined is he."
+   }
+  },
+  {
+   "surah": 111,
+   "ayah": 2,
+   "arabic": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+   "translations": {
+    "en": "His wealth will not avail him or that which he gained."
+   }
+  },
+  {
+   "surah": 111,
+   "ayah": 3,
+   "arabic": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+   "translations": {
+    "en": "He will [enter to] burn in a Fire of [blazing] flame"
+   }
+  },
+  {
+   "surah": 111,
+   "ayah": 4,
+   "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+   "translations": {
+    "en": "And his wife [as well] - the carrier of firewood."
+   }
+  },
+  {
+   "surah": 111,
+   "ayah": 5,
+   "arabic": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+   "translations": {
+    "en": "Around her neck is a rope of [twisted] fiber."
+   }
+  }
+ ]
+}

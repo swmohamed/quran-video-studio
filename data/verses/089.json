@@ -1,0 +1,251 @@
+{
+ "surah": 89,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 89,
+   "ayah": 1,
+   "arabic": "وَٱلْفَجْرِ",
+   "translations": {
+    "en": "By the dawn"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 2,
+   "arabic": "وَلَيَالٍ عَشْرٍۢ",
+   "translations": {
+    "en": "And [by] ten nights"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 3,
+   "arabic": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+   "translations": {
+    "en": "And [by] the even [number] and the odd"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 4,
+   "arabic": "وَٱلَّيْلِ إِذَا يَسْرِ",
+   "translations": {
+    "en": "And [by] the night when it passes,"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 5,
+   "arabic": "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ",
+   "translations": {
+    "en": "Is there [not] in [all] that an oath [sufficient] for one of perception?"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 6,
+   "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+   "translations": {
+    "en": "Have you not considered how your Lord dealt with 'Aad -"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 7,
+   "arabic": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+   "translations": {
+    "en": "[With] Iram - who had lofty pillars,"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 8,
+   "arabic": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
+   "translations": {
+    "en": "The likes of whom had never been created in the land?"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 9,
+   "arabic": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+   "translations": {
+    "en": "And [with] Thamud, who carved out the rocks in the valley?"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 10,
+   "arabic": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
+   "translations": {
+    "en": "And [with] Pharaoh, owner of the stakes? -"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 11,
+   "arabic": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ",
+   "translations": {
+    "en": "[All of] whom oppressed within the lands"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 12,
+   "arabic": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+   "translations": {
+    "en": "And increased therein the corruption."
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 13,
+   "arabic": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+   "translations": {
+    "en": "So your Lord poured upon them a scourge of punishment."
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 14,
+   "arabic": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+   "translations": {
+    "en": "Indeed, your Lord is in observation."
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 15,
+   "arabic": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+   "translations": {
+    "en": "And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, \"My Lord has honored me.\""
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 16,
+   "arabic": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ",
+   "translations": {
+    "en": "But when He tries him and restricts his provision, he says, \"My Lord has humiliated me.\""
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 17,
+   "arabic": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+   "translations": {
+    "en": "No! But you do not honor the orphan"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 18,
+   "arabic": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "translations": {
+    "en": "And you do not encourage one another to feed the poor."
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 19,
+   "arabic": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًۭا لَّمًّۭا",
+   "translations": {
+    "en": "And you consume inheritance, devouring [it] altogether,"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 20,
+   "arabic": "وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا",
+   "translations": {
+    "en": "And you love wealth with immense love."
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 21,
+   "arabic": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّۭا دَكًّۭا",
+   "translations": {
+    "en": "No! When the earth has been leveled - pounded and crushed -"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 22,
+   "arabic": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا",
+   "translations": {
+    "en": "And your Lord has come and the angels, rank upon rank,"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 23,
+   "arabic": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+   "translations": {
+    "en": "And brought [within view], that Day, is Hell - that Day, man will remember, but what good to him will be the remembrance?"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 24,
+   "arabic": "يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+   "translations": {
+    "en": "He will say, \"Oh, I wish I had sent ahead [some good] for my life.\""
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 25,
+   "arabic": "فَيَوْمَئِذٍۢ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌۭ",
+   "translations": {
+    "en": "So on that Day, none will punish [as severely] as His punishment,"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 26,
+   "arabic": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌۭ",
+   "translations": {
+    "en": "And none will bind [as severely] as His binding [of the evildoers]."
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 27,
+   "arabic": "يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+   "translations": {
+    "en": "[To the righteous it will be said], \"O reassured soul,"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 28,
+   "arabic": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ",
+   "translations": {
+    "en": "Return to your Lord, well-pleased and pleasing [to Him],"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 29,
+   "arabic": "فَٱدْخُلِى فِى عِبَٰدِى",
+   "translations": {
+    "en": "And enter among My [righteous] servants"
+   }
+  },
+  {
+   "surah": 89,
+   "ayah": 30,
+   "arabic": "وَٱدْخُلِى جَنَّتِى",
+   "translations": {
+    "en": "And enter My Paradise.\""
+   }
+  }
+ ]
+}

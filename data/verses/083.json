@@ -1,0 +1,299 @@
+{
+ "surah": 83,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 83,
+   "ayah": 1,
+   "arabic": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+   "translations": {
+    "en": "Woe to those who give less [than due],"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 2,
+   "arabic": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+   "translations": {
+    "en": "Who, when they take a measure from people, take in full."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 3,
+   "arabic": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+   "translations": {
+    "en": "But if they give by measure or by weight to them, they cause loss."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 4,
+   "arabic": "أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+   "translations": {
+    "en": "Do they not think that they will be resurrected"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 5,
+   "arabic": "لِيَوْمٍ عَظِيمٍۢ",
+   "translations": {
+    "en": "For a tremendous Day -"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 6,
+   "arabic": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ",
+   "translations": {
+    "en": "The Day when mankind will stand before the Lord of the worlds?"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 7,
+   "arabic": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
+   "translations": {
+    "en": "No! Indeed, the record of the wicked is in sijjeen."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 8,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌۭ",
+   "translations": {
+    "en": "And what can make you know what is sijjeen?"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 9,
+   "arabic": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+   "translations": {
+    "en": "It is [their destination recorded in] a register inscribed."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 10,
+   "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+   "translations": {
+    "en": "Woe, that Day, to the deniers,"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 11,
+   "arabic": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
+   "translations": {
+    "en": "Who deny the Day of Recompense."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 12,
+   "arabic": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+   "translations": {
+    "en": "And none deny it except every sinful transgressor."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 13,
+   "arabic": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+   "translations": {
+    "en": "When Our verses are recited to him, he says, \"Legends of the former peoples.\""
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 14,
+   "arabic": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+   "translations": {
+    "en": "No! Rather, the stain has covered their hearts of that which they were earning."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 15,
+   "arabic": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ",
+   "translations": {
+    "en": "No! Indeed, from their Lord, that Day, they will be partitioned."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 16,
+   "arabic": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+   "translations": {
+    "en": "Then indeed, they will [enter and] burn in Hellfire."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 17,
+   "arabic": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+   "translations": {
+    "en": "Then it will be said [to them], \"This is what you used to deny.\""
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 18,
+   "arabic": "كَلَّآ إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+   "translations": {
+    "en": "No! Indeed, the record of the righteous is in 'illiyyun."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 19,
+   "arabic": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+   "translations": {
+    "en": "And what can make you know what is 'illiyyun?"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 20,
+   "arabic": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+   "translations": {
+    "en": "It is [their destination recorded in] a register inscribed"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 21,
+   "arabic": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+   "translations": {
+    "en": "Which is witnessed by those brought near [to Allah]."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 22,
+   "arabic": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+   "translations": {
+    "en": "Indeed, the righteous will be in pleasure"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 23,
+   "arabic": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+   "translations": {
+    "en": "On adorned couches, observing."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 24,
+   "arabic": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+   "translations": {
+    "en": "You will recognize in their faces the radiance of pleasure."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 25,
+   "arabic": "يُسْقَوْنَ مِن رَّحِيقٍۢ مَّخْتُومٍ",
+   "translations": {
+    "en": "They will be given to drink [pure] wine [which was] sealed."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 26,
+   "arabic": "خِتَٰمُهُۥ مِسْكٌۭ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+   "translations": {
+    "en": "The last of it is musk. So for this let the competitors compete."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 27,
+   "arabic": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
+   "translations": {
+    "en": "And its mixture is of Tasneem,"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 28,
+   "arabic": "عَيْنًۭا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+   "translations": {
+    "en": "A spring from which those near [to Allah] drink."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 29,
+   "arabic": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+   "translations": {
+    "en": "Indeed, those who committed crimes used to laugh at those who believed."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 30,
+   "arabic": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+   "translations": {
+    "en": "And when they passed by them, they would exchange derisive glances."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 31,
+   "arabic": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+   "translations": {
+    "en": "And when they returned to their people, they would return jesting."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 32,
+   "arabic": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَآلُّونَ",
+   "translations": {
+    "en": "And when they saw them, they would say, \"Indeed, those are truly lost.\""
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 33,
+   "arabic": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ",
+   "translations": {
+    "en": "But they had not been sent as guardians over them."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 34,
+   "arabic": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+   "translations": {
+    "en": "So Today those who believed are laughing at the disbelievers,"
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 35,
+   "arabic": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+   "translations": {
+    "en": "On adorned couches, observing."
+   }
+  },
+  {
+   "surah": 83,
+   "ayah": 36,
+   "arabic": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+   "translations": {
+    "en": "Have the disbelievers [not] been rewarded [this Day] for what they used to do?"
+   }
+  }
+ ]
+}

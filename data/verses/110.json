@@ -1,0 +1,35 @@
+{
+ "surah": 110,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 110,
+   "ayah": 1,
+   "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+   "translations": {
+    "en": "When the victory of Allah has come and the conquest,"
+   }
+  },
+  {
+   "surah": 110,
+   "ayah": 2,
+   "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+   "translations": {
+    "en": "And you see the people entering into the religion of Allah in multitudes,"
+   }
+  },
+  {
+   "surah": 110,
+   "ayah": 3,
+   "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+   "translations": {
+    "en": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance."
+   }
+  }
+ ]
+}

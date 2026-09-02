@@ -1,0 +1,57 @@
+{
+  "source": "Verse-by-verse audio from everyayah.com (SSSAAA.mp3 naming). Downloaded on demand and cached locally.",
+  "reciters": [
+    {
+      "id": "alafasy",
+      "name": "Mishary Rashid Alafasy",
+      "arabicName": "مشاري راشد العفاسي",
+      "qdcId": 7,
+      "audioDirectory": "audio/reciters/alafasy",
+      "remoteUrl": "https://everyayah.com/data/Alafasy_128kbps"
+    },
+    {
+      "id": "abdulbasit",
+      "name": "Abdul Basit Abdus Samad",
+      "arabicName": "عبد الباسط عبد الصمد",
+      "qulId": 2,
+      "surahBoundary": "word",
+      "audioDirectory": "audio/reciters/abdulbasit",
+      "remoteUrl": "https://everyayah.com/data/Abdul_Basit_Murattal_192kbps"
+    },
+    {
+      "id": "husary",
+      "name": "Mahmoud Khalil Al-Husary",
+      "arabicName": "محمود خليل الحصري",
+      "qulId": 6,
+      "surahBoundary": "word",
+      "audioDirectory": "audio/reciters/husary",
+      "remoteUrl": "https://everyayah.com/data/Husary_128kbps"
+    },
+    {
+      "id": "minshawi",
+      "name": "Mohamed Siddiq Al-Minshawi",
+      "arabicName": "محمد صديق المنشاوي",
+      "qulId": 9,
+      "surahBoundary": "word",
+      "audioDirectory": "audio/reciters/minshawi",
+      "remoteUrl": "https://everyayah.com/data/Minshawy_Murattal_128kbps"
+    },
+    {
+      "id": "muaiqly",
+      "name": "Maher Al-Muaiqly",
+      "arabicName": "ماهر المعيقلي",
+      "qulId": 65,
+      "surahBoundary": "word",
+      "audioDirectory": "audio/reciters/muaiqly",
+      "remoteUrl": "https://everyayah.com/data/MaherAlMuaiqly128kbps"
+    },
+    {
+      "id": "dosari",
+      "name": "Yasser Al-Dosari",
+      "arabicName": "ياسر الدوسري",
+      "qdcId": 97,
+      "audioDirectory": "audio/reciters/dosari",
+      "remoteUrl": "https://everyayah.com/data/Yasser_Ad-Dussary_128kbps"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "surah": 108,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 108,
+   "ayah": 1,
+   "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+   "translations": {
+    "en": "Indeed, We have granted you, [O Muhammad], al-Kawthar."
+   }
+  },
+  {
+   "surah": 108,
+   "ayah": 2,
+   "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+   "translations": {
+    "en": "So pray to your Lord and sacrifice [to Him alone]."
+   }
+  },
+  {
+   "surah": 108,
+   "ayah": 3,
+   "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+   "translations": {
+    "en": "Indeed, your enemy is the one cut off."
+   }
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "surah": 96,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 96,
+   "ayah": 1,
+   "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+   "translations": {
+    "en": "Recite in the name of your Lord who created -"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 2,
+   "arabic": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+   "translations": {
+    "en": "Created man from a clinging substance."
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 3,
+   "arabic": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+   "translations": {
+    "en": "Recite, and your Lord is the most Generous -"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 4,
+   "arabic": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+   "translations": {
+    "en": "Who taught by the pen -"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 5,
+   "arabic": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+   "translations": {
+    "en": "Taught man that which he knew not."
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 6,
+   "arabic": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
+   "translations": {
+    "en": "No! [But] indeed, man transgresses"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 7,
+   "arabic": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+   "translations": {
+    "en": "Because he sees himself self-sufficient."
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 8,
+   "arabic": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+   "translations": {
+    "en": "Indeed, to your Lord is the return."
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 9,
+   "arabic": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+   "translations": {
+    "en": "Have you seen the one who forbids"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 10,
+   "arabic": "عَبْدًا إِذَا صَلَّىٰٓ",
+   "translations": {
+    "en": "A servant when he prays?"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 11,
+   "arabic": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+   "translations": {
+    "en": "Have you seen if he is upon guidance"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 12,
+   "arabic": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+   "translations": {
+    "en": "Or enjoins righteousness?"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 13,
+   "arabic": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+   "translations": {
+    "en": "Have you seen if he denies and turns away -"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 14,
+   "arabic": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+   "translations": {
+    "en": "Does he not know that Allah sees?"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 15,
+   "arabic": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+   "translations": {
+    "en": "No! If he does not desist, We will surely drag him by the forelock -"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 16,
+   "arabic": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
+   "translations": {
+    "en": "A lying, sinning forelock."
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 17,
+   "arabic": "فَلْيَدْعُ نَادِيَهُۥ",
+   "translations": {
+    "en": "Then let him call his associates;"
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 18,
+   "arabic": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+   "translations": {
+    "en": "We will call the angels of Hell."
+   }
+  },
+  {
+   "surah": 96,
+   "ayah": 19,
+   "arabic": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+   "translations": {
+    "en": "No! Do not obey him. But prostrate and draw near [to Allah]."
+   }
+  }
+ ]
+}

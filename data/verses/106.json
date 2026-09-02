@@ -1,0 +1,43 @@
+{
+ "surah": 106,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 106,
+   "ayah": 1,
+   "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
+   "translations": {
+    "en": "For the accustomed security of the Quraysh -"
+   }
+  },
+  {
+   "surah": 106,
+   "ayah": 2,
+   "arabic": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+   "translations": {
+    "en": "Their accustomed security [in] the caravan of winter and summer -"
+   }
+  },
+  {
+   "surah": 106,
+   "ayah": 3,
+   "arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+   "translations": {
+    "en": "Let them worship the Lord of this House,"
+   }
+  },
+  {
+   "surah": 106,
+   "ayah": 4,
+   "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+   "translations": {
+    "en": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear."
+   }
+  }
+ ]
+}

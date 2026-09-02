@@ -1,0 +1,33 @@
+# ---- Node / frontend ----
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+*.local
+
+# ---- Python / backend ----
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ---- Runtime data (auto-created, never commit) ----
+output/
+temp/
+uploads/
+backgrounds/
+audio/
+data/translations/
+data/qdc_timings/
+data/stock_names.json
+data/stock_keys.json
+frontend.log
+backend.log
+vite.log
+
+# ---- OS / editor ----
+Thumbs.db
+.DS_Store
+*.swp
+.vscode/
+.idea/

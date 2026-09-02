@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/amiri/400.css";
+@import "@fontsource/amiri/700.css";
+@import "@fontsource/noto-naskh-arabic/400.css";
+@import "@fontsource/noto-sans-arabic/400.css";
+
+/*
+  Quran Video Studio — design tokens
+  Dark editor canvas (media-tool convention), gold accent (Islamic content
+  register), tight radius scale, 4px spacing rhythm. Scripture fonts are
+  role-split from UI fonts (Amiri/Naskh for Quran text, Inter for controls).
+*/
+@theme {
+  --color-canvas: #0d0e12;
+  --color-surface: #14161c;
+  --color-surface-2: #191c24;
+  --color-line: #262932;
+  --color-line-strong: #343845;
+  --color-ink: #e9e6df;
+  --color-ink-2: #a8a49a;
+  --color-ink-3: #6f6b63;
+  --color-gold: #c9a45c;
+  --color-gold-strong: #d8b979;
+  --color-gold-ink: #171307;
+  --color-danger: #d4776f;
+  --color-ok: #8fbf8a;
+
+  --font-ui: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-amiri: "Amiri", serif;
+  --font-naskh: "Noto Naskh Arabic", serif;
+  --font-naskh-sans: "Noto Sans Arabic", sans-serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* thin scrollbars for panel scrollers */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 4px;
+}
+
+/* native controls on dark surfaces */
+select,
+input[type="range"] {
+  accent-color: var(--color-gold);
+}
+select {
+  background-color: var(--color-surface-2);
+  color: var(--color-ink);
+}
+select option {
+  background-color: #14161c;
+  color: var(--color-ink);
+}
+
+/* subtle text-only swap when the ayah changes (persistent card never fades) */
+@keyframes qvs-text-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+/* Quranic ayah-end marker — mirrors draw_ayah_marker() proportions in the
+   backend renderer (box = 1.3em, gap = 0.35em, aligned to the verse end). */
+.qvs-ayah-marker {
+  position: relative;
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  margin-inline-start: 0.35em;
+  vertical-align: middle;
+  flex: none;
+}
+
+.qvs-ayah-marker svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+.qvs-marker-num {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transform: translateY(-0.06em);
+}
+
+.qvs-last-word {
+  white-space: nowrap;
+}
+
+.qvs-text-fade {
+  animation: qvs-text-in 120ms ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

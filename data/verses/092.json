@@ -1,0 +1,179 @@
+{
+ "surah": 92,
+ "fetchedAt": "2026-09-02T00:22:43Z",
+ "source": {
+  "arabic": "alquran.cloud edition 'quran-uthmani' (Tanzil.net Uthmani text)",
+  "translation": "alquran.cloud edition 'en.sahih'"
+ },
+ "bismillahStripped": true,
+ "ayahs": [
+  {
+   "surah": 92,
+   "ayah": 1,
+   "arabic": "وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+   "translations": {
+    "en": "By the night when it covers"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 2,
+   "arabic": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+   "translations": {
+    "en": "And [by] the day when it appears"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 3,
+   "arabic": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+   "translations": {
+    "en": "And [by] He who created the male and female,"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 4,
+   "arabic": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+   "translations": {
+    "en": "Indeed, your efforts are diverse."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 5,
+   "arabic": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+   "translations": {
+    "en": "As for he who gives and fears Allah"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 6,
+   "arabic": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+   "translations": {
+    "en": "And believes in the best [reward],"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 7,
+   "arabic": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+   "translations": {
+    "en": "We will ease him toward ease."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 8,
+   "arabic": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+   "translations": {
+    "en": "But as for he who withholds and considers himself free of need"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 9,
+   "arabic": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+   "translations": {
+    "en": "And denies the best [reward],"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 10,
+   "arabic": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+   "translations": {
+    "en": "We will ease him toward difficulty."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 11,
+   "arabic": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+   "translations": {
+    "en": "And what will his wealth avail him when he falls?"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 12,
+   "arabic": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+   "translations": {
+    "en": "Indeed, [incumbent] upon Us is guidance."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 13,
+   "arabic": "وَإِنَّ لَنَا لَلْءَاخِرَةَ وَٱلْأُولَىٰ",
+   "translations": {
+    "en": "And indeed, to Us belongs the Hereafter and the first [life]."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 14,
+   "arabic": "فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ",
+   "translations": {
+    "en": "So I have warned you of a Fire which is blazing."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 15,
+   "arabic": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+   "translations": {
+    "en": "None will [enter to] burn therein except the most wretched one."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 16,
+   "arabic": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+   "translations": {
+    "en": "Who had denied and turned away."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 17,
+   "arabic": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+   "translations": {
+    "en": "But the righteous one will avoid it -"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 18,
+   "arabic": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+   "translations": {
+    "en": "[He] who gives [from] his wealth to purify himself"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 19,
+   "arabic": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ",
+   "translations": {
+    "en": "And not [giving] for anyone who has [done him] a favor to be rewarded"
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 20,
+   "arabic": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+   "translations": {
+    "en": "But only seeking the countenance of his Lord, Most High."
+   }
+  },
+  {
+   "surah": 92,
+   "ayah": 21,
+   "arabic": "وَلَسَوْفَ يَرْضَىٰ",
+   "translations": {
+    "en": "And he is going to be satisfied."
+   }
+  }
+ ]
+}
