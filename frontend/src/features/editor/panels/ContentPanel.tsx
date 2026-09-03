@@ -114,7 +114,7 @@ export function ContentPanel({
             </option>
           ))}
         </select>
-        <p className="text-[11px] text-ink-3">Verse-by-verse audio; timing measured per ayah with ffprobe.</p>
+        <p className="text-[11px] text-ink-3">Continuous full-surah audio with official verse timestamps; verse-by-verse fallback otherwise.</p>
       </div>
 
       <div className="flex flex-col gap-1.5">

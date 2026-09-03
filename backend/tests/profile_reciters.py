@@ -1,9 +1,20 @@
 """Measure the 'muaiqly/dosari standard' for every surah-mode reciter.
 
-Per reciter (surah 89, ayahs 1->8 junctions):
+Per reciter (default surah 89, ayahs 1->8 junctions):
   - pause: PCM quiet span (<-42dB, 10ms frames) around each boundary
   - lead  : time from boundary to the next actual speech onset (text-sync)
 Reference (user-approved): muaiqly QUL65 / dosari QDC97.
+
+Verdicts:
+  OK (matches standard)      — flowing recitation, tight sync
+  OK (natural waqf)          — tight sync (speech resumes right at the
+                               boundary), longer inter-ayah pauses are the
+                               reciter's own style preserved from the single
+                               continuous recording (e.g. Abdul Basit murattal)
+  NEEDS BETTER SOURCE        — speech lags the boundary (sync defect) or
+                               dead air AFTER the boundary timestamp
+
+Usage: python tests/profile_reciters.py [surah_number]
 """
 import json
 import subprocess
@@ -17,7 +28,7 @@ from app.core.config import RECITERS_DIR, ROOT  # noqa: E402
 from app.core.ffmpeg import tools  # noqa: E402
 from app.services import surah_audio  # noqa: E402
 
-SURAH = 89
+SURAH = int(sys.argv[1]) if len(sys.argv) > 1 else 89
 N_FROM, N_TO = 1, 7
 SR, FT = 44100, 0.01
 reciters = json.loads((ROOT / "data" / "reciters.json").read_text(encoding="utf-8"))["reciters"]
@@ -83,6 +94,16 @@ for rec in reciters:
     med_p, max_p = np.median(pauses), max(pauses)
     med_l, max_l = np.median(leads), max(leads)
     # standard: flowing pauses (<=650ms max) and tight text sync (<=350ms lead)
-    ok = max_p <= 0.65 and med_l <= 0.35 and max_l <= 0.5
+    sync_ok = med_l <= 0.35 and max_l <= 0.5
+    flowing = max_p <= 0.65
+    if sync_ok and flowing:
+        verdict = "OK  (matches standard)"
+    elif sync_ok:
+        # pauses sit BEFORE the boundary (trailing waqf of the previous ayah)
+        # and speech resumes right at it — the reciter's own style, preserved
+        # from the single continuous recording.
+        verdict = "OK  (natural waqf — tight sync, stylistic pauses)"
+    else:
+        verdict = "NEEDS BETTER SOURCE"
     print(f"{rid:11s} {provider + str(pid):16s} {med_p*1000:10.0f}ms {max_p*1000:6.0f}ms "
-          f"{med_l*1000:9.0f}ms {max_l*1000:5.0f}ms  {'OK  (matches standard)' if ok else 'NEEDS BETTER SOURCE'}")
+          f"{med_l*1000:9.0f}ms {max_l*1000:5.0f}ms  {verdict}")
