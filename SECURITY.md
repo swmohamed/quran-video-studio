@@ -19,6 +19,10 @@ Report privately through GitHub's built-in channel:
 2. Open the **Security** tab
 3. Click **Report a vulnerability** (GitHub Private Vulnerability Reporting)
 
+If that button is not available, contact the maintainer privately via
+[github.com/swmohamed](https://github.com/swmohamed) using the profile's
+contact options.
+
 Reports go directly to the maintainer without public disclosure.
 
 ## What to include
