@@ -145,3 +145,21 @@ text/audio come from.
   downloaded; check internet access. Already-cached ayahs keep working.
 - **Backend not reachable** — the backend window shows errors; it must stay
   open.
+
+## Contributing
+
+Issues and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
+for setup, testing requirements, and the data-integrity rules that apply to
+anything touching Quran text, translations, or recitation audio.
+
+## License
+
+The project's original source code is released under the [MIT License](LICENSE).
+
+Third-party assets and data are **not** covered by that license and remain
+subject to their own terms: Quran text and translations (Tanzil /
+api.alquran.cloud), recitation audio (everyayah.com, QUL, QDC — the rights
+belong to the reciters and their distributors), stock media (Pexels /
+Pixabay terms), and fonts (Amiri, Noto, Inter — SIL OFL). See
+[Data sources & attribution](#data-sources--attribution) for the full list.
+Generated videos are your responsibility to publish in line with those terms.

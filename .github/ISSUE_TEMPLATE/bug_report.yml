@@ -1,0 +1,70 @@
+name: Bug report
+description: Something in the app is broken or renders wrong
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please describe what you did and what happened.
+        Never include API keys (e.g. from `data/stock_keys.json`) in this report.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version / commit
+      description: Commit hash you are running, or "latest main at time X"
+      placeholder: e.g. 6bfcabc
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did in the app, step by step.
+      placeholder: |
+        1. Surah 89, ayahs 1-4, reciter ...
+        2. Click Generate Video
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Backend / console logs
+      description: Paste any error output (backend window or browser console). Optional.
+      render: shell
+  - type: input
+    id: ffmpeg
+    attributes:
+      label: FFmpeg version
+      description: Only if the issue involves rendering, audio, or export — output of `ffmpeg -version` first line.
+      placeholder: e.g. ffmpeg version 7.1-full_build
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I ran the latest commit on main and can reproduce this
+          required: true
