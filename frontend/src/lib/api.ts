@@ -1,4 +1,5 @@
 import type {
+  AudioDuration,
   Ayah,
   BackgroundEntry,
   FontCatalog,
@@ -46,11 +47,25 @@ export const api = {
   },
   stockStatus: () =>
     fetch("/api/stock/status").then((r) => json<{ providers: { pexels: boolean; pixabay: boolean } }>(r)),
-  stockSearch: (q: string, provider: string, orientation: string, kind: "image" | "video") =>
-    fetch(
+  stockSearch: (
+    q: string,
+    provider: string,
+    orientation: string,
+    kind: "image" | "video",
+    audioDuration?: number | null,
+  ) => {
+    const dur =
+      audioDuration != null && audioDuration > 0 ? `&audioDuration=${encodeURIComponent(String(audioDuration))}` : "";
+    return fetch(
       `/api/stock/search?q=${encodeURIComponent(q)}&provider=${provider}` +
-        `&orientation=${orientation}&kind=${kind}`,
-    ).then((r) => json<{ provider: string; kind: string; items: StockItem[] }>(r)),
+        `&orientation=${orientation}&kind=${kind}${dur}`,
+    ).then((r) => json<{ provider: string; kind: string; items: StockItem[] }>(r));
+  },
+  audioDuration: (req: { surah: number; fromAyah: number; toAyah: number; reciter: string }) =>
+    fetch(
+      `/api/preview/duration?surah=${req.surah}&fromAyah=${req.fromAyah}&toAyah=${req.toAyah}` +
+        `&reciter=${encodeURIComponent(req.reciter)}`,
+    ).then((r) => json<AudioDuration>(r)),
   stockDownload: (item: StockItem) =>
     fetch("/api/stock/download", {
       method: "POST",

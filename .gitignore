@@ -21,6 +21,8 @@ data/translations/
 data/qdc_timings/
 data/stock_names.json
 data/stock_keys.json
+data/qpc_v2/
+fonts/qpc-v2/
 frontend.log
 backend.log
 vite.log

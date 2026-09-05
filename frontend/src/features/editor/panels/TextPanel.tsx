@@ -1,5 +1,14 @@
 import type { FontCatalog, TextSettings } from "../../../types";
-import { ColorRow, Divider, Field, SliderRow, Toggle } from "../../../components/ui";
+import { ColorRow, Divider, Field, Segmented, SliderRow, Toggle } from "../../../components/ui";
+
+type HeaderLang = "ar" | "en" | "both" | "hidden";
+
+function headerLang(h: TextSettings["header"]): HeaderLang {
+  if (!h.show) return "hidden";
+  if (h.showArabic && h.showEnglish) return "both";
+  if (h.showEnglish) return "en";
+  return "ar";
+}
 
 export function TextPanel({
   text,
@@ -14,6 +23,13 @@ export function TextPanel({
   const setArabic = (p: Partial<TextSettings["arabic"]>) => onChange({ arabic: { ...text.arabic, ...p } });
   const setTr = (p: Partial<TextSettings["translation"]>) => onChange({ translation: { ...text.translation, ...p } });
   const setHeader = (p: Partial<TextSettings["header"]>) => onChange({ header: { ...text.header, ...p } });
+
+  const setHeaderLang = (mode: HeaderLang) => {
+    if (mode === "hidden") setHeader({ show: false, showArabic: false, showEnglish: false });
+    else if (mode === "ar") setHeader({ show: true, showArabic: true, showEnglish: false });
+    else if (mode === "en") setHeader({ show: true, showArabic: false, showEnglish: true });
+    else setHeader({ show: true, showArabic: true, showEnglish: true });
+  };
 
   return (
     <div className="flex flex-col gap-5">
@@ -46,7 +62,7 @@ export function TextPanel({
             id="arabic-font"
             value={text.arabic.font}
             onChange={(e) => setArabic({ font: e.target.value })}
-            className="h-9 w-full rounded-sm border border-line bg-surface-2 px-2.5 text-[13px] text-ink"
+            className="qvs-input"
           >
             {fonts.arabic.map((f) => (
               <option key={f.id} value={f.id}>{f.name}</option>
@@ -54,12 +70,38 @@ export function TextPanel({
           </select>
         </Field>
       ) : null}
-      <SliderRow label="Arabic size" unit="px" value={text.arabic.size} min={36} max={110}
+      <SliderRow label="Arabic size" unit="px" value={text.arabic.size} min={36} max={140}
         onChange={(v) => setArabic({ size: v })}
-        hint="Long verses auto-shrink to fit the card while staying readable." />
-      <SliderRow label="Line height" value={text.arabic.lineHeight} min={1.4} max={2.4} step={0.05}
-        onChange={(v) => setArabic({ lineHeight: v })} />
+        hint="This is the Quran text size in the video. Long verses shrink only if they overflow the card." />
+      <SliderRow label="Arabic line height" value={text.arabic.lineHeight} min={0} max={5} step={0.05}
+        onChange={(v) => setArabic({ lineHeight: v })}
+        hint="0 stacks lines. 5 is very open. Applies to preview and the final video." />
       <ColorRow label="Arabic color" value={text.arabic.color} onChange={(v) => setArabic({ color: v })} />
+      <SliderRow
+        label="Arabic Position X"
+        unit="%"
+        value={Math.round((text.arabic.offsetX ?? 0) * 10) / 10}
+        min={-40}
+        max={40}
+        step={0.5}
+        onChange={(v) => setArabic({ offsetX: v })}
+        hint="Left or right. The ayah marker moves with the Arabic text."
+      />
+      <SliderRow
+        label="Arabic Position Y"
+        unit="%"
+        value={Math.round((text.arabic.offsetY ?? 0) * 10) / 10}
+        min={-40}
+        max={40}
+        step={0.5}
+        onChange={(v) => setArabic({ offsetY: v })}
+        hint="Up or down. Does not change Arabic size."
+      />
+      <Toggle
+        label="Text Outline"
+        checked={!!text.outline}
+        onChange={(v) => onChange({ outline: v })}
+      />
 
       <Divider label="Translation" />
       {fonts ? (
@@ -68,7 +110,7 @@ export function TextPanel({
             id="tr-font"
             value={text.translation.font}
             onChange={(e) => setTr({ font: e.target.value })}
-            className="h-9 w-full rounded-sm border border-line bg-surface-2 px-2.5 text-[13px] text-ink"
+            className="qvs-input"
           >
             {fonts.latin.map((f) => (
               <option key={f.id} value={f.id}>{f.name}</option>
@@ -76,28 +118,92 @@ export function TextPanel({
           </select>
         </Field>
       ) : null}
-      <SliderRow label="Translation size" unit="px" value={text.translation.size} min={24} max={64}
+      <SliderRow label="Translation size" unit="px" value={text.translation.size} min={20} max={64}
         onChange={(v) => setTr({ size: v })} />
-      <SliderRow label="Line height" value={text.translation.lineHeight} min={1.2} max={2} step={0.05}
-        onChange={(v) => setTr({ lineHeight: v })} />
+      <SliderRow label="Translation line height" value={text.translation.lineHeight} min={0} max={5} step={0.05}
+        onChange={(v) => setTr({ lineHeight: v })}
+        hint="0 stacks lines. 5 is very open. Applies to preview and the final video." />
       <ColorRow label="Translation color" value={text.translation.color} onChange={(v) => setTr({ color: v })} />
+      <SliderRow
+        label="Translation Position X"
+        unit="%"
+        value={Math.round((text.translation.offsetX ?? 0) * 10) / 10}
+        min={-40}
+        max={40}
+        step={0.5}
+        onChange={(v) => setTr({ offsetX: v })}
+        hint="Moves only the translation. Arabic, marker, and header stay put."
+      />
+      <SliderRow
+        label="Translation Position Y"
+        unit="%"
+        value={Math.round((text.translation.offsetY ?? 0) * 10) / 10}
+        min={-40}
+        max={40}
+        step={0.5}
+        onChange={(v) => setTr({ offsetY: v })}
+        hint="Does not change translation size."
+      />
 
-      <Divider label="Header & reference" />
-      <Toggle label="Show surah header" checked={text.header.show} onChange={(v) => setHeader({ show: v })} />
+      <Divider label="Surah header" />
+      <Field label="Header language">
+        <Segmented
+          ariaLabel="Surah header language"
+          value={headerLang(text.header)}
+          onChange={(v) => setHeaderLang(v as HeaderLang)}
+          options={[
+            { value: "ar", label: "Arabic" },
+            { value: "en", label: "English" },
+            { value: "both", label: "Both" },
+            { value: "hidden", label: "Hidden" },
+          ]}
+        />
+      </Field>
       {text.header.show ? (
-        <div className="ms-1 flex flex-col gap-2 border-s border-line ps-3">
-          <Toggle label="Arabic surah name" checked={text.header.showArabic} onChange={(v) => setHeader({ showArabic: v })} />
-          <Toggle label="English name" checked={text.header.showEnglish} onChange={(v) => setHeader({ showEnglish: v })} />
+        <>
+          <ColorRow
+            label="Header color"
+            value={text.header.color ?? "#f5f1e8"}
+            onChange={(v) => setHeader({ color: v })}
+          />
           <SliderRow
-            label="Header height"
+            label="Header size"
+            unit="px"
+            value={text.header.size ?? 64}
+            min={28}
+            max={96}
+            onChange={(v) => setHeader({ size: v })}
+            hint="Arabic name size. English tracks at a smaller matching size. Names come from Surah metadata and cannot be edited."
+          />
+          <SliderRow
+            label="Header position"
             unit="%"
             value={text.header.topPct ?? 10}
             min={3}
             max={30}
             onChange={(v) => setHeader({ topPct: v })}
-            hint="Distance of the surah header from the top edge."
+            hint="Distance from the top edge."
           />
-        </div>
+          {text.header.showArabic && text.header.showEnglish ? (
+            <SliderRow
+              label="Name gap"
+              unit="px"
+              value={text.header.gap ?? 18}
+              min={4}
+              max={48}
+              onChange={(v) => setHeader({ gap: v })}
+              hint="Space between the Arabic and English names."
+            />
+          ) : null}
+          <SliderRow
+            label="Header line height"
+            value={text.header.lineHeight ?? 1.2}
+            min={0}
+            max={5}
+            step={0.05}
+            onChange={(v) => setHeader({ lineHeight: v })}
+          />
+        </>
       ) : null}
       <Toggle label="Ayah number marker" checked={text.showAyahNumber}
         onChange={(v) => onChange({ showAyahNumber: v })} description="Quranic verse-end marker after the Arabic text" />

@@ -51,15 +51,23 @@ class FakeResp:
         return self._p
 
 
+video_queries: list[str] = []
+image_urls: list[str] = []
+
+
 def fake_requests_get(url, params=None, headers=None, timeout=None, **kw):
+    params = params or {}
     if "pexels.com/v1/search" in url:
+        image_urls.append(url)
         return FakeResp({"photos": [{
             "id": 123, "width": 4000, "height": 6000, "photographer": "T",
             "src": {"medium": "m.jpg", "large2x": "l.jpg", "original": "o.jpg"},
         }]})
     if "pexels.com/videos/search" in url:
+        video_queries.append(str(params.get("query") or ""))
         return FakeResp({"videos": [{
-            "id": 9, "image": "t.jpg",
+            "id": 9, "image": "t.jpg", "duration": 45,
+            "url": "https://www.pexels.com/video/calm-ocean-waves-9/",
             "video_files": [
                 {"file_type": "video/mp4", "link": "tiny.mp4", "width": 640, "height": 360},
                 {"file_type": "video/mp4", "link": "sd.mp4", "width": 960, "height": 540},
@@ -68,15 +76,20 @@ def fake_requests_get(url, params=None, headers=None, timeout=None, **kw):
             "user": {"name": "V"},
         }]})
     if "pixabay.com/api/" in url and "/videos" not in url:
+        image_urls.append(url)
         return FakeResp({"hits": [{
             "id": 55, "imageWidth": 3000, "imageHeight": 2000, "user": "P",
             "webformatURL": "w.jpg", "largeImageURL": "l.jpg",
         }]})
     if "pixabay.com/api/videos/" in url:
+        video_queries.append(str(params.get("q") or ""))
         return FakeResp({"hits": [{
-            "id": 77, "user": "Q", "picture_id": "abc", "pageURL": "p",
-            "videos": {"medium": {"url": "v.mp4", "width": 1280, "height": 720},
-                       "large": {"url": "vl.mp4", "width": 1920, "height": 1080}},
+            "id": 77, "user": "Q", "pageURL": "p", "duration": 28,
+            "tags": "ocean, sea, water, wave, nature",
+            "videos": {"medium": {"url": "v.mp4", "width": 1280, "height": 720,
+                                    "thumbnail": "https://cdn.pixabay.com/video/x_medium.jpg"},
+                       "large": {"url": "vl.mp4", "width": 1920, "height": 1080,
+                                  "thumbnail": "https://cdn.pixabay.com/video/x_large.jpg"}},
         }]})
     raise AssertionError(f"unexpected url {url}")
 
@@ -92,9 +105,19 @@ try:
     check("pexels image parse", len(pex_img) == 1 and pex_img[0]["url"] == "l.jpg"
           and pex_img[0]["author"] == "T", str(pex_img[0]))
     pex_vid = stocksvc.search("pexels", "ocean", "portrait", "video")
-    check("pexels video parse (prefers 720-1280 wide mp4)",
-          len(pex_vid) == 1 and pex_vid[0]["url"] == "sd.mp4"
-          and pex_vid[0]["width"] == 960, str(pex_vid[0]))
+    check("pexels video parse (highest-resolution mp4)",
+          len(pex_vid) == 1 and pex_vid[0]["url"] == "hd.mp4"
+          and pex_vid[0]["width"] == 1920, str(pex_vid[0]))
+    check("pexels video duration + orientation",
+          pex_vid[0].get("duration") == 45 and pex_vid[0].get("orientation") == "landscape",
+          str(pex_vid[0]))
+    pex_video_qs = list(video_queries)
+    check("pexels video smart search uses exact query plus a few variants",
+          2 <= len(pex_video_qs) <= 3 and "ocean" in pex_video_qs,
+          str(pex_video_qs))
+    check("pexels video tags from page slug",
+          "ocean" in (pex_vid[0].get("tags") or ""), str(pex_vid[0].get("tags")))
+    check("photo search stays a single request", len(image_urls) == 1, str(image_urls))
     pix_img = stocksvc.search("pixabay", "waves", "landscape", "image")
     check("pixabay image parse (orientation=horizontal)",
           len(pix_img) == 1 and pix_img[0]["url"] == "l.jpg"
@@ -102,6 +125,15 @@ try:
     pix_vid = stocksvc.search("pixabay", "waves", None, "video")
     check("pixabay video parse (picks large mp4)",
           len(pix_vid) == 1 and pix_vid[0]["url"] == "vl.mp4", str(pix_vid[0]))
+    check("pixabay video thumb prefers medium still",
+          pix_vid[0].get("thumb") == "https://cdn.pixabay.com/video/x_medium.jpg"
+          and pix_vid[0].get("preview") == pix_vid[0].get("thumb"),
+          str(pix_vid[0]))
+    pix_video_qs = video_queries[len(pex_video_qs):]
+    check("pixabay video smart search uses exact query plus variants",
+          2 <= len(pix_video_qs) <= 3 and "waves" in pix_video_qs,
+          str(pix_video_qs))
+    check("duplicate video ids are removed", len(pex_vid) == 1 and len(pix_vid) == 1)
 finally:
     _rq.get = _orig_get
     stocksvc._keys = _orig_keys

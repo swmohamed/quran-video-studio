@@ -5,20 +5,24 @@ import type {
   SurahMeta,
   TextSettings,
 } from "../../types";
+import { compositionScale } from "../../lib/formats";
+import {
+  clampTrim,
+  ensureClips,
+  layersAtTime,
+  mapAudioToSequence,
+  sequenceDuration,
+  sourceDuration,
+} from "../../lib/bgTimeline";
+import { ensureQpcFont, isQpcReady, qpcFamily } from "../../lib/qpcFonts";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 /**
- * HTML replica of the server-side render composition, designed in the same
- * 1080x1920 coordinate space and scaled down visually. Font metric ratios
- * below are measured from the actual TTF files (freetype ascent/descent) so
- * browser line boxes match the HarfBuzz renderer.
+ * HTML replica of the server-side render composition. Authored in 1080×1920
+ * design units; `compositionScale(width, height)` applies the same uniform
+ * scale the FFmpeg renderer uses. The stage may CSS-scale this whole tree
+ * down to fit the UI — that does not change final MP4 glyph resolution.
  */
-const FONT_METRICS: Record<string, number> = {
-  amiri: 1.77,
-  notonaskh: 1.71,
-  notosansarabic: 2.12,
-  inter: 1.22,
-};
-
 const ARABIC_STACKS: Record<string, string> = {
   amiri: "var(--font-amiri)",
   notonaskh: "var(--font-naskh)",
@@ -31,39 +35,60 @@ const LATIN_STACKS: Record<string, string> = {
 };
 
 const ARABIC_INDIC_DIGITS = "٠١٢٣٤٥٦٧٨٩";
+const HEADER_EN_RATIO = 30 / 64;
 
 function toArabicIndic(n: number): string {
   return String(n).replace(/[0-9]/g, (d) => ARABIC_INDIC_DIGITS[Number(d)]);
 }
 
-/** Quranic verse-end marker: thin ornamental rosette (double ring + 8
- *  radiating petals), ayah number centered inside in the same ink color.
- *  Mirrors draw_ayah_marker() in the backend (same proportions) so preview
- *  matches the exported MP4 exactly. */
-function AyahMarker({ n, fontStack, color }: { n: number; fontStack: string; color: string }) {
-  const digits = String(n).length;
-  const numSize = digits === 1 ? "0.44em" : digits === 2 ? "0.4em" : "0.33em";
-  return (
-    <span className="qvs-ayah-marker" style={{ color }} aria-hidden="true">
-      <svg viewBox="0 0 100 100" focusable="false">
-        <circle cx="50" cy="50" r="31" fill="none" stroke="currentColor" strokeWidth="4.5" />
-        <circle cx="50" cy="50" r="26" fill="none" stroke="currentColor" strokeWidth="2.7" />
-        {Array.from({ length: 8 }, (_, k) => {
-          const a = (k * Math.PI) / 4;
-          return (
-            <circle
-              key={k}
-              cx={50 + Math.cos(a) * 37}
-              cy={50 + Math.sin(a) * 37}
-              r="5.5"
-              fill="currentColor"
-            />
-          );
-        })}
-      </svg>
-      <span className="qvs-marker-num" dir="rtl" style={{ fontFamily: fontStack, fontSize: numSize }}>
-        {toArabicIndic(n)}
+/** Quran.com QCF v2 ayah-end glyph (p{page}-v2 + code_v2 `end` word).
+ *  Falls back to Noto U+06DD until that page font is ready. */
+function AyahMarker({
+  n,
+  color,
+  marker,
+}: {
+  n: number;
+  color: string;
+  marker?: Ayah["qpcMarker"];
+}) {
+  const page = marker?.page;
+  const [ready, setReady] = useState(() => (page ? isQpcReady(page) : false));
+  useEffect(() => {
+    if (!page) {
+      setReady(false);
+      return;
+    }
+    if (isQpcReady(page)) {
+      setReady(true);
+      return;
+    }
+    let live = true;
+    ensureQpcFont(page).then((ok) => {
+      if (live) setReady(ok);
+    });
+    return () => {
+      live = false;
+    };
+  }, [page, marker?.char]);
+
+  if (marker && ready) {
+    return (
+      <span
+        className="qvs-ayah-marker qvs-ayah-marker-qpc"
+        dir="rtl"
+        lang="ar"
+        style={{ color, fontFamily: qpcFamily(marker.page) }}
+        aria-hidden="true"
+      >
+        {marker.char}
       </span>
+    );
+  }
+  return (
+    <span className="qvs-ayah-marker" dir="rtl" lang="ar" style={{ color }} aria-hidden="true">
+      {"\u06DD"}
+      {toArabicIndic(n)}
     </span>
   );
 }
@@ -74,22 +99,37 @@ export function VersePreview({
   translationText,
   text,
   bgEntry,
+  backgrounds = [],
   bgSettings,
   width = 1080,
   height = 1920,
+  playhead = 0,
+  audioDuration = 0,
+  playing = false,
 }: {
   surahMeta: SurahMeta | undefined;
   ayah: Ayah | undefined;
   translationText: string | null;
   text: TextSettings;
   bgEntry: BackgroundEntry | undefined;
+  backgrounds?: BackgroundEntry[];
   bgSettings: BackgroundSettings;
   width?: number;
   height?: number;
+  playhead?: number;
+  audioDuration?: number;
+  playing?: boolean;
 }) {
   const card = text.card;
   const ar = text.arabic;
   const tr = text.translation;
+  const scale = compositionScale(width, height);
+  const headerSize = (text.header.size ?? 64) * scale;
+  const headerEnSize = Math.max(14 * scale, headerSize * HEADER_EN_RATIO);
+  const headerGap = (text.header.gap ?? 18) * scale;
+  const headerLh = text.header.lineHeight ?? 1.2;
+  const arSize = ar.size * scale;
+  const trSize = tr.size * scale;
 
   const filter = [
     `brightness(${bgSettings.brightness / 100})`,
@@ -103,44 +143,77 @@ export function VersePreview({
   const objectPositionY =
     bgSettings.position === "top" ? "0%" : bgSettings.position === "bottom" ? "100%" : "50%";
 
+  const byId = useMemo(() => new Map(backgrounds.map((b) => [b.id, b])), [backgrounds]);
+  const clips = ensureClips(bgSettings, backgrounds);
+  const xfReq = bgSettings.transitionDuration ?? 0.5;
+  const seqDur = sequenceDuration(clips, byId, bgSettings.crossfade, xfReq);
+  const seqT = mapAudioToSequence(playhead, seqDur, audioDuration || seqDur);
+  const layers = layersAtTime(seqT, clips, byId, bgSettings.crossfade, xfReq);
+  const primary = layers[0];
+  const shownLayers = [...layers];
+  if (bgSettings.crossfade && primary && primary.index + 1 < clips.length) {
+    const nextI = primary.index + 1;
+    if (!shownLayers.some((l) => l.index === nextI)) {
+      const nextClip = clips[nextI];
+      const nextEntry = byId.get(nextClip.sourceId);
+      const nextTrim = clampTrim(nextClip.trimStart, nextClip.trimEnd, sourceDuration(nextEntry));
+      shownLayers.unshift({ index: nextI, sourceTime: nextTrim.trimStart, opacity: 0 });
+    }
+  }
   // card width mirrors the renderer: % of canvas width, capped on landscape
   const cardW = Math.min(
     Math.round((width * card.widthPct) / 100),
     width > height ? Math.round(height * 1.15) : width,
   );
-  const headerTop = Math.max(24, Math.round(height * ((text.header.topPct ?? 10) / 100)));
+  const headerTop = Math.max(24, Math.round(height * ((text.header.topPct ?? 7) / 100)));
+  const pad = (card.visible ? card.padding : 12) * scale;
+  const radius = card.radius * scale;
+  const borderW = card.borderWidth * scale;
 
   return (
     <div className="relative overflow-hidden bg-canvas" style={{ width, height }} aria-hidden="true">
-      {bgEntry ? (
-        bgEntry.kind === "video" ? (
-          <video
-            key={bgEntry.id}
-            src={bgEntry.url}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute inset-0 h-full w-full object-cover"
-            style={{ filter, objectPosition: `center ${objectPositionY}` }}
-          />
-        ) : (
-          <img
-            key={bgEntry.id}
-            src={bgEntry.url}
-            alt=""
-            className="absolute inset-0 h-full w-full object-cover"
-            style={{ filter, objectPosition: `center ${objectPositionY}` }}
-          />
-        )
-      ) : null}
+      {shownLayers.map((layer) => {
+        const clip = clips[layer.index];
+        const entry = (clip && byId.get(clip.sourceId)) || bgEntry;
+        if (!entry) return null;
+        const trim = clip
+          ? clampTrim(clip.trimStart, clip.trimEnd, sourceDuration(entry))
+          : { trimStart: 0, trimEnd: sourceDuration(entry) };
+        return (
+          <div
+            key={`${clip?.id ?? entry.id}-${layer.index}`}
+            className="absolute inset-0"
+            style={{ opacity: layer.opacity }}
+          >
+            {entry.kind === "video" ? (
+              <TimelineVideo
+                entry={entry}
+                sourceTime={layer.sourceTime}
+                trimStart={trim.trimStart}
+                trimEnd={trim.trimEnd}
+                playing={playing && layer.opacity > 0}
+                loopSection={clips.length <= 1}
+                filter={filter}
+                objectPositionY={objectPositionY}
+              />
+            ) : (
+              <img
+                src={entry.url}
+                alt=""
+                className="absolute inset-0 h-full w-full object-cover"
+                style={{ filter, objectPosition: `center ${objectPositionY}` }}
+              />
+            )}
+          </div>
+        );
+      })}
 
       <div className="absolute inset-0" style={{ background: `rgba(0,0,0,${bgSettings.darkOverlay / 100})` }} />
 
       {text.header.show ? (
         <div
           className="absolute inset-x-0 flex flex-col items-center"
-          style={{ top: headerTop, gap: 18 }}
+          style={{ top: headerTop, gap: headerGap }}
         >
           {text.header.showArabic && surahMeta ? (
             <div
@@ -149,9 +222,9 @@ export function VersePreview({
               style={{
                 fontFamily: "var(--font-amiri)",
                 fontWeight: 700,
-                fontSize: 64,
-                lineHeight: 1.77,
-                color: "#e8d9b0",
+                fontSize: headerSize,
+                lineHeight: headerLh,
+                color: text.header.color ?? "#f5f1e8",
               }}
             >
               {surahMeta.arabicName}
@@ -161,10 +234,10 @@ export function VersePreview({
             <div
               style={{
                 fontFamily: "var(--font-ui)",
-                fontSize: 30,
-                lineHeight: 1.22,
+                fontSize: headerEnSize,
+                lineHeight: headerLh,
                 letterSpacing: "0.08em",
-                color: "#b9b2a2",
+                color: text.header.color ?? "#f5f1e8",
                 fontWeight: 500,
               }}
             >
@@ -182,12 +255,12 @@ export function VersePreview({
           top: `${card.positionPct}%`,
           transform: "translate(-50%, -50%)",
           background: card.visible ? hexAlpha(card.color, card.opacity) : "transparent",
-          borderRadius: card.radius ? card.radius : undefined,
+          borderRadius: card.radius ? radius : undefined,
           border:
             card.visible && card.borderWidth
-              ? `${card.borderWidth}px solid ${card.borderColor}`
+              ? `${borderW}px solid ${card.borderColor}`
               : undefined,
-          padding: card.visible ? card.padding : 12,
+          padding: card.visible ? pad : 12 * scale,
         }}
       >
         {ayah ? (
@@ -200,11 +273,15 @@ export function VersePreview({
               dir="rtl"
               style={{
                 fontFamily: ARABIC_STACKS[ar.font] ?? "var(--font-amiri)",
-                fontSize: ar.size,
-                lineHeight: ar.lineHeight * (FONT_METRICS[ar.font] ?? 1.7),
+                fontSize: arSize,
+                lineHeight: ar.lineHeight,
                 color: ar.color,
                 textAlign: "center",
                 paddingInline: 4,
+                position: "relative",
+                left: ((ar.offsetX ?? 0) / 100) * width,
+                top: ((ar.offsetY ?? 0) / 100) * height,
+                ...(text.outline ? { textShadow: "0 1px 2px rgba(8,7,6,0.88)" } : {}),
               }}
             >
               {text.showAyahNumber && ayah.arabic.trim().includes(" ") ? (
@@ -212,22 +289,14 @@ export function VersePreview({
                   {ayah.arabic.slice(0, ayah.arabic.trimEnd().lastIndexOf(" ") + 1)}
                   <span className="qvs-last-word">
                     {ayah.arabic.trimEnd().slice(ayah.arabic.trimEnd().lastIndexOf(" ") + 1)}
-                    <AyahMarker
-                      n={ayah.ayah}
-                      fontStack={ARABIC_STACKS[ar.font] ?? "var(--font-amiri)"}
-                      color={ar.color}
-                    />
+                    <AyahMarker n={ayah.ayah} color={ar.color} marker={ayah.qpcMarker} />
                   </span>
                 </>
               ) : (
                 <>
                   {ayah.arabic}
                   {text.showAyahNumber ? (
-                    <AyahMarker
-                      n={ayah.ayah}
-                      fontStack={ARABIC_STACKS[ar.font] ?? "var(--font-amiri)"}
-                      color={ar.color}
-                    />
+                    <AyahMarker n={ayah.ayah} color={ar.color} marker={ayah.qpcMarker} />
                   ) : null}
                 </>
               )}
@@ -237,12 +306,15 @@ export function VersePreview({
                 dir="ltr"
                 style={{
                   fontFamily: LATIN_STACKS[tr.font] ?? "var(--font-amiri)",
-                  fontSize: tr.size,
-                  lineHeight: tr.lineHeight * (FONT_METRICS[tr.font] ?? 1.4),
+                  fontSize: trSize,
+                  lineHeight: tr.lineHeight,
                   color: tr.color,
                   textAlign: "center",
-                  marginTop: 52,
+                  marginTop: 32 * scale,
                   paddingInline: 4,
+                  position: "relative",
+                  left: ((tr.offsetX ?? 0) / 100) * width,
+                  top: ((tr.offsetY ?? 0) / 100) * height,
                 }}
               >
                 {translationText}
@@ -252,6 +324,66 @@ export function VersePreview({
         ) : null}
       </div>
     </div>
+  );
+}
+
+function TimelineVideo({
+  entry,
+  sourceTime,
+  trimStart,
+  trimEnd,
+  playing,
+  loopSection,
+  filter,
+  objectPositionY,
+}: {
+  entry: BackgroundEntry;
+  sourceTime: number;
+  trimStart: number;
+  trimEnd: number;
+  playing: boolean;
+  loopSection: boolean;
+  filter: string;
+  objectPositionY: string;
+}) {
+  const ref = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const v = ref.current;
+    if (!v) return;
+    const apply = () => {
+      const slop = playing ? 0.22 : 0.04;
+      if (Math.abs(v.currentTime - sourceTime) > slop) {
+        try {
+          v.currentTime = sourceTime;
+        } catch {
+          /* seeking not ready */
+        }
+      }
+    };
+    if (v.readyState >= 1) apply();
+    else v.addEventListener("loadedmetadata", apply, { once: true });
+    if (playing || loopSection) {
+      void v.play().catch(() => undefined);
+    } else {
+      v.pause();
+    }
+  }, [sourceTime, playing, loopSection, entry.id]);
+
+  return (
+    <video
+      ref={ref}
+      src={entry.url}
+      muted
+      playsInline
+      className="absolute inset-0 h-full w-full object-cover"
+      style={{ filter, objectPosition: `center ${objectPositionY}` }}
+      onTimeUpdate={(e) => {
+        if (!loopSection) return;
+        const v = e.currentTarget;
+        if (v.currentTime >= trimEnd - 0.05) v.currentTime = trimStart;
+      }}
+    />
   );
 }
 

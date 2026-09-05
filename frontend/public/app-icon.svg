@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Quran Video Studio">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0c0d11"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#c9a45c" stroke-width="1.8"/>
+  <path
+    d="M31.2 15.1 14.4 17.7c-.95.32-1.55 1.2-1.55 2.2v23.15c0 1.4 1.25 2.35 2.6 2.05L31.2 42.8Z"
+    fill="#f3ead2"
+    stroke="#c9a45c"
+    stroke-width="1.1"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M32.8 15.1 49.6 17.7c.95.32 1.55 1.2 1.55 2.2v23.15c0 1.4-1.25 2.35-2.6 2.05L32.8 42.8Z"
+    fill="#fff8ea"
+    stroke="#c9a45c"
+    stroke-width="1.1"
+    stroke-linejoin="round"
+  />
+  <rect x="30.75" y="14.85" width="2.5" height="28.2" rx="1.15" fill="#c9a45c"/>
+  <path d="M16.1 21.7h12.2" stroke="#c9a45c" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M35.7 21.7h12.2" stroke="#c9a45c" stroke-width="1.45" stroke-linecap="round"/>
+  <circle cx="32" cy="33.1" r="7.55" fill="#c9a45c"/>
+  <path d="M29.75 29.95c0-.52.55-.84 1-.58l6.15 3.65c.45.26.45.9 0 1.16l-6.15 3.65c-.45.26-1-.07-1-.58Z" fill="#0c0d11"/>
+</svg>

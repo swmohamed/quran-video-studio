@@ -23,17 +23,30 @@ from app.renderer.timeline import Segment
 
 TEXT_FADE = 0.12  # subtle text-only crossfade (spec: 80-150ms)
 
-# x264 quality tiers. "small" uses a slower preset so thin Arabic strokes
-# survive the lower bitrate far better than quick external re-encodes.
+# x264 quality tiers. CRF stays in the 16–18 band so thin Arabic strokes
+# survive TikTok / phone / desktop playback without a later upscale.
 QUALITY_TIERS = {
-    "max": {"crf": 15, "preset": "slow"},
+    "max": {"crf": 16, "preset": "slow"},
     "high": {"crf": 16, "preset": "medium"},
-    "small": {"crf": 23, "preset": "slow"},
+    "small": {"crf": 18, "preset": "slow"},
 }
 
 
 class EncodeError(RuntimeError):
     pass
+
+
+def _overlay_prep(extra: str, overlay_scale: tuple[int, int] | None) -> str:
+    """Keep the PNG as lossless RGBA; Lanczos-downscale at most once."""
+    steps = ["format=rgba"]
+    if overlay_scale:
+        steps.append(
+            f"scale={overlay_scale[0]}:{overlay_scale[1]}:"
+            "flags=lanczos+accurate_rnd+full_chroma_int"
+        )
+    if extra:
+        steps.append(extra)
+    return ",".join(steps)
 
 
 def build_filter_complex(
@@ -42,18 +55,15 @@ def build_filter_complex(
     fade: float,
     overlay_scale: tuple[int, int] | None = None,
 ) -> str:
-    """overlay_scale: when text layers were rendered supersampled (2x),
-    they are lanczos-downscaled here — anti-aliased edges survive later
-    shrinking by players/re-encoders far better."""
-    ov_step = (
-        f"scale={overlay_scale[0]}:{overlay_scale[1]}:"
-        "flags=lanczos+accurate_rnd+full_chroma_int,"
-        if overlay_scale else ""
-    )
+    """overlay_scale: when text layers were rendered supersampled,
+    they are lanczos-downscaled here once. Composition stays full-chroma
+    (gbrp) until a single final yuv420p convert for H.264."""
     parts = [bg_filter]
     # persistent header+card layer: static, always on, never faded
-    parts.append(f"[2:v]{ov_step}format=rgba[persist]")
-    parts.append("[bgv][persist]overlay=x=0:y=0:shortest=0:format=auto[base]")
+    parts.append(f"[2:v]{_overlay_prep('', overlay_scale)}[persist]")
+    parts.append(
+        "[bgv][persist]overlay=x=0:y=0:shortest=0:format=gbrp:alpha=straight[base]"
+    )
     prev = "base"
     for i, seg in enumerate(segments):
         idx = 3 + i  # 0=bg, 1=audio, 2=persistent, 3..=ayah text
@@ -63,22 +73,31 @@ def build_filter_complex(
         if i == 0:
             # First ayah: text is fully present from frame 0 — no fade-in,
             # so the very first frame already carries the verse.
-            parts.append(
-                f"[{idx}:v]{ov_step}"
-                f"setpts=PTS-STARTPTS+{start:.3f}/TB,format=rgba,"
-                f"fade=t=out:st={fade_out_st:.3f}:d={tf:.3f}:alpha=1[ov{i}]"
+            extra = (
+                f"setpts=PTS-STARTPTS+{start:.3f}/TB,"
+                f"fade=t=out:st={fade_out_st:.3f}:d={tf:.3f}:alpha=1"
             )
         else:
-            parts.append(
-                f"[{idx}:v]{ov_step}"
-                f"setpts=PTS-STARTPTS+{start:.3f}/TB,format=rgba,"
+            extra = (
+                f"setpts=PTS-STARTPTS+{start:.3f}/TB,"
                 f"fade=t=in:st={start:.3f}:d={tf:.3f}:alpha=1,"
-                f"fade=t=out:st={fade_out_st:.3f}:d={tf:.3f}:alpha=1[ov{i}]"
+                f"fade=t=out:st={fade_out_st:.3f}:d={tf:.3f}:alpha=1"
             )
-        parts.append(f"[{prev}][ov{i}]overlay=x=0:y=0:eof_action=pass:shortest=0:format=auto[v{i}]")
+        parts.append(f"[{idx}:v]{_overlay_prep(extra, overlay_scale)}[ov{i}]")
+        parts.append(
+            f"[{prev}][ov{i}]overlay=x=0:y=0:eof_action=pass:shortest=0:"
+            f"format=gbrp:alpha=straight[v{i}]"
+        )
         prev = f"v{i}"
-    parts.append(f"[{prev}]fps={VIDEO_FPS},format=yuv420p[vout]")
-    # one continuous audio track
+    # One chroma downsample, after every overlay — never before text.
+    # Explicit full-RGB → limited bt709 so cream verse ink is not crushed
+    # by an implicit range guess.
+    parts.append(
+        f"[{prev}]scale=in_range=full:out_range=tv:out_color_matrix=bt709:"
+        f"flags=accurate_rnd+full_chroma_int,"
+        f"setparams=color_primaries=bt709:color_trc=bt709:"
+        f"colorspace=bt709:range=tv,format=yuv420p[vout]"
+    )
     parts.append("[1:a]aformat=sample_rates=44100:channel_layouts=stereo[aout]")
     return ";".join(parts)
 
@@ -110,7 +129,9 @@ def build_args(
         "-filter_complex", filter_complex,
         "-map", "[vout]", "-map", "[aout]",
         "-c:v", "libx264", "-preset", tier["preset"], "-crf", str(tier["crf"]),
-        "-pix_fmt", "yuv420p", "-r", str(VIDEO_FPS),
+        "-profile:v", "high", "-pix_fmt", "yuv420p", "-r", str(VIDEO_FPS),
+        "-x264-params", "aq-mode=3:deblock=-1,-1",
+        "-sws_flags", "lanczos+accurate_rnd+full_chroma_int",
         # explicit color pipeline — prevents player-side washed/shifted colors
         "-color_range", "tv", "-colorspace", "bt709",
         "-color_primaries", "bt709", "-color_trc", "bt709",

@@ -17,6 +17,7 @@ from app.services import fonts as fontsvc
 from app.services import stock as stocksvc
 from app.services import quran as qsvc
 from app.services import reciters as recsvc
+from app.services import qpc as qpcsvc
 from app.services.quran import QuranDataError
 from app.core.config import DEFAULT_PLATFORM, PLATFORM_PRESETS
 
@@ -50,6 +51,10 @@ def surah(number: int) -> dict:
         raise HTTPException(404, "Surah number must be 1-114.")
     meta = qsvc.get_surah(number)
     ayahs = qsvc._verses_file(number)["ayahs"]
+    try:
+        ayahs = qpcsvc.attach_markers(ayahs)
+    except Exception:
+        ayahs = [dict(a) for a in ayahs]
     return {"surah": meta, "ayahs": ayahs}
 
 
@@ -73,6 +78,23 @@ def fonts() -> dict:
     return fontsvc.catalog()
 
 
+@router.get("/qpc/font/{page}")
+def qpc_font(page: int) -> FileResponse:
+    """QCF v2 page font (p{N}-v2), downloaded on demand and cached locally."""
+    if not 1 <= page <= 604:
+        raise HTTPException(404, "Mushaf page must be 1-604.")
+    try:
+        path = qpcsvc.ensure_page_font(page)
+    except qpcsvc.QpcError as exc:
+        raise HTTPException(502, str(exc)) from exc
+    return FileResponse(
+        path,
+        media_type="font/ttf",
+        filename=f"p{page}.ttf",
+        headers={"Cache-Control": "public, max-age=31536000, immutable"},
+    )
+
+
 @router.get("/backgrounds")
 def backgrounds() -> dict:
     return {"backgrounds": bgsvc.list_backgrounds()}
@@ -93,15 +115,20 @@ def stock_status() -> dict:
 
 @router.get("/stock/search")
 def stock_search(q: str, provider: str = "pexels", orientation: str | None = None,
-                 kind: str = "image") -> dict:
+                 kind: str = "image", audioDuration: float | None = None) -> dict:
     try:
-        items = stocksvc.search(provider, q.strip()[:60], orientation, kind)
+        items = stocksvc.search(
+            provider, q.strip()[:60], orientation, kind,
+            audio_duration=audioDuration,
+        )
     except stocksvc.StockError as exc:
         raise HTTPException(503, str(exc))
-    # stable order: portraits first when a portrait orientation was requested
-    if orientation == "portrait":
-        items.sort(key=lambda i: (i.get("height") or 0) >= (i.get("width") or 0), reverse=True)
-    return {"provider": provider, "kind": kind, "items": items}
+    return {
+        "provider": provider,
+        "kind": kind,
+        "audioDuration": audioDuration,
+        "items": items,
+    }
 
 
 class StockDownloadRequest(BaseModel):
@@ -147,6 +174,69 @@ def render(req: RenderRequest) -> dict:
 _span_cache: dict[tuple, list] = {}
 
 
+def _estimate_verse_seconds(arabic: str) -> float:
+    words = len((arabic or "").strip().split())
+    return min(9.0, max(2.5, 1.4 + words * 0.55))
+
+
+@router.get("/preview/duration")
+def preview_duration(
+    surah: int, fromAyah: int, toAyah: int, reciter: str = "alafasy",
+) -> dict:
+    """Selected recitation length in seconds — source of truth for background ranking.
+
+    Prefers official verse timestamps (no audio download). Falls back to
+    cached verse files, then a word-count estimate.
+    """
+    count = toAyah - fromAyah + 1
+    if count < 1 or count > 30:
+        raise HTTPException(400, "Ayah range must be 1-30 ayahs.")
+    try:
+        rec = recsvc.get_reciter(reciter)
+        ayat = qsvc.get_ayat(surah, fromAyah, toAyah)
+    except (QuranDataError, recsvc.ReciterError) as exc:
+        raise HTTPException(400, str(exc))
+
+    provider_cfg = surah_audio.reciter_provider(rec)
+    if provider_cfg:
+        try:
+            provider, pid = provider_cfg
+            info = surah_audio.fetch_timings(provider, pid, surah, rec)
+            start_s, end_s, bounds = surah_audio.range_bounds(
+                fromAyah, toAyah, _get_surah_meta(surah)["ayahCount"], info,
+                use_word=rec.get("surahBoundary") == "word",
+            )
+            return {
+                "duration": round(end_s - start_s, 3),
+                "estimated": False,
+                "source": "timestamps",
+                "segments": [{"ayah": a, "at": round(rel, 3)} for a, rel in bounds],
+            }
+        except Exception:  # noqa: BLE001 — fall through
+            pass
+
+    paths = [recsvc.local_audio_path(reciter, surah, a["ayah"]) for a in ayat]
+    if paths and all(p.exists() and p.stat().st_size > 1024 for p in paths):
+        try:
+            segs = []
+            acc = 0.0
+            for a, p in zip(ayat, paths):
+                d = tools.probe_duration(p)
+                segs.append({"ayah": a["ayah"], "at": round(acc, 3), "duration": round(d, 3)})
+                acc += d
+            return {"duration": round(acc, 3), "estimated": False, "source": "verses", "segments": segs}
+        except Exception:  # noqa: BLE001
+            pass
+
+    segs = []
+    acc = 0.0
+    for a in ayat:
+        d = _estimate_verse_seconds(a.get("arabic") or "")
+        segs.append({"ayah": a["ayah"], "at": round(acc, 3), "duration": round(d, 1)})
+        acc += d
+    return {"duration": round(acc, 1), "estimated": True, "source": "estimate", "segments": segs}
+
+
 @router.post("/preview/timeline")
 def preview_timeline(req: PreviewTimelineRequest) -> dict:
     """Live-playback timeline. Prefers ONE continuous full-surah recording
@@ -164,7 +254,7 @@ def preview_timeline(req: PreviewTimelineRequest) -> dict:
     provider_cfg = surah_audio.reciter_provider(rec)
     if provider_cfg:
         try:
-            path, info = surah_audio.ensure_surah(req.reciter, provider_cfg, req.surah)
+            path, info = surah_audio.ensure_surah(req.reciter, provider_cfg, req.surah, rec)
             start_s, end_s, bounds = surah_audio.range_bounds(
                 req.fromAyah, req.toAyah, _get_surah_meta(req.surah)["ayahCount"], info,
                 use_word=rec.get("surahBoundary") == "word",

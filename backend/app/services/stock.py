@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import json
 import os
-import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -21,6 +21,12 @@ import requests
 from app.core.config import BACKGROUNDS_DIR, DATA_DIR, MAX_UPLOAD_BYTES
 from app.core.ffmpeg import tools
 from app.services.backgrounds import _entry, set_display_name
+from app.services.stock_smart import (
+    expand_video_queries,
+    resolution_score,
+    suitability_bucket,
+    tags_from_pexels_video,
+)
 
 PEXELS_KEY_ENV = "PEXELS_API_KEY"
 PIXABAY_KEY_ENV = "PIXABAY_API_KEY"
@@ -80,10 +86,82 @@ def _orientation_param(orientation: str | None, provider: str) -> str | None:
     return None
 
 
+def classify_orientation(width: int | None, height: int | None) -> str | None:
+    """portrait / landscape / square from pixel size. None if unknown."""
+    if not width or not height:
+        return None
+    ratio = width / height
+    if ratio >= 1.15:
+        return "landscape"
+    if ratio <= 0.87:
+        return "portrait"
+    return "square"
+
+
+def _annotate_item(item: dict[str, Any]) -> dict[str, Any]:
+    if not item.get("orientation"):
+        item["orientation"] = classify_orientation(item.get("width"), item.get("height"))
+    return item
+
+
+def rank_stock_items(
+    items: list[dict[str, Any]],
+    audio_duration: float | None = None,
+    target_orientation: str | None = None,
+    user_query: str | None = None,
+) -> list[dict[str, Any]]:
+    """Rank stock results for the current recitation.
+
+    Videos: Quran-background suitability first, then duration >= audio
+    (closest first; shorter clips are fallbacks), then orientation, then
+    resolution. Other orientations are kept, not dropped.
+    """
+    want_dur = bool(audio_duration and audio_duration > 0)
+    target = target_orientation if target_orientation in ("portrait", "landscape", "square") else None
+    q = user_query or ""
+
+    for item in items:
+        if item.get("kind") == "video" and item.get("suitScore") is None:
+            item["suitScore"] = suitability_bucket(item, q)
+
+    def sort_key(item: dict[str, Any]) -> tuple:
+        suit = item.get("suitScore")
+        if not isinstance(suit, int):
+            suit = 1
+        dur = item.get("duration")
+        kind = item.get("kind")
+        if want_dur and kind == "video":
+            if isinstance(dur, (int, float)) and dur > 0:
+                if dur + 1.0 >= float(audio_duration):
+                    dur_bucket = 0  # long enough
+                    dur_delta = abs(float(dur) - float(audio_duration))
+                else:
+                    dur_bucket = 1  # too short — fallback
+                    dur_delta = float(audio_duration) - float(dur)
+            else:
+                dur_bucket = 2
+                dur_delta = 0.0
+        else:
+            dur_bucket = 0
+            dur_delta = 0.0
+
+        orient = item.get("orientation") or classify_orientation(item.get("width"), item.get("height"))
+        if target and orient:
+            orient_bucket = 0 if orient == target else 1
+        else:
+            orient_bucket = 0
+        # Higher resolution first (negative so it sorts ascending).
+        return (suit, dur_bucket, dur_delta, orient_bucket, -resolution_score(item))
+
+    return sorted(items, key=sort_key)
+
+
 def search(provider: str, query: str, orientation: str | None = None,
-           kind: str = "image", per_page: int = 24) -> list[dict[str, Any]]:
+           kind: str = "image", per_page: int = 24,
+           audio_duration: float | None = None) -> list[dict[str, Any]]:
     """Search one provider. kind: image | video. Returns normalized items:
-    {provider, id, kind, thumb, preview, url, width, height, author, name}."""
+    {provider, id, kind, thumb, preview, url, width, height, author, name,
+     duration, orientation}."""
     keys = _keys()
     key = keys.get(provider)
     if not key:
@@ -95,16 +173,87 @@ def search(provider: str, query: str, orientation: str | None = None,
     q = (query or "").strip()
     if not q:
         return []
+    target_orient = orientation if orientation in ("portrait", "landscape", "square") else None
     orient = _orientation_param(orientation, provider)
+    fetch_n = per_page
+    if kind == "video" and audio_duration:
+        fetch_n = max(per_page, 40)
 
     try:
-        if provider == "pexels":
-            return _search_pexels(key, q, orient, kind, per_page)
-        if provider == "pixabay":
-            return _search_pixabay(key, q, orient, kind, per_page)
+        if kind == "video":
+            items = _search_videos_smart(provider, key, q, orient, fetch_n)
+        elif provider == "pexels":
+            items = _search_pexels(key, q, orient, kind, fetch_n)
+        elif provider == "pixabay":
+            items = _search_pixabay(key, q, orient, kind, fetch_n)
+        else:
+            raise StockError(f"Unknown provider '{provider}'")
     except requests.RequestException as exc:
         raise StockError(f"{provider.title()} request failed: {exc}") from exc
+
+    for it in items:
+        _annotate_item(it)
+        if kind == "video":
+            it["suitScore"] = suitability_bucket(it, q)
+    return rank_stock_items(items, audio_duration, target_orient, user_query=q)
+
+
+def _search_one(provider: str, key: str, q: str, orient: str | None,
+                kind: str, per_page: int) -> list[dict[str, Any]]:
+    if provider == "pexels":
+        return _search_pexels(key, q, orient, kind, per_page)
+    if provider == "pixabay":
+        return _search_pixabay(key, q, orient, kind, per_page)
     raise StockError(f"Unknown provider '{provider}'")
+
+
+def _query_page_sizes(n: int, total: int) -> list[int]:
+    """Split a small result budget across a few query variations."""
+    if n <= 1:
+        return [total]
+    first = max(12, min(20, total // 2 + 4))
+    rest = max(8, min(15, max(total - first, 8 * (n - 1)) // (n - 1)))
+    return [first] + [rest] * (n - 1)
+
+
+def _search_videos_smart(provider: str, key: str, query: str,
+                         orient: str | None, fetch_n: int) -> list[dict[str, Any]]:
+    """Search one provider with the exact query plus a few Smart Search variants.
+
+    Combines hits, drops duplicate provider+id, and keeps the first occurrence
+    (exact query first).
+    """
+    queries = expand_video_queries(query)
+    if not queries:
+        return []
+    pages = _query_page_sizes(len(queries), fetch_n)
+    grouped: dict[str, list[dict[str, Any]]] = {q: [] for q in queries}
+    errors: list[Exception] = []
+
+    def run(q: str, per_page: int) -> tuple[str, list[dict[str, Any]]]:
+        return q, _search_one(provider, key, q, orient, "video", per_page)
+
+    with ThreadPoolExecutor(max_workers=min(3, len(queries))) as pool:
+        futs = [pool.submit(run, q, pages[i]) for i, q in enumerate(queries)]
+        for fut in as_completed(futs):
+            try:
+                q, batch = fut.result()
+                grouped[q] = batch
+            except Exception as exc:
+                errors.append(exc)
+
+    merged: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for q in queries:
+        for it in grouped.get(q) or []:
+            ident = (str(it.get("provider") or provider), str(it.get("id") or ""))
+            if ident in seen:
+                continue
+            seen.add(ident)
+            merged.append(it)
+    if not merged and errors:
+        raise StockError(f"{provider.title()} request failed: {errors[0]}") from errors[0]
+    return merged
 
 
 def _search_pexels(key: str, q: str, orient: str | None, kind: str,
@@ -122,20 +271,20 @@ def _search_pexels(key: str, q: str, orient: str | None, kind: str,
             files = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4"]
             if not files:
                 continue
-            best = max(files, key=lambda f: (f.get("width", 0) * f.get("height", 0)))
-            small = min(
-                (f for f in files if f.get("width", 0) >= 720 and f.get("width", 0) <= 1280),
-                key=lambda f: f.get("width", 0), default=None,
-            )
-            src = small or best
+            # Highest-resolution MP4 for Download & Use — never a 720p stand-in
+            # that later gets upscaled into the 1080×1920 export.
+            src = max(files, key=lambda f: (f.get("width", 0) * f.get("height", 0)))
             out.append({
                 "provider": "pexels", "id": str(v["id"]), "kind": "video",
                 "thumb": v.get("image"),
                 "preview": v.get("image"),
                 "url": src["link"],
                 "width": src.get("width"), "height": src.get("height"),
+                "duration": v.get("duration"),
+                "orientation": classify_orientation(src.get("width"), src.get("height")),
                 "author": v.get("user", {}).get("name", ""),
                 "name": f"Pexels video {v['id']}",
+                "tags": tags_from_pexels_video(v),
             })
         return out
     r = requests.get(
@@ -153,10 +302,36 @@ def _search_pexels(key: str, q: str, orient: str | None, kind: str,
             "preview": src.get("large2x") or src.get("large"),
             "url": src.get("large2x") or src.get("original"),
             "width": p.get("width"), "height": p.get("height"),
+            "duration": None,
+            "orientation": classify_orientation(p.get("width"), p.get("height")),
             "author": p.get("photographer", ""),
             "name": f"Pexels {p['id']}",
         })
     return out
+
+
+def _pixabay_video_still(videos: dict[str, Any] | None) -> str | None:
+    """JPEG still for a Pixabay video result card.
+
+    Current Pixabay video hits expose `videos.{size}.thumbnail` (cdn.pixabay.com
+    JPEG). They no longer send `picture_id`, so the old YouTube still URL is
+    always empty/broken. Prefer medium, then large — those match the card.
+    """
+    if not isinstance(videos, dict):
+        return None
+    for size in ("medium", "large", "small", "tiny"):
+        fmt = videos.get(size) or {}
+        if not isinstance(fmt, dict):
+            continue
+        url = fmt.get("thumbnail")
+        if not isinstance(url, str):
+            continue
+        still = url.strip()
+        if still.startswith(("https://", "http://")):
+            return still
+        if still.startswith("//") and "." in still:
+            return "https:" + still
+    return None
 
 
 def _search_pixabay(key: str, q: str, orient: str | None, kind: str,
@@ -171,17 +346,30 @@ def _search_pixabay(key: str, q: str, orient: str | None, kind: str,
         d = r.json()
         out = []
         for v in d.get("hits", []):
-            formats = (v.get("videos") or {}).get("large") or (v.get("videos") or {}).get("medium")
+            videos = v.get("videos") or {}
+            formats = videos.get("large") or videos.get("medium")
             if not formats:
                 continue
+            still = _pixabay_video_still(videos)
+            width = formats.get("width") or 0
+            height = formats.get("height") or 0
+            if not width or not height:
+                for size in ("large", "medium", "small", "tiny"):
+                    fmt = videos.get(size) or {}
+                    if isinstance(fmt, dict) and fmt.get("width") and fmt.get("height"):
+                        width, height = fmt.get("width"), fmt.get("height")
+                        break
             out.append({
                 "provider": "pixabay", "id": str(v["id"]), "kind": "video",
-                "thumb": v.get("picture_id") and f"https://i.ytimg.com/vi/{v['picture_id']}/hqdefault.jpg",
-                "preview": v.get("pageURL"),
+                "thumb": still,
+                "preview": still,
                 "url": formats.get("url"),
-                "width": formats.get("width"), "height": formats.get("height"),
+                "width": width or None, "height": height or None,
+                "duration": v.get("duration"),
+                "orientation": classify_orientation(width, height),
                 "author": v.get("user", ""),
                 "name": f"Pixabay video {v['id']}",
+                "tags": v.get("tags") or "",
             })
         return out
     r = requests.get(
@@ -200,6 +388,8 @@ def _search_pixabay(key: str, q: str, orient: str | None, kind: str,
             "preview": h.get("webformatURL"),
             "url": h.get("largeImageURL") or h.get("webformatURL"),
             "width": h.get("imageWidth"), "height": h.get("imageHeight"),
+            "duration": None,
+            "orientation": classify_orientation(h.get("imageWidth"), h.get("imageHeight")),
             "author": h.get("user", ""),
             "name": f"Pixabay {h['id']}",
         })

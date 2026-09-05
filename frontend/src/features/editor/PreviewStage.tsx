@@ -12,14 +12,13 @@ import type {
 import { VersePreview } from "./VersePreview";
 import { api } from "../../lib/api";
 import { SAFE_ZONES, platformPreset } from "../../lib/formats";
+import { fmtDuration } from "../../lib/time";
 
 export type SafePlatform = keyof typeof SAFE_ZONES;
 type PreviewMode = "static" | "preparing" | "playing";
 
 function fmtTime(s: number): string {
-  const m = Math.floor(s / 60);
-  const r = Math.floor(s % 60);
-  return `${m}:${String(r).padStart(2, "0")}`;
+  return fmtDuration(s);
 }
 
 export function PreviewStage({
@@ -30,7 +29,12 @@ export function PreviewStage({
   translationText,
   text,
   bgEntry,
+  backgrounds,
   bgSettings,
+  playhead,
+  audioDuration,
+  onPlayhead,
+  seekGeneration,
   job,
   onReset,
   selection,
@@ -43,7 +47,12 @@ export function PreviewStage({
   translationText: string | null;
   text: TextSettings;
   bgEntry: BackgroundEntry | undefined;
+  backgrounds: BackgroundEntry[];
   bgSettings: BackgroundSettings;
+  playhead: number;
+  audioDuration: number;
+  onPlayhead: (t: number) => void;
+  seekGeneration: number;
   job: JobSnapshot | null;
   onReset: () => void;
   selection: { surah: number; fromAyah: number; toAyah: number; reciter: string };
@@ -118,6 +127,11 @@ export function PreviewStage({
     stopRef.current();
   }, [selKey]);
 
+  // stop playback when the user seeks the background timeline
+  useEffect(() => {
+    if (seekGeneration > 0) stopRef.current();
+  }, [seekGeneration]);
+
   // cleanup on unmount
   useEffect(() => {
     return () => {
@@ -152,7 +166,9 @@ export function PreviewStage({
       const t0 = performance.now();
       const tick = () => {
         if (genRef.current !== gen) return;
-        setElapsed(before + Math.min(seg.duration, (performance.now() - t0) / 1000));
+        const next = before + Math.min(seg.duration, (performance.now() - t0) / 1000);
+        setElapsed(next);
+        onPlayhead(next);
         requestAnimationFrame(tick);
       };
       requestAnimationFrame(tick);
@@ -161,7 +177,7 @@ export function PreviewStage({
         playSegmentTimed(tl, i + 1);
       }, seg.duration * 1000);
     },
-    [stopPlayback],
+    [stopPlayback, onPlayhead],
   );
 
   /**
@@ -223,7 +239,9 @@ export function PreviewStage({
         requestAnimationFrame(tick);
         return;
       }
-      setElapsed(Math.min(total, Math.max(0, elapsed)));
+      const now = Math.min(total, Math.max(0, elapsed));
+      setElapsed(now);
+      onPlayhead(now);
       // current segment = last scheduled start we have passed
       let segIdx = 0;
       for (let k = 0; k < starts.length; k++) {
@@ -237,7 +255,7 @@ export function PreviewStage({
       }
     };
     requestAnimationFrame(tick);
-  }, [stopPlayback]);
+  }, [stopPlayback, onPlayhead]);
 
   /**
    * Continuous full-surah mode: ONE audio stream, seeked to the range start.
@@ -282,7 +300,9 @@ export function PreviewStage({
         requestAnimationFrame(tick);
         return;
       }
-      setElapsed(Math.min(tl.duration!, Math.max(0, elapsed)));
+      const now = Math.min(tl.duration!, Math.max(0, elapsed));
+      setElapsed(now);
+      onPlayhead(now);
       let segIdx = 0;
       for (let k = 0; k < boundaries.length; k++) {
         if (elapsed >= boundaries[k].at) segIdx = k;
@@ -295,7 +315,7 @@ export function PreviewStage({
       }
     };
     requestAnimationFrame(tick);
-  }, [stopPlayback]);
+  }, [stopPlayback, onPlayhead]);
 
   const startPlayback = async () => {
     setPlayError(null);
@@ -352,9 +372,12 @@ export function PreviewStage({
   const playingAyahNo = mode === "playing" && timeline ? timeline.segments[playIndex]?.ayah : null;
 
   return (
-    <section className="flex min-h-0 flex-1 flex-col" aria-label="Video preview">
-      {/* toolbar */}
-      <div className="flex flex-wrap items-center gap-2 border-b border-line px-4 py-2">
+    <section
+      id="preview"
+      className="qvs-stage-well flex h-[min(36dvh,22rem)] min-h-0 shrink-0 flex-col border-b-0 lg:h-auto lg:min-h-0 lg:flex-1"
+      aria-label="Video preview"
+    >
+      <div className="flex flex-wrap items-center gap-2 border-b border-line px-3 py-2 lg:px-4">
         {mode === "static" ? (
           <div className="flex items-center gap-1" role="group" aria-label="Preview ayah">
             <button
@@ -362,13 +385,13 @@ export function PreviewStage({
               onClick={() => onPreviewIndexChange(Math.max(0, previewIndex - 1))}
               disabled={previewIndex <= 0}
               aria-label="Previous ayah in selection"
-              className="flex h-8 w-8 items-center justify-center rounded-sm border border-line bg-surface-2 text-ink-2 hover:text-ink disabled:opacity-40"
+              className="qvs-btn qvs-btn-ghost h-9 w-9 p-0 disabled:opacity-40"
             >
               <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="M10 3 5 8l5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
-            <span className="min-w-14 text-center text-[12.5px] tabular-nums text-ink">
+            <span className="min-w-14 text-center text-[13px] tabular-nums text-ink">
               {current ? `${current.surah}:${current.ayah}` : "—"}
             </span>
             <button
@@ -376,7 +399,7 @@ export function PreviewStage({
               onClick={() => onPreviewIndexChange(Math.min(ayahs.length - 1, previewIndex + 1))}
               disabled={previewIndex >= ayahs.length - 1}
               aria-label="Next ayah in selection"
-              className="flex h-8 w-8 items-center justify-center rounded-sm border border-line bg-surface-2 text-ink-2 hover:text-ink disabled:opacity-40"
+              className="qvs-btn qvs-btn-ghost h-9 w-9 p-0 disabled:opacity-40"
             >
               <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="m6 3 5 5-5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
@@ -405,7 +428,7 @@ export function PreviewStage({
               type="button"
               onClick={startPlayback}
               disabled={!ayahs.length}
-              className="inline-flex h-8 items-center gap-1.5 rounded-sm border border-gold/50 bg-gold/10 px-3 text-[12px] font-semibold text-gold transition-colors hover:bg-gold/20 disabled:opacity-40"
+              className="qvs-btn h-9 border border-gold/40 bg-gold/10 px-3 text-[13px] font-semibold text-gold hover:bg-gold/20 disabled:opacity-40"
             >
               <svg width="11" height="12" viewBox="0 0 11 12" fill="currentColor" aria-hidden="true">
                 <path d="M0 0.8c0-.6.7-1 1.2-.6l9 5.1c.5.3.5 1 0 1.3l-9 5.1c-.5.3-1.2-.1-1.2-.7V0.8Z" />
@@ -416,7 +439,7 @@ export function PreviewStage({
             <button
               type="button"
               onClick={stopPlayback}
-              className="inline-flex h-8 items-center gap-1.5 rounded-sm border border-line-strong bg-surface-2 px-3 text-[12px] font-semibold text-ink transition-colors hover:border-danger/60 hover:text-danger"
+              className="qvs-btn qvs-btn-ghost h-9 px-3 text-[13px] hover:border-danger/60 hover:text-danger"
             >
               <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor" aria-hidden="true">
                 <rect width="10" height="10" rx="1.5" />
@@ -479,14 +502,14 @@ export function PreviewStage({
       ) : null}
 
       {/* stage */}
-      <div ref={wrapRef} className="relative min-h-0 flex-1 overflow-hidden p-4">
+      <div ref={wrapRef} className="relative min-h-0 flex-1 overflow-hidden px-3 pb-0 pt-3 lg:px-5 lg:pt-4">
         {succeeded && job?.result ? (
           <ResultView job={job} onReset={onReset} />
         ) : (
-          <div className="flex h-full items-start justify-center" style={{ paddingTop: "min(2vh, 16px)" }}>
+          <div className="flex h-full items-end justify-center pb-0">
             <div
-              className="relative overflow-hidden rounded-md border border-line shadow-2xl shadow-black/50"
-              style={{ width: STAGE_W * scale, height: STAGE_H * scale }}
+              className="relative overflow-hidden rounded-md border border-line"
+              style={{ width: STAGE_W * scale, height: STAGE_H * scale, boxShadow: "var(--shadow-stage)" }}
             >
               <div style={{ transform: `scale(${scale})`, transformOrigin: "top left", width: STAGE_W, height: STAGE_H }}>
                 <VersePreview
@@ -495,9 +518,13 @@ export function PreviewStage({
                   translationText={translationText}
                   text={text}
                   bgEntry={bgEntry}
+                  backgrounds={backgrounds}
                   bgSettings={bgSettings}
                   width={STAGE_W}
                   height={STAGE_H}
+                  playhead={mode === "playing" ? elapsed : playhead}
+                  audioDuration={audioDuration}
+                  playing={mode === "playing"}
                 />
               </div>
               {safeZone && zonesForFormat
@@ -558,7 +585,7 @@ function ResultView({ job, onReset }: { job: JobSnapshot; onReset: () => void })
         <a
           href={api.downloadUrl(job.id)}
           download={r.filename}
-          className="inline-flex h-9 items-center rounded-sm bg-gold px-4 text-[13px] font-semibold text-gold-ink transition-colors hover:bg-gold-strong"
+          className="qvs-btn qvs-btn-primary h-9 px-4"
         >
           Download MP4
         </a>
@@ -611,7 +638,7 @@ function ResultView({ job, onReset }: { job: JobSnapshot; onReset: () => void })
 function Meta({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex flex-col">
-      <dt className="text-[10.5px] uppercase tracking-[0.12em] text-ink-3">{label}</dt>
+      <dt className="text-[11px] text-ink-3">{label}</dt>
       <dd className="tabular-nums text-ink">{value}</dd>
     </div>
   );

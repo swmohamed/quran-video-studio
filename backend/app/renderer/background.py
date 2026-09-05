@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from app.core.config import VIDEO_FPS
 from app.models.schemas import BackgroundSettings
 from app.services.backgrounds import resolve_background
 
@@ -22,7 +23,7 @@ def background_filter(bg: BackgroundSettings, width: int, height: int, in_label:
     """Filter chain that mirrors the browser preview EXACTLY:
     cover-scale -> crop -> brightness+contrast in RGB (CSS semantics) ->
     saturation -> gaussian blur (CSS blur = sigma/2) -> dark overlay.
-    Output is tagged limited-range bt709 so players show true colors."""
+    Stays full-chroma RGB so verse overlays are not composited on 4:2:0."""
     chain: list[str] = []
 
     # cover (high-quality scaling: no chroma smearing on downscale)
@@ -57,24 +58,19 @@ def background_filter(bg: BackgroundSettings, width: int, height: int, in_label:
             f"drawbox=x=0:y=0:w=iw:h=ih:color=black@{bg.darkOverlay / 100.0:.2f}:t=fill"
         )
 
-    # RGB -> YUV with EXPLICIT bt709 matrix + limited range. Without this,
-    # swscale silently uses bt601 coefficients for untagged RGB while the
-    # encoder is tagged bt709 — a guaranteed color shift on every player.
-    chain.append(
-        "scale=out_color_matrix=bt709:out_range=limited:"
-        "flags=lanczos+accurate_rnd+full_chroma_int"
-    )
-
-    # saturation (chroma scaling ≈ CSS saturate) in high-precision yuv
-    chain.append("format=yuv444p")
-    chain.append(f"eq=saturation={bg.saturation / 100.0:.4f}")
-
-    # encode-ready pixel format
-    chain.append("format=yuv420p")
+    # Stay in full-chroma RGB until text overlays are composited.
+    # Converting to limited-range YUV here crushed cream ink and forced a
+    # second RGB↔YUV round-trip under the verse.
+    sat = bg.saturation / 100.0
+    if abs(sat - 1.0) > 0.001:
+        chain.append(f"hue=s={sat:.4f}")
 
     if bg.blur > 0:
         r = max(1, min(40, bg.blur))
         chain.append(f"gblur=sigma={r / 2:.2f}")
+
+    # Frame-rate only, once, on the background — never after text overlays.
+    chain.append(f"fps={VIDEO_FPS}")
 
     return f"[{in_label}]{','.join(chain)}[bgv]"
 

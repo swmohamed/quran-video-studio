@@ -25,6 +25,7 @@ from app.core.ffmpeg import tools
 from app.models.schemas import RenderRequest
 from app.renderer import audio as raudio
 from app.renderer import background as rbg
+from app.renderer import bg_timeline as bgtl
 from app.renderer import text as rtext
 from app.renderer.encode import EncodeError, run_encode
 from app.renderer.timeline import Segment, total_duration
@@ -133,6 +134,13 @@ def _slug(s: str) -> str:
     return s or "video"
 
 
+def _save_rgba_png(img: Any, path: Path) -> None:
+    """Lossless RGBA PNG — never JPEG, never a flattened RGB copy."""
+    if getattr(img, "mode", "RGBA") != "RGBA":
+        img = img.convert("RGBA")
+    img.save(path, format="PNG", compress_level=1)
+
+
 def _run(job: Job) -> None:
     req = job.request
     tmp = TEMP_DIR / job.id
@@ -147,17 +155,15 @@ def _run(job: Job) -> None:
         ayat = get_ayat(req.surah, req.fromAyah, req.toAyah)
         recsvc.get_reciter(req.reciter)
         translation_meta = get_translation(req.translation)
-        bg_path = rbg.resolve(req.background.id)
+        bgtl.resolve_clips(req.background)
         out_w, out_h = platform_dims(req.platform)
         if req.resolution == "uhd":
             out_w, out_h = out_w * 2, out_h * 2
         elif req.resolution == "light":
             out_w, out_h = out_w // 2, out_h // 2
-        ty_scale = min(out_w, out_h) / 1080.0
-        # FHD/LIGHT exports render their TEXT layers at 2x then downscale in
-        # the encoder (supersampling) — hairline Arabic strokes stay smooth
-        # when the video is later shrunk by players or re-encoders.
-        ss = 2 if req.resolution in ("fhd", "light") else 1
+        ty_scale = rtext.composition_scale(out_w, out_h)
+        # FHD matches Preview at native 1080×1920. LIGHT still supersamples.
+        ss = rtext.text_supersample(req.resolution, req.text.arabic.size)
         ov_w, ov_h = out_w * ss, out_h * ss
         ov_scale = ty_scale * ss
 
@@ -173,7 +179,7 @@ def _run(job: Job) -> None:
             try:
                 _update(job, "audio", "Preparing continuous recitation", 0.2,
                         "Using full-surah recording with official timestamps")
-                surah_file, info = surah_audio.ensure_surah(req.reciter, provider_cfg, req.surah)
+                surah_file, info = surah_audio.ensure_surah(req.reciter, provider_cfg, req.surah, rec)
                 file_dur = tools.probe_duration(surah_file)
                 start_s, end_s, bounds = surah_audio.range_bounds(
                     req.fromAyah, req.toAyah, get_surah(req.surah)["ayahCount"], info, file_dur,
@@ -240,7 +246,10 @@ def _run(job: Job) -> None:
         _update(job, "cards", "Rendering composition", 0.1, "Laying out persistent frame")
         layout = rtext.compute_layout(req.surah, ayat, translation_for, req.text, ov_w, ov_h, ov_scale)
         persistent_png = tmp / "persistent.png"
-        rtext.render_persistent_frame(req.surah, req.text, layout, ov_w, ov_h, ov_scale).save(persistent_png)
+        _save_rgba_png(
+            rtext.render_persistent_frame(req.surah, req.text, layout, ov_w, ov_h, ov_scale),
+            persistent_png,
+        )
 
         for i, seg in enumerate(segments):
             _check_cancel(job)
@@ -248,13 +257,13 @@ def _run(job: Job) -> None:
                     f"Typesetting ayah {seg.ayah} ({i + 1}/{len(segments)})")
             overlay = rtext.render_ayah_overlay(ayat[i], translation_for(ayat[i]), req.text, layout, ov_w, ov_h, ov_scale)
             card_path = tmp / f"card_{i:03d}.png"
-            overlay.save(card_path)
+            _save_rgba_png(overlay, card_path)
             seg.card_path = card_path
         _update(job, "cards", "Rendering verses", 1.0)
 
         # --- background + audio inputs (single continuous track) ---
         _update(job, "encode", "Encoding video", 0.0, "Starting FFmpeg")
-        bg_args = rbg.background_input_args(bg_path, total)
+        bg_args = bgtl.prepare_input_args(req.background, total, tmp, out_w, out_h)
         bg_filter = rbg.background_filter(req.background, out_w, out_h)
         stamp = time.strftime("%Y%m%d-%H%M%S")
         surah_name = _slug(get_surah_name(req.surah))
@@ -302,20 +311,29 @@ def _run(job: Job) -> None:
         if req.withLight and req.resolution != "light":
             base_w, base_h = platform_dims(req.platform)
             lw, lh = base_w // 2, base_h // 2
-            lty = min(lw, lh) / 1080.0
-            lovw, lovh = lw * 2, lh * 2  # supersampled text -> clean 540
-            lovs = lty * 2
+            lty = rtext.composition_scale(lw, lh)
+            lss = rtext.text_supersample("light", req.text.arabic.size)
+            lovw, lovh = lw * lss, lh * lss
+            lovs = lty * lss
             _update(job, "encode", "Encoding Light copy", 0.0, "540-class version for WhatsApp & small players")
             llayout = rtext.compute_layout(req.surah, ayat, translation_for, req.text, lovw, lovh, lovs)
             lpersist = tmp / "persistent_light.png"
-            rtext.render_persistent_frame(req.surah, req.text, llayout, lovw, lovh, lovs).save(lpersist)
+            _save_rgba_png(
+                rtext.render_persistent_frame(req.surah, req.text, llayout, lovw, lovh, lovs),
+                lpersist,
+            )
             lsegs = []
             for i, seg in enumerate(segments):
                 _check_cancel(job)
                 _update(job, "encode", "Encoding Light copy", 0.05 + 0.1 * i / len(segments),
                         f"Typesetting light copy ayah {seg.ayah}")
                 lc = tmp / f"card_light_{i:03d}.png"
-                rtext.render_ayah_overlay(ayat[i], translation_for(ayat[i]), req.text, llayout, lovw, lovh, lovs).save(lc)
+                _save_rgba_png(
+                    rtext.render_ayah_overlay(
+                        ayat[i], translation_for(ayat[i]), req.text, llayout, lovw, lovh, lovs,
+                    ),
+                    lc,
+                )
                 lsegs.append(Segment(surah=seg.surah, ayah=seg.ayah, audio_path=seg.audio_path,
                                      duration=seg.duration, start=seg.start, end=seg.end, card_path=lc))
             lout_name = out_name.replace(".mp4", "-light.mp4")

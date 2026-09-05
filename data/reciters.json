@@ -52,6 +52,44 @@
       "qdcId": 97,
       "audioDirectory": "audio/reciters/dosari",
       "remoteUrl": "https://everyayah.com/data/Yasser_Ad-Dussary_128kbps"
+    },
+    {
+      "id": "ayyub",
+      "name": "Muhammad Ayyub",
+      "arabicName": "محمد أيوب",
+      "everyayahTimingId": 37,
+      "everyayahTimingZip": "Muhammad Ayyoob bin Muhammad Yoosuf Timings.zip",
+      "everyayahTimingPattern": "Chapter{surah:03d}.txt",
+      "surahAudioBase": "https://download.quranicaudio.com/quran/muhammad_ayyoob/",
+      "audioDirectory": "audio/reciters/ayyub",
+      "remoteUrl": "https://everyayah.com/data/Muhammad_Ayyoub_128kbps"
+    },
+    {
+      "id": "qatami",
+      "name": "Nasser Al-Qatami",
+      "arabicName": "ناصر القطامي",
+      "everyayahTimingId": 68,
+      "everyayahTimingZip": "Nasser_Alqatami_128kbps.zip",
+      "everyayahTimingPattern": "{surah:03d}.txt",
+      "surahAudioBase": "https://server6.mp3quran.net/qtm/",
+      "audioDirectory": "audio/reciters/qatami",
+      "remoteUrl": "https://everyayah.com/data/Nasser_Alqatami_128kbps"
+    },
+    {
+      "id": "shuraim",
+      "name": "Saud Al-Shuraim",
+      "arabicName": "سعود الشريم",
+      "mp3quranReadId": 31,
+      "audioDirectory": "audio/reciters/shuraim",
+      "remoteUrl": "https://everyayah.com/data/Saood_ash-Shuraym_128kbps"
+    },
+    {
+      "id": "jaber",
+      "name": "Ali Jaber",
+      "arabicName": "علي جابر",
+      "mp3quranReadId": 76,
+      "audioDirectory": "audio/reciters/jaber",
+      "remoteUrl": "https://everyayah.com/data/Ali_Jaber_64kbps"
     }
   ]
 }

@@ -12,6 +12,12 @@ export interface Ayah {
   ayah: number;
   arabic: string;
   translations: Record<string, string>;
+  qpcMarker?: {
+    page: number;
+    cp: string;
+    char: string;
+    font: string;
+  };
 }
 
 export interface Reciter {
@@ -51,8 +57,19 @@ export interface StockItem {
   url: string;
   width: number | null;
   height: number | null;
+  duration: number | null;
+  orientation: "portrait" | "landscape" | "square" | null;
   author: string;
   name: string;
+  suitScore?: number;
+  tags?: string;
+}
+
+export interface AudioDuration {
+  duration: number;
+  estimated: boolean;
+  source: "timestamps" | "verses" | "estimate";
+  segments?: { ayah: number; at?: number; duration?: number }[];
 }
 
 export interface Preset {
@@ -66,6 +83,13 @@ export interface Preset {
   };
 }
 
+export interface BackgroundClip {
+  id: string;
+  sourceId: string;
+  trimStart: number;
+  trimEnd: number;
+}
+
 export interface BackgroundSettings {
   id: string;
   brightness: number;
@@ -74,6 +98,9 @@ export interface BackgroundSettings {
   blur: number;
   darkOverlay: number;
   position: "top" | "center" | "bottom";
+  clips: BackgroundClip[];
+  crossfade: boolean;
+  transitionDuration: number;
 }
 
 export interface CardSettings {
@@ -93,6 +120,8 @@ export interface ArabicTextSettings {
   size: number;
   color: string;
   lineHeight: number;
+  offsetX: number;
+  offsetY: number;
 }
 
 export interface TranslationTextSettings {
@@ -100,6 +129,8 @@ export interface TranslationTextSettings {
   size: number;
   color: string;
   lineHeight: number;
+  offsetX: number;
+  offsetY: number;
 }
 
 export interface HeaderSettings {
@@ -108,6 +139,10 @@ export interface HeaderSettings {
   showEnglish: boolean;
   showNumber: boolean;
   topPct: number;
+  size: number;
+  gap: number;
+  color: string;
+  lineHeight: number;
 }
 
 export interface TextSettings {
@@ -117,6 +152,7 @@ export interface TextSettings {
   header: HeaderSettings;
   showAyahNumber: boolean;
   refColor: string;
+  outline: boolean;
 }
 
 export interface EditorSettings {

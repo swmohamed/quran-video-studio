@@ -52,7 +52,12 @@ def get_ayat(surah: int, from_ayah: int, to_ayah: int) -> list[dict[str, Any]]:
             f"(1-{meta['ayahCount']})."
         )
     ayahs = _verses_file(surah)["ayahs"]
-    return [a for a in ayahs if from_ayah <= a["ayah"] <= to_ayah]
+    sl = [a for a in ayahs if from_ayah <= a["ayah"] <= to_ayah]
+    try:
+        from app.services.qpc import attach_markers
+        return attach_markers(sl)
+    except Exception:
+        return [dict(a) for a in sl]
 
 
 @lru_cache(maxsize=1)

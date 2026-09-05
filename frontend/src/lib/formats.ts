@@ -30,6 +30,16 @@ export function platformPreset(id: string | undefined | null): PlatformPreset {
   return PLATFORM_PRESETS[(id as PlatformId) ?? ""] ?? PLATFORM_PRESETS[DEFAULT_PLATFORM];
 }
 
+/** Uniform typography scale from the 1080×1920 design. Never stretches. */
+export function compositionScale(width: number, height: number): number {
+  const sx = width / 1080;
+  const sy = height / 1920;
+  const uniform = Math.min(sx, sy);
+  if (height / Math.max(width, 1) >= (1920 / 1080) * 0.98) return uniform;
+  const short = Math.min(width, height) / 1080;
+  return Math.min(short, uniform + 0.45 * (short - uniform));
+}
+
 /** Online background search orientation hint for a platform. */
 export function searchOrientation(id: string | undefined | null): "portrait" | "landscape" | "square" {
   const p = platformPreset(id);

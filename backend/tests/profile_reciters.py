@@ -60,7 +60,7 @@ for rec in reciters:
     if not path.exists():
         print(f"{rid:11s} {provider}{pid:<13d}  (audio not cached yet)")
         continue
-    info = surah_audio.fetch_timings(provider, pid, SURAH)
+    info = surah_audio.fetch_timings(provider, pid, SURAH, rec)
     x = decode(path)
     db = frame_db(x)
     use_word = rec.get("surahBoundary") == "word"

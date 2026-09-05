@@ -10,19 +10,20 @@
 
 /*
   Quran Video Studio — design tokens
-  Dark editor canvas (media-tool convention), gold accent (Islamic content
-  register), tight radius scale, 4px spacing rhythm. Scripture fonts are
-  role-split from UI fonts (Amiri/Naskh for Quran text, Inter for controls).
+  Dark editor canvas (media-tool convention), warm parchment ink,
+  gold as identity/action only. Scripture fonts are role-split from
+  UI fonts (Amiri/Naskh for Quran text, Inter for chrome).
+  4px spacing rhythm. Tight radius. Logical properties for mixed dir.
 */
 @theme {
-  --color-canvas: #0d0e12;
-  --color-surface: #14161c;
-  --color-surface-2: #191c24;
-  --color-line: #262932;
-  --color-line-strong: #343845;
-  --color-ink: #e9e6df;
-  --color-ink-2: #a8a49a;
-  --color-ink-3: #6f6b63;
+  --color-canvas: #0c0d11;
+  --color-surface: #13141a;
+  --color-surface-2: #1a1c23;
+  --color-line: #2a2d36;
+  --color-line-strong: #3c404c;
+  --color-ink: #ece8e0;
+  --color-ink-2: #b4aea3;
+  --color-ink-3: #8e8a80;
   --color-gold: #c9a45c;
   --color-gold-strong: #d8b979;
   --color-gold-ink: #171307;
@@ -36,8 +37,10 @@
 
   --radius-xs: 4px;
   --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --shadow-stage: 0 12px 40px rgb(0 0 0 / 0.45);
 }
 
 html,
@@ -45,21 +48,41 @@ body {
   height: 100%;
 }
 
+html {
+  color-scheme: dark;
+}
+
 body {
   background: var(--color-canvas);
   color: var(--color-ink);
   font-family: var(--font-ui);
   font-size: 14px;
+  line-height: 1.45;
   -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: 12px;
+  top: 8px;
+  z-index: 80;
+  transform: translateY(-120%);
+  border-radius: var(--radius-sm);
+  background: var(--color-gold);
+  color: var(--color-gold-ink);
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.skip-link:focus {
+  transform: none;
 }
 
 *:focus-visible {
   outline: 2px solid var(--color-gold);
   outline-offset: 2px;
-  border-radius: 2px;
 }
 
-/* thin scrollbars for panel scrollers */
 .scroll-thin {
   scrollbar-width: thin;
   scrollbar-color: var(--color-line-strong) transparent;
@@ -72,7 +95,6 @@ body {
   border-radius: 4px;
 }
 
-/* native controls on dark surfaces */
 select,
 input[type="range"] {
   accent-color: var(--color-gold);
@@ -82,44 +104,151 @@ select {
   color: var(--color-ink);
 }
 select option {
-  background-color: #14161c;
+  background-color: #13141a;
   color: var(--color-ink);
 }
 
-/* subtle text-only swap when the ayah changes (persistent card never fades) */
+.qvs-input {
+  height: 2.25rem;
+  width: 100%;
+  min-width: 0;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-2);
+  padding-inline: 10px;
+  font-size: 13px;
+  color: var(--color-ink);
+  outline: none;
+}
+.qvs-input:hover {
+  border-color: var(--color-line-strong);
+}
+.qvs-input:focus {
+  border-color: color-mix(in srgb, var(--color-gold) 65%, var(--color-line));
+}
+.qvs-input:disabled {
+  opacity: 0.5;
+}
+
+.qvs-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 2.25rem;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.qvs-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.qvs-btn-primary {
+  background: var(--color-gold);
+  color: var(--color-gold-ink);
+}
+.qvs-btn-primary:hover:not(:disabled) {
+  background: var(--color-gold-strong);
+}
+
+.qvs-btn-ghost {
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-2);
+  color: var(--color-ink-2);
+}
+.qvs-btn-ghost:hover:not(:disabled) {
+  border-color: var(--color-line-strong);
+  color: var(--color-ink);
+}
+
+.qvs-seg {
+  display: flex;
+  height: 2.25rem;
+  width: 100%;
+  align-items: stretch;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-2);
+  padding: 2px;
+}
+.qvs-seg-compact {
+  height: 1.75rem;
+  width: auto;
+}
+.qvs-seg-compact button {
+  padding: 0 0.55rem;
+  flex: none;
+}
+.qvs-seg button {
+  flex: 1;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-ink-2);
+}
+.qvs-seg button:hover {
+  color: var(--color-ink);
+}
+.qvs-seg button[aria-checked="true"],
+.qvs-seg button[aria-selected="true"] {
+  background: var(--color-line-strong);
+  color: var(--color-ink);
+}
+
+.qvs-kicker {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--color-ink-3);
+}
+
+.qvs-stage-well {
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgb(255 255 255 / 0.035), transparent 55%),
+    var(--color-canvas);
+}
+
+.qvs-tl-dock {
+  border-top: 1px solid var(--color-line);
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgb(255 255 255 / 0.02), transparent 50%),
+    var(--color-canvas);
+}
+
+.qvs-tl-hatch {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 3px,
+    rgb(201 164 92 / 0.14) 3px,
+    rgb(201 164 92 / 0.14) 5px
+  );
+}
+
 @keyframes qvs-text-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-/* Quranic ayah-end marker — mirrors draw_ayah_marker() proportions in the
-   backend renderer (box = 1.3em, gap = 0.35em, aligned to the verse end). */
+
 .qvs-ayah-marker {
-  position: relative;
-  display: inline-block;
-  width: 1.3em;
-  height: 1.3em;
-  margin-inline-start: 0.35em;
-  vertical-align: middle;
-  flex: none;
-}
-
-.qvs-ayah-marker svg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  overflow: visible;
-}
-
-.qvs-marker-num {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: var(--font-naskh);
+  font-size: 1.12em;
+  font-weight: 400;
   line-height: 1;
-  transform: translateY(-0.06em);
+  display: inline;
+  margin-inline-start: 0.12em;
+  vertical-align: baseline;
+  color: inherit;
+  unicode-bidi: isolate;
+}
+
+.qvs-ayah-marker-qpc {
+  font-size: 1.42em;
+  font-weight: 400;
 }
 
 .qvs-last-word {
@@ -128,6 +257,17 @@ select option {
 
 .qvs-text-fade {
   animation: qvs-text-in 120ms ease both;
+}
+
+@media (max-width: 1023px) {
+  .qvs-input,
+  .qvs-btn,
+  .qvs-seg:not(.qvs-seg-compact) {
+    height: 2.75rem;
+  }
+  .qvs-seg button {
+    font-size: 13px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
